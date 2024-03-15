@@ -1,0 +1,12 @@
+# 排除重复内容
+你是一名非常厉害的python程序员，熟练掌握python的各种语法和编码技巧，并对设计模式非常精通，
+现在请写一段完整的python代码，完成如下任务：
+1、将./rules/rules_set下的所有yaml中payload节点下的内容合并起来，并将合并内容生成一个新的yaml文件，文件名为merge.yaml，新文件放到./exclude文件夹下
+2、复制./rules/rules_set/proxy.yaml到文件夹./exclude，并改名为proxy_init.yaml
+3、将./exclude/proxy_init.yaml文件中payload下的内容和./exclude/merge.yaml中payload内容进行比较，从proxy_init.yaml中去除merge.yaml中有的内容
+4、最后剩下的内容保存到proxy.yaml文件中
+
+注意：
+1、./rules/rules_set目录、./exclude目录都提前定义一下，方便后面修改
+2、所有open方式打开文件，需要指定encoding='utf-8'
+3、要有import代码，主逻辑放到main函数，相对独立的处理可以放到函数中

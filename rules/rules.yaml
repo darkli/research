@@ -1,0 +1,108 @@
+google:
+  type: http
+  behavior: classical
+  path: ./rules_set/google.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/google.yaml
+google_voice:
+  type: http
+  behavior: domain
+  path: ./rules_set/google_voice.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/google_voice.yaml
+google_gemini:
+  type: http
+  behavior: domain
+  path: ./rules_set/google_gemini.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/google_gemini.yaml
+google_drive:
+  type: http
+  behavior: domain
+  path: ./rules_set/google_drive.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/google_drive.yaml
+openai:
+  type: http
+  behavior: classical
+  path: ./rules_set/openai.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/openai.yaml
+apple_proxy:
+  type: http
+  behavior: classical
+  path: ./rules_set/apple_proxy.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/apple_proxy.yaml
+apple:
+  type: http
+  behavior: classical
+  path: ./rules_set/apple.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/apple.yaml
+youtube:
+  type: http
+  behavior: classical
+  path: ./rules_set/youtube.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/youtube.yaml
+proxy:
+  type: http
+  behavior: classical
+  path: ./rules_set/proxy.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/proxy.yaml
+paypal:
+  type: http
+  behavior: domain
+  path: ./rules_set/paypal.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/paypal.yaml
+icloud:
+  type: http
+  behavior: domain
+  path: ./rules_set/icloud.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/icloud.yaml
+whatsapp:
+  type: http
+  behavior: classical
+  path: ./rules_set/whatsapp.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/whatsapp.yaml
+copilot:
+  type: http
+  behavior: domain
+  path: ./rules_set/copilot.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/copilot.yaml
+netflix:
+  type: http
+  behavior: classical
+  path: ./rules_set/netflix.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/netflix.yaml
+telegram:
+  type: http
+  behavior: classical
+  path: ./rules_set/telegram.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/telegram.yaml
+claude:
+  type: http
+  behavior: domain
+  path: ./rules_set/claude.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/claude.yaml
+twitter:
+  type: http
+  behavior: classical
+  path: ./rules_set/twitter.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/twitter.yaml
+github:
+  type: http
+  behavior: domain
+  path: ./rules_set/github.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/github.yaml

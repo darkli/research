@@ -1,0 +1,50 @@
+# 从第三方拉取内容，并生成自用配置
+你是一名非常厉害的python程序员，熟练掌握python的各种语法和编码技巧，并对设计模式非常精通，
+现在请写一段完整的python代码，完成如下任务：
+在./source目录下有多个yaml配置文件，遍历所有文件，并按照下面的<文件处理规则>逐个处理每一个文件：
+
+<文件处理规则>
+0、一个文件中包含一组或者多组节点，依次处理每一组节点的数据
+1、每组节点的结构参考如下：
+```yaml
+google:
+  type: http
+  behavior: domain
+  urls:
+    """[
+      "https://github.com/blackmatrix7/ios_rule_script/blob/34ef3c65ec9e2d3d98e42d8f6aceef5e9bba8454/rule/Clash/Google/Google.yaml",
+      "https://github.com/blackmatrix7/ios_rule_script/blob/34ef3c65ec9e2d3d98e42d8f6aceef5e9bba8454/rule/Clash/GoogleEarth/GoogleEarth.yaml",
+      "https://github.com/blackmatrix7/ios_rule_script/blob/34ef3c65ec9e2d3d98e42d8f6aceef5e9bba8454/rule/Clash/GoogleFCM/GoogleFCM.yaml",
+      "https://github.com/blackmatrix7/ios_rule_script/blob/34ef3c65ec9e2d3d98e42d8f6aceef5e9bba8454/rule/Clash/GoogleSearch/GoogleSearch.yaml",
+    ]"""
+  path: ./ruleset/google.yaml
+  interval: 86400
+```
+2、首先判断./.tmp文件夹是否存在，如果不存在，则创建
+3、依次将urls中对应的文件下载到本地，放到./.tmp文件夹中，注意，urls是一个list的字符串，需要用json转换一下格式。
+4、将下载下来的所有文件中payload节点下的内容合并，如果有重复内容，去掉重复的部分，并将内容保存到一个新的yaml文件中
+5、新文件放到./rules/rules_set中，文件名使用1中的节点名来命名，比如上面的例子是google.yaml来命名
+6、再到./rules文件夹下找到rules.yaml文件，如果没有，创建一个，如果有，直接打开
+7、将1中处理的文件中除了urls的其他内容写入rules.yaml文件，注意，如果要追加的方式写入，不要覆盖原有内容
+rules.yaml中每个节点的信息参考如下：
+google:
+  type: http
+  behavior: domain
+  url: ""
+  path: ./rule_set/google.yaml
+  interval: 86400
+其中url格式为：https://github.com/darkli/research/main/rules/rules_set/google.yaml
+8、在增加一个url的节点，生成链接指向5生成的google.yaml文件路径
+9、再处理过程中，记录一下urls中对应的每个文件下payload下面的内容的数量，
+在这个文件处理完之后，汇总总数，然后和最终生成的文件中payload下的内容数量进行比对，看是否一致，
+如果不一致，表示有遗漏，在命令行打印出信息提示，否则打印成功处理的信息。
+无论成功还是失败，都把汇总总数和实际处理的数量打印出来。
+10、继续处理下一个文件
+
+全部处理完成，删除./.tmp文件夹
+
+注意：
+1、source目录、./.tmp、rules、rules_set目录都提前定义一下，方便后面修改
+2、所有open方式打开文件，需要指定encoding='utf-8'
+3、request请求的时候，设置timeout为5分钟
+4、主逻辑放到main函数，下载文件、合并yaml文件、写入rules.yaml文件，都需要通过函数来实现

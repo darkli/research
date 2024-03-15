@@ -1,0 +1,9 @@
+google_gemini:
+  type: http
+  behavior: domain
+  urls:
+    [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml",
+    ]
+  path: ./ruleset/google_gemini.yaml
+  interval: 86400
