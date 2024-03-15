@@ -9,7 +9,7 @@
 ```yaml
 google:
   type: http
-  behavior: domain
+  behavior: classical
   urls:
     """[
       "https://github.com/blackmatrix7/ios_rule_script/blob/34ef3c65ec9e2d3d98e42d8f6aceef5e9bba8454/rule/Clash/Google/Google.yaml",
@@ -29,7 +29,7 @@ google:
 rules.yaml中每个节点的信息参考如下：
 google:
   type: http
-  behavior: domain
+  behavior: classical
   url: ""
   path: ./rule_set/google.yaml
   interval: 86400

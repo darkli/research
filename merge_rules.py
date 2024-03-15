@@ -48,7 +48,7 @@ def write_to_yaml(file_path, data):
     写入YAML文件
     """
     with open(file_path, "w", encoding="utf-8") as f:
-        yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False)
+        yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
 
 
 def process_file(file_path, rules_yaml):
@@ -73,7 +73,7 @@ def process_file(file_path, rules_yaml):
             "behavior": node_data.get("behavior"),
             "path": f"./rules_set/{node_name}.yaml",
             "interval": node_data.get("interval", 86400),
-            "url": f"https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/{node_name}.yaml",
+            "url": f"https://github.com/darkli/research/main/rules/rules_set/{node_name}.yaml",
         }
 
     if total_payloads != processed_payloads:
