@@ -776,3 +776,6 @@ payload:
 - IP-CIDR,74.125.24.188/32
 - IP-CIDR,74.125.28.188/32
 - DOMAIN-KEYWORD,www.google.
+- DOMAIN,www.googleapis.com
+- DOMAIN-SUFFIX,docs.google.com
+- DOMAIN-SUFFIX,drive.google.com

@@ -376,7 +376,6 @@ payload:
 - DOMAIN-SUFFIX,askynz.net
 - DOMAIN-SUFFIX,aspi.org.au
 - DOMAIN-SUFFIX,aspistrategist.org.au
-- DOMAIN-SUFFIX,aspnetcdn.com
 - DOMAIN-SUFFIX,assembla.com
 - DOMAIN-SUFFIX,assimp.org
 - DOMAIN-SUFFIX,astrill.com
@@ -414,9 +413,6 @@ payload:
 - DOMAIN-SUFFIX,azerbaycan.tv
 - DOMAIN-SUFFIX,azerimix.com
 - DOMAIN-SUFFIX,azubu.tv
-- DOMAIN-SUFFIX,azure.com
-- DOMAIN-SUFFIX,azureedge.net
-- DOMAIN-SUFFIX,azurewebsites.net
 - DOMAIN-SUFFIX,b-ok.cc
 - DOMAIN-SUFFIX,b0ne.com
 - DOMAIN-SUFFIX,baby-kingdom.com
@@ -536,8 +532,6 @@ payload:
 - DOMAIN-SUFFIX,biliworld.com
 - DOMAIN-SUFFIX,billypan.com
 - DOMAIN-SUFFIX,binance.com
-- DOMAIN-SUFFIX,bing.com
-- DOMAIN-SUFFIX,bing.net
 - DOMAIN-SUFFIX,binux.me
 - DOMAIN-SUFFIX,binwang.me
 - DOMAIN-SUFFIX,bird.so
@@ -1375,7 +1369,6 @@ payload:
 - DOMAIN-SUFFIX,ecstart.com
 - DOMAIN-SUFFIX,edgecastcdn.net
 - DOMAIN-SUFFIX,edgekey.net
-- DOMAIN-SUFFIX,edgesuite.net
 - DOMAIN-SUFFIX,edicypages.com
 - DOMAIN-SUFFIX,edmontonservice.com
 - DOMAIN-SUFFIX,edns.biz
@@ -1887,7 +1880,6 @@ payload:
 - DOMAIN-SUFFIX,gfw.report
 - DOMAIN-SUFFIX,gfwlist.end
 - DOMAIN-SUFFIX,gfwlist.start
-- DOMAIN-SUFFIX,gfx.ms
 - DOMAIN-SUFFIX,ggssl.com
 - DOMAIN-SUFFIX,ghidra-sre.org
 - DOMAIN-SUFFIX,ghostnoteapp.com
@@ -2092,7 +2084,6 @@ payload:
 - DOMAIN-SUFFIX,help.linksalpha.com
 - DOMAIN-SUFFIX,helpeachpeople.com
 - DOMAIN-SUFFIX,helplinfen.com
-- DOMAIN-SUFFIX,helpshift.com
 - DOMAIN-SUFFIX,helpster.de
 - DOMAIN-SUFFIX,helpuyghursnow.org
 - DOMAIN-SUFFIX,helpzhuling.org
@@ -2100,7 +2091,6 @@ payload:
 - DOMAIN-SUFFIX,hentaitube.tv
 - DOMAIN-SUFFIX,hentaivideoworld.com
 - DOMAIN-SUFFIX,heqinglian.net
-- DOMAIN-SUFFIX,here.com
 - DOMAIN-SUFFIX,heritage.org
 - DOMAIN-SUFFIX,heroku.com
 - DOMAIN-SUFFIX,heungkongdiscuss.com
@@ -2206,7 +2196,6 @@ payload:
 - DOMAIN-SUFFIX,hmvdigital.com
 - DOMAIN-SUFFIX,hnjhj.com
 - DOMAIN-SUFFIX,hnntube.com
-- DOMAIN-SUFFIX,hockeyapp.net
 - DOMAIN-SUFFIX,hojemacau.com.mo
 - DOMAIN-SUFFIX,hola.com
 - DOMAIN-SUFFIX,hola.org
@@ -2845,11 +2834,8 @@ payload:
 - DOMAIN-SUFFIX,liujianshu.com
 - DOMAIN-SUFFIX,liuxiaobo.net
 - DOMAIN-SUFFIX,liuxiaotong.com
-- DOMAIN-SUFFIX,live.com
-- DOMAIN-SUFFIX,live.net
 - DOMAIN-SUFFIX,livecoin.net
 - DOMAIN-SUFFIX,livedoor.jp
-- DOMAIN-SUFFIX,livefilestore.com
 - DOMAIN-SUFFIX,liveleak.com
 - DOMAIN-SUFFIX,livemint.com
 - DOMAIN-SUFFIX,livestation.com
@@ -3046,7 +3032,6 @@ payload:
 - DOMAIN-SUFFIX,mh4u.org
 - DOMAIN-SUFFIX,michaelanti.com
 - DOMAIN-SUFFIX,michaelmarketl.com
-- DOMAIN-SUFFIX,microsofttranslator.com
 - DOMAIN-SUFFIX,microvpn.com
 - DOMAIN-SUFFIX,middle-way.net
 - DOMAIN-SUFFIX,mihk.hk
@@ -3165,11 +3150,8 @@ payload:
 - DOMAIN-SUFFIX,mrslove.com
 - DOMAIN-SUFFIX,mrtweet.com
 - DOMAIN-SUFFIX,msa-it.org
-- DOMAIN-SUFFIX,msedge.net
 - DOMAIN-SUFFIX,msguancha.com
 - DOMAIN-SUFFIX,msha.gov
-- DOMAIN-SUFFIX,msn.com
-- DOMAIN-SUFFIX,msn.com.tw
 - DOMAIN-SUFFIX,mswe1.org
 - DOMAIN-SUFFIX,mthruf.com
 - DOMAIN-SUFFIX,mtw.tl
@@ -3527,7 +3509,6 @@ payload:
 - DOMAIN-SUFFIX,onapp.com
 - DOMAIN-SUFFIX,onedumb.com
 - DOMAIN-SUFFIX,onejav.com
-- DOMAIN-SUFFIX,onenote.com
 - DOMAIN-SUFFIX,onion.city
 - DOMAIN-SUFFIX,onion.ly
 - DOMAIN-SUFFIX,onlinecha.com
@@ -4164,7 +4145,6 @@ payload:
 - DOMAIN-SUFFIX,sfshibao.com
 - DOMAIN-SUFFIX,sftindia.org
 - DOMAIN-SUFFIX,sftuk.org
-- DOMAIN-SUFFIX,sfx.ms
 - DOMAIN-SUFFIX,sgpstatp.com
 - DOMAIN-SUFFIX,shadeyouvpn.com
 - DOMAIN-SUFFIX,shadow.ma
@@ -4267,7 +4247,6 @@ payload:
 - DOMAIN-SUFFIX,skyking.com.tw
 - DOMAIN-SUFFIX,skykiwi.com
 - DOMAIN-SUFFIX,skynet.be
-- DOMAIN-SUFFIX,skype.com
 - DOMAIN-SUFFIX,skyvegas.com
 - DOMAIN-SUFFIX,skyxvpn.com
 - DOMAIN-SUFFIX,slack-edge.com
@@ -4610,7 +4589,6 @@ payload:
 - DOMAIN-SUFFIX,telegraph.co.uk
 - DOMAIN-SUFFIX,tellme.pw
 - DOMAIN-SUFFIX,tenacy.com
-- DOMAIN-SUFFIX,tenor.com
 - DOMAIN-SUFFIX,tenzinpalmo.com
 - DOMAIN-SUFFIX,terabox.com
 - DOMAIN-SUFFIX,teraboxcdn.com
@@ -5741,7 +5719,6 @@ payload:
 - DOMAIN-SUFFIX,zzcartoon.com
 - DOMAIN-SUFFIX,zzcloud.me
 - DOMAIN-SUFFIX,zzux.com
-- DOMAIN-KEYWORD,1drv
 - DOMAIN-KEYWORD,1e100
 - DOMAIN-KEYWORD,abema
 - DOMAIN-KEYWORD,appledaily
@@ -5753,10 +5730,8 @@ payload:
 - DOMAIN-KEYWORD,fbcdn
 - DOMAIN-KEYWORD,instagram
 - DOMAIN-KEYWORD,musical.ly
-- DOMAIN-KEYWORD,onedrive
 - DOMAIN-KEYWORD,porn
 - DOMAIN-KEYWORD,sci-hub
-- DOMAIN-KEYWORD,skydrive
 - DOMAIN-KEYWORD,spotify
 - DOMAIN-KEYWORD,telegram
 - DOMAIN-KEYWORD,tiktok
