@@ -1661,3 +1661,5 @@ payload:
 - DOMAIN-SUFFIX,music.apple.com
 - DOMAIN,gspe1-ssl.ls.apple.com
 - DOMAIN,news-client-search.apple.com
+- DOMAIN,apps.apple.com
+- DOMAIN,itunes.apple.com

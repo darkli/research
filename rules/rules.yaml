@@ -124,3 +124,15 @@ github:
   path: ./rules_set/github.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/github.yaml
+social_media:
+  type: http
+  behavior: classical
+  path: ./rules_set/social_media.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/social_media.yaml
+advertising:
+  type: http
+  behavior: classical
+  path: ./rules_set/advertising.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/advertising.yaml
