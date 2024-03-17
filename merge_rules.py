@@ -80,7 +80,7 @@ def process_file(file_path, rules_yaml):
             "behavior": node_data.get("behavior"),
             "path": f"./rules_set/{node_name}.yaml",
             "interval": node_data.get("interval", 86400),
-            "url": f"https://github.com/darkli/research/main/rules/rules_set/{node_name}.yaml",
+            "url": f"https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/{node_name}.yaml",
         }
 
     if total_payloads != processed_payloads:
