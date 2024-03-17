@@ -48,7 +48,14 @@ def write_to_yaml(file_path, data):
     写入YAML文件
     """
     with open(file_path, "w", encoding="utf-8") as f:
-        yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+        # yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+        if "payload" in data and data["payload"] is not None:
+            f.write("payload:\n")
+            for payload in data["payload"]:
+                if payload.startswith("-"):
+                    f.write("  " + payload + "\n")
+                else:
+                    f.write("  - " + payload + "\n")
 
 
 def process_file(file_path, rules_yaml):

@@ -46,6 +46,12 @@ bing:
   path: ./rules_set/bing.yaml
   interval: 86400
   url: https://github.com/darkli/research/main/rules/rules_set/bing.yaml
+appletv:
+  type: http
+  behavior: classical
+  path: ./rules_set/appletv.yaml
+  interval: 86400
+  url: https://github.com/darkli/research/main/rules/rules_set/appletv.yaml
 icloud:
   type: http
   behavior: classical
