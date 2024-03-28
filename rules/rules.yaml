@@ -136,3 +136,15 @@ advertising:
   path: ./rules_set/advertising.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/advertising.yaml
+amazon:
+  type: http
+  behavior: classical
+  path: ./rules_set/amazon.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/amazon.yaml
+facebook:
+  type: http
+  behavior: classical
+  path: ./rules_set/facebook.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/facebook.yaml
