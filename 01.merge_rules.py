@@ -18,7 +18,7 @@ def download_files(urls, tmp_dir):
     downloaded_payloads = []
     for url in urls:
         try:
-            response = requests.get(url, timeout=300)
+            response = requests.get(url, timeout=1000)
             response.raise_for_status()
             file_name = os.path.basename(urlparse(url).path)
             file_path = os.path.join(tmp_dir, file_name)
