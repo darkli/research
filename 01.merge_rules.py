@@ -58,7 +58,7 @@ def write_to_yaml(file_path, data):
         #             f.write("  - " + payload + "\n")
 
 
-def process_file(file_path, rules_yaml):
+def process_file(subpath, file_path, rules_yaml):
     with open(file_path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
 
@@ -72,15 +72,26 @@ def process_file(file_path, rules_yaml):
         merged_payloads = merge_payloads(downloaded_payloads)
         processed_payloads += len(merged_payloads)
 
-        rule_set_file = os.path.join(RULES_SET_DIR, f"{node_name}.yaml")
+        rule_set_file = os.path.join(RULES_SET_DIR, subpath, f"{node_name}.yaml")
+        if not os.path.exists(os.path.join(RULES_SET_DIR, subpath)):
+            # 如果路径不存在，则创建路径
+            os.makedirs(os.path.join(RULES_SET_DIR, subpath))
         write_to_yaml(rule_set_file, {"payload": merged_payloads})
 
+        if len(subpath) > 0:
+            yaml_path = f"./rules_set/{subpath}/{node_name}.yaml"
+            yaml_url = (
+                f"https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/{subpath}/{node_name}.yaml"
+            )
+        else:
+            yaml_path = f"./rules_set/{node_name}.yaml"
+            yaml_url = f"https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/{node_name}.yaml"
         rules_yaml[node_name] = {
             "type": node_data.get("type"),
             "behavior": node_data.get("behavior"),
-            "path": f"./rules_set/{node_name}.yaml",
+            "path": yaml_path,
             "interval": node_data.get("interval", 86400),
-            "url": f"https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/{node_name}.yaml",
+            "url": yaml_url,
         }
 
     if total_payloads != processed_payloads:
@@ -93,23 +104,50 @@ def process_file(file_path, rules_yaml):
     return rules_yaml
 
 
+def process_dir(base_dirpath):
+    # 遍历SOURCE_DIR及其子文件夹
+    for dirpath, dirnames, filenames in os.walk(base_dirpath):
+        if dirpath == base_dirpath:
+            subpath = ""
+            rules_path = os.path.join(RULES_DIR, "rules.yaml")  # 在每个文件夹创建rules.yaml
+        else:
+            subpath = os.path.basename(dirpath)
+            rules_path = os.path.join(RULES_DIR, f"rules_{subpath}.yaml")  # 在每个文件夹创建rules.yaml
+
+        if not os.path.exists(RULES_DIR):
+            # 如果路径不存在，则创建路径
+            os.makedirs(RULES_DIR)
+
+        if not os.path.exists(rules_path):
+            # 如果文件不存在，则创建
+            with open(rules_path, "w", encoding="utf-8") as f:
+                pass
+            rules_yaml = {}
+        else:
+            with open(rules_path, "r", encoding="utf-8") as f:
+                rules_yaml = yaml.safe_load(f) or {}
+
+        # for filename in os.listdir(SOURCE_DIR):
+        for filename in filenames:
+            if not filename.endswith(".yaml"):
+                continue  # 跳过非yaml文件
+            # file_path = os.path.join(SOURCE_DIR, filename)
+            file_path = os.path.join(dirpath, filename)
+            rules_yaml = process_file(subpath, file_path, rules_yaml)
+
+        write_to_yaml(rules_path, rules_yaml)
+
+        # process subdir
+        # for dirname in dirnames:
+        #     process_dir(os.path.join(dirpath, dirname))
+
+
 def main():
     # 创建必要的目录
     os.makedirs(TMP_DIR, exist_ok=True)
     os.makedirs(RULES_SET_DIR, exist_ok=True)
-    rules_path = os.path.join(RULES_DIR, "rules.yaml")
-
-    if not os.path.exists(rules_path):
-        rules_yaml = {}
-    else:
-        with open(rules_path, "r", encoding="utf-8") as f:
-            rules_yaml = yaml.safe_load(f) or {}
-
-    for file_name in os.listdir(SOURCE_DIR):
-        file_path = os.path.join(SOURCE_DIR, file_name)
-        rules_yaml = process_file(file_path, rules_yaml)
-
-    write_to_yaml(rules_path, rules_yaml)
+    # rules_path = os.path.join(RULES_DIR, "rules.yaml")
+    process_dir(SOURCE_DIR)
 
     # 删除临时目录
     shutil.rmtree(TMP_DIR)

@@ -1,0 +1,144 @@
+google_voice:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/google_voice.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/google_voice.yaml
+microsoft:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/microsoft.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/microsoft.yaml
+onedrive:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/onedrive.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/onedrive.yaml
+advertising:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/advertising.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/advertising.yaml
+paypal:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/paypal.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/paypal.yaml
+facebook:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/facebook.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/facebook.yaml
+claude:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/claude.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/claude.yaml
+social_media:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/social_media.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/social_media.yaml
+google:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/google.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/google.yaml
+icloud:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/icloud.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/icloud.yaml
+apple:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/apple.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/apple.yaml
+amazon:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/amazon.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/amazon.yaml
+youtube:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/youtube.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/youtube.yaml
+telegram:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/telegram.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/telegram.yaml
+github:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/github.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/github.yaml
+appletv:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/appletv.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/appletv.yaml
+bing:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/bing.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/bing.yaml
+proxy:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/proxy.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/proxy.yaml
+twitter:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/twitter.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/twitter.yaml
+openai:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/openai.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/openai.yaml
+copilot:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/copilot.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/copilot.yaml
+apple_proxy:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/apple_proxy.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/apple_proxy.yaml
+google_gemini:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/google_gemini.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/google_gemini.yaml
+netflix:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/netflix.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/netflix.yaml

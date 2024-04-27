@@ -1,0 +1,9 @@
+github:
+  type: http
+  behavior: classical
+  urls:
+    [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub_No_Resolve.yaml",
+    ]
+  path: ./ruleset/github_no_resolve.yaml
+  interval: 86400

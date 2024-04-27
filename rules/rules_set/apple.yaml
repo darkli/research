@@ -5,6 +5,7 @@ payload:
 - DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
 - DOMAIN,beatselectronicsllc.tt.omtrdc.net
 - DOMAIN,e16991.b.akamaiedge.net
+- DOMAIN,edge.apple
 - DOMAIN,icons.axm-usercontent-apple.com
 - DOMAIN,lookup-api.apple.com.edgekey.net
 - DOMAIN,p-events-delivery.akamaized.net
@@ -1189,7 +1190,6 @@ payload:
 - DOMAIN-SUFFIX,applepaysupplies.tv
 - DOMAIN-SUFFIX,applewallet.com
 - DOMAIN-SUFFIX,applewallet.tv
-- DOMAIN-SUFFIX,appsto.re
 - DOMAIN-SUFFIX,appstore.co.id
 - DOMAIN-SUFFIX,appstore.com
 - DOMAIN-SUFFIX,appstore.hk
@@ -1503,6 +1503,8 @@ payload:
 - DOMAIN-SUFFIX,musickit.net
 - DOMAIN-SUFFIX,wwwapplemusic.com
 - DOMAIN-SUFFIX,apple-dns.net
+- DOMAIN-SUFFIX,appsto.re
+- DOMAIN-SUFFIX,cdn-apple.com
 - DOMAIN-SUFFIX,digicert.com
 - DOMAIN-SUFFIX,apple-cloudkit.com
 - DOMAIN-SUFFIX,apple-icloud.cn
@@ -1510,7 +1512,6 @@ payload:
 - DOMAIN-SUFFIX,appleicloud.cn
 - DOMAIN-SUFFIX,applemx-icloud.com
 - DOMAIN-SUFFIX,apzones.com
-- DOMAIN-SUFFIX,cdn-apple.com
 - DOMAIN-SUFFIX,icloud-apple.cn
 - DOMAIN-SUFFIX,icloud-content.com
 - DOMAIN-SUFFIX,icloud-isupport.com

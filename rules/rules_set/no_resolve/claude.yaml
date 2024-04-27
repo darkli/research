@@ -1,0 +1,5 @@
+payload:
+- DOMAIN,cdn.usefathom.com
+- DOMAIN-SUFFIX,anthropic.com
+- DOMAIN-SUFFIX,claude.ai
+- DOMAIN,servd-anthropic-website.b-cdn.net

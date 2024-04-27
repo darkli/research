@@ -26,10 +26,6 @@ import os
 import shutil
 import yaml
 
-# Define file paths
-RULES_DIR = "./RULES/RULES_SET"
-EXCLUDE_DIR = "./EXCLUDE"
-
 
 def merge_payloads_in_dir(rules_dir):
     """
@@ -111,18 +107,28 @@ def filter_payloads(exclude_dir, rules_dir):
     shutil.copy(proxy_file, dest_file)
 
 
+def rule_weighting(rules_dir, exclude_dir):
+    merged_payloads = merge_payloads_in_dir(rules_dir)
+    os.makedirs(exclude_dir, exist_ok=True)
+    merge_file = os.path.join(exclude_dir, "merge.yaml")
+    with open(merge_file, "w", encoding="utf-8") as f:
+        yaml.safe_dump({"payload": merged_payloads}, f)
+
+    copy_proxy_file(rules_dir, exclude_dir)
+    filter_payloads(exclude_dir, rules_dir)
+
+
 def main():
     """
     Main function to execute the tasks.
     """
-    merged_payloads = merge_payloads_in_dir(RULES_DIR)
-    os.makedirs(EXCLUDE_DIR, exist_ok=True)
-    merge_file = os.path.join(EXCLUDE_DIR, "merge.yaml")
-    with open(merge_file, "w", encoding="utf-8") as f:
-        yaml.safe_dump({"payload": merged_payloads}, f)
+    # Define file paths
+    RULES_DIR = "./RULES/RULES_SET"
+    EXCLUDE_DIR = "./EXCLUDE"
 
-    copy_proxy_file(RULES_DIR, EXCLUDE_DIR)
-    filter_payloads(EXCLUDE_DIR, RULES_DIR)
+    # 遍历SOURCE_DIR及其子文件夹
+    for dirpath, dirnames, filenames in os.walk(RULES_DIR):
+        rule_weighting(dirpath, EXCLUDE_DIR)
 
 
 if __name__ == "__main__":
