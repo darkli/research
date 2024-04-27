@@ -4,6 +4,12 @@ openai:
   path: ./rules_set/openai.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/openai.yaml
+amazon:
+  type: http
+  behavior: classical
+  path: ./rules_set/amazon.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/amazon.yaml
 apple_proxy:
   type: http
   behavior: classical
@@ -16,12 +22,24 @@ google_voice:
   path: ./rules_set/google_voice.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/google_voice.yaml
+social_media:
+  type: http
+  behavior: classical
+  path: ./rules_set/social_media.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/social_media.yaml
 apple:
   type: http
   behavior: classical
   path: ./rules_set/apple.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/apple.yaml
+advertising:
+  type: http
+  behavior: classical
+  path: ./rules_set/advertising.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/advertising.yaml
 youtube:
   type: http
   behavior: classical
@@ -64,18 +82,18 @@ google_gemini:
   path: ./rules_set/google_gemini.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/google_gemini.yaml
+facebook:
+  type: http
+  behavior: classical
+  path: ./rules_set/facebook.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/facebook.yaml
 onedrive:
   type: http
   behavior: classical
   path: ./rules_set/onedrive.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/onedrive.yaml
-whatsapp:
-  type: http
-  behavior: classical
-  path: ./rules_set/whatsapp.yaml
-  interval: 86400
-  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/whatsapp.yaml
 microsoft:
   type: http
   behavior: classical
@@ -124,27 +142,3 @@ github:
   path: ./rules_set/github.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/github.yaml
-social_media:
-  type: http
-  behavior: classical
-  path: ./rules_set/social_media.yaml
-  interval: 86400
-  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/social_media.yaml
-advertising:
-  type: http
-  behavior: classical
-  path: ./rules_set/advertising.yaml
-  interval: 86400
-  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/advertising.yaml
-amazon:
-  type: http
-  behavior: classical
-  path: ./rules_set/amazon.yaml
-  interval: 86400
-  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/amazon.yaml
-facebook:
-  type: http
-  behavior: classical
-  path: ./rules_set/facebook.yaml
-  interval: 86400
-  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/facebook.yaml
