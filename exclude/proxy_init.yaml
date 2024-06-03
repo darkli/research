@@ -4,10 +4,14 @@ payload:
 - DOMAIN,assets-priconne-redive-us.akamaized.net
 - DOMAIN,chat.openai.com.cdn.cloudflare.net
 - DOMAIN,cloud.oracle.com
+- DOMAIN,copilot.microsoft.com
 - DOMAIN,cvws.icloud-content.com
 - DOMAIN,developer.apple.com
+- DOMAIN,location.microsoft.com
+- DOMAIN,login.microsoftonline.com
 - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+- DOMAIN,self.events.data.microsoft.com
 - DOMAIN,testflight.apple.com
 - DOMAIN,voice.telephony.goog
 - DOMAIN-SUFFIX,000webhost.com
@@ -563,6 +567,7 @@ payload:
 - DOMAIN-SUFFIX,binance.com
 - DOMAIN-SUFFIX,bing.com
 - DOMAIN-SUFFIX,bing.net
+- DOMAIN-SUFFIX,bingapis.com
 - DOMAIN-SUFFIX,bintray.com
 - DOMAIN-SUFFIX,binux.me
 - DOMAIN-SUFFIX,binwang.me
@@ -3137,6 +3142,8 @@ payload:
 - DOMAIN-SUFFIX,mh4u.org
 - DOMAIN-SUFFIX,michaelanti.com
 - DOMAIN-SUFFIX,michaelmarketl.com
+- DOMAIN-SUFFIX,microsoft-falcon.io
+- DOMAIN-SUFFIX,microsoftapp.net
 - DOMAIN-SUFFIX,microsofttranslator.com
 - DOMAIN-SUFFIX,microvpn.com
 - DOMAIN-SUFFIX,middle-way.net
@@ -3987,6 +3994,7 @@ payload:
 - DOMAIN-SUFFIX,pythonic.life
 - DOMAIN-SUFFIX,pytorch.org
 - DOMAIN-SUFFIX,qanote.com
+- DOMAIN-SUFFIX,qbittorrent.org
 - DOMAIN-SUFFIX,qgirl.com.tw
 - DOMAIN-SUFFIX,qhigh.com
 - DOMAIN-SUFFIX,qi-gong.me
@@ -5643,6 +5651,7 @@ payload:
 - DOMAIN-SUFFIX,x-berry.com
 - DOMAIN-SUFFIX,x-wall.org
 - DOMAIN-SUFFIX,x.co
+- DOMAIN-SUFFIX,x.com
 - DOMAIN-SUFFIX,x.company
 - DOMAIN-SUFFIX,x1949x.com
 - DOMAIN-SUFFIX,x24hr.com
@@ -5987,6 +5996,7 @@ payload:
 - IP-CIDR,180.163.151.34/32,no-resolve
 - IP-CIDR,184.173.128.0/17,no-resolve
 - IP-CIDR,185.60.216.0/22,no-resolve
+- IP-CIDR,185.76.151.0/24,no-resolve
 - IP-CIDR,203.104.103.0/24,no-resolve
 - IP-CIDR,203.104.128.0/19,no-resolve
 - IP-CIDR,203.174.66.64/26,no-resolve
@@ -6028,7 +6038,9 @@ payload:
 - IP-CIDR,74.125.0.0/16,no-resolve
 - IP-CIDR,74.86.0.0/16,no-resolve
 - IP-CIDR,75.126.0.0/16,no-resolve
+- IP-CIDR,91.105.192.0/23,no-resolve
 - IP-CIDR,91.108.0.0/16,no-resolve
 - IP-CIDR6,2001:67c:4e8::/48,no-resolve
 - IP-CIDR6,2001:b28:f23d::/48,no-resolve
 - IP-CIDR6,2001:b28:f23f::/48,no-resolve
+- IP-CIDR6,2a0a:f280::/32,no-resolve

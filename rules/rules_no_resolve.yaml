@@ -142,3 +142,9 @@ netflix:
   path: ./rules_set/no_resolve/netflix.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/netflix.yaml
+discord:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/discord.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/discord.yaml

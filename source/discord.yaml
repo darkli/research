@@ -1,0 +1,9 @@
+discord:
+  type: http
+  behavior: classical
+  urls:
+    [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.yaml",
+    ]
+  path: ./ruleset/discord.yaml
+  interval: 86400
