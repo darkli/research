@@ -351,6 +351,7 @@ payload:
 - DOMAIN-SUFFIX,apkmonk.com
 - DOMAIN-SUFFIX,apkplz.com
 - DOMAIN-SUFFIX,apkpure.com
+- DOMAIN-SUFFIX,apkpure.net
 - DOMAIN-SUFFIX,aplusvpn.com
 - DOMAIN-SUFFIX,app-measurement.net
 - DOMAIN-SUFFIX,appdownloader.net
@@ -860,6 +861,7 @@ payload:
 - DOMAIN-SUFFIX,channelnewsasia.com
 - DOMAIN-SUFFIX,chaoex.com
 - DOMAIN-SUFFIX,chapm25.com
+- DOMAIN-SUFFIX,chat.lmsys.org
 - DOMAIN-SUFFIX,chatnook.com
 - DOMAIN-SUFFIX,chaturbate.com
 - DOMAIN-SUFFIX,checkgfw.com
@@ -1241,6 +1243,7 @@ payload:
 - DOMAIN-SUFFIX,deviantart.net
 - DOMAIN-SUFFIX,devio.us
 - DOMAIN-SUFFIX,devpn.com
+- DOMAIN-SUFFIX,devv.ai
 - DOMAIN-SUFFIX,dfas.mil
 - DOMAIN-SUFFIX,dfn.org
 - DOMAIN-SUFFIX,dharamsalanet.com
@@ -2896,6 +2899,7 @@ payload:
 - DOMAIN-SUFFIX,lianyue.net
 - DOMAIN-SUFFIX,liaowangxizang.net
 - DOMAIN-SUFFIX,liberal.org.hk
+- DOMAIN-SUFFIX,libertysculpturepark.com
 - DOMAIN-SUFFIX,libertytimes.com.tw
 - DOMAIN-SUFFIX,libraryinformationtechnology.com
 - DOMAIN-SUFFIX,libredd.it
@@ -3846,6 +3850,7 @@ payload:
 - DOMAIN-SUFFIX,piposay.com
 - DOMAIN-SUFFIX,piraattilahti.org
 - DOMAIN-SUFFIX,piring.com
+- DOMAIN-SUFFIX,pixeldrain.com
 - DOMAIN-SUFFIX,pixelmator.com
 - DOMAIN-SUFFIX,pixelqi.com
 - DOMAIN-SUFFIX,pixiv.net
@@ -4035,6 +4040,7 @@ payload:
 - DOMAIN-SUFFIX,ra.gg
 - DOMAIN-SUFFIX,radicalparty.org
 - DOMAIN-SUFFIX,radiko.jp
+- DOMAIN-SUFFIX,radio-canada.ca
 - DOMAIN-SUFFIX,radio.garden
 - DOMAIN-SUFFIX,radioaustralia.net.au
 - DOMAIN-SUFFIX,radiohilight.net
@@ -4660,6 +4666,7 @@ payload:
 - DOMAIN-SUFFIX,taipei.gov.tw
 - DOMAIN-SUFFIX,taipeisociety.org
 - DOMAIN-SUFFIX,taipeitimes.com
+- DOMAIN-SUFFIX,taisounds.com
 - DOMAIN-SUFFIX,taiwan-sex.com
 - DOMAIN-SUFFIX,taiwanbible.com
 - DOMAIN-SUFFIX,taiwancon.com
@@ -5628,6 +5635,7 @@ payload:
 - DOMAIN-SUFFIX,wr.pvp.net
 - DOMAIN-SUFFIX,wrchina.org
 - DOMAIN-SUFFIX,wretch.cc
+- DOMAIN-SUFFIX,writesonic.com
 - DOMAIN-SUFFIX,wsj.com
 - DOMAIN-SUFFIX,wsj.net
 - DOMAIN-SUFFIX,wsjhk.com
@@ -5838,6 +5846,7 @@ payload:
 - DOMAIN-SUFFIX,yx51.net
 - DOMAIN-SUFFIX,yyii.org
 - DOMAIN-SUFFIX,yyjlymb.xyz
+- DOMAIN-SUFFIX,yysub.net
 - DOMAIN-SUFFIX,yzzk.com
 - DOMAIN-SUFFIX,z-lib.org
 - DOMAIN-SUFFIX,zacebook.com
