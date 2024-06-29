@@ -148,3 +148,9 @@ discord:
   path: ./rules_set/discord.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/discord.yaml
+disney:
+  type: http
+  behavior: classical
+  path: ./rules_set/disney.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/disney.yaml
