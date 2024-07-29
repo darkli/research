@@ -630,6 +630,7 @@ payload:
 - DOMAIN-SUFFIX,blubrry.com
 - DOMAIN-SUFFIX,blueangellive.com
 - DOMAIN-SUFFIX,bmfinn.com
+- DOMAIN-SUFFIX,bnbstatic.com
 - DOMAIN-SUFFIX,bnews.co
 - DOMAIN-SUFFIX,bnext.com.tw
 - DOMAIN-SUFFIX,bnn.co
@@ -3800,6 +3801,7 @@ payload:
 - DOMAIN-SUFFIX,perfect-privacy.com
 - DOMAIN-SUFFIX,perfectgirls.net
 - DOMAIN-SUFFIX,periscope.tv
+- DOMAIN-SUFFIX,perplexity.ai
 - DOMAIN-SUFFIX,persecutionblog.com
 - DOMAIN-SUFFIX,persiankitty.com
 - DOMAIN-SUFFIX,phapluan.org
