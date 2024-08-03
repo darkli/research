@@ -154,3 +154,9 @@ disney:
   path: ./rules_set/disney.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/disney.yaml
+apple_media:
+  type: http
+  behavior: classical
+  path: ./rules_set/apple_media.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/apple_media.yaml

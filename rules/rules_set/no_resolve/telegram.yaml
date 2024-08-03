@@ -36,6 +36,7 @@ payload:
 - PROCESS-NAME,nekox.messenger
 - PROCESS-NAME,org.telegram.messenger
 - PROCESS-NAME,telegram-desktop
+- PROCESS-NAME,tw.nekomimi.nekogram
 - IP-ASN,211157,no-resolve
 - IP-ASN,44907,no-resolve
 - IP-ASN,59930,no-resolve
