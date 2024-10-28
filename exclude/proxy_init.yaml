@@ -3135,6 +3135,7 @@ payload:
 - DOMAIN-SUFFIX,meshrep.com
 - DOMAIN-SUFFIX,mesotw.com
 - DOMAIN-SUFFIX,messenger.com
+- DOMAIN-SUFFIX,meta.com
 - DOMAIN-SUFFIX,metacafe.com
 - DOMAIN-SUFFIX,metafilter.com
 - DOMAIN-SUFFIX,metart.com
@@ -4993,6 +4994,7 @@ payload:
 - DOMAIN-SUFFIX,torrentproject.se
 - DOMAIN-SUFFIX,torrenty.org
 - DOMAIN-SUFFIX,torrentz.eu
+- DOMAIN-SUFFIX,tortoisesvn.net
 - DOMAIN-SUFFIX,torvpn.com
 - DOMAIN-SUFFIX,totalvpn.com
 - DOMAIN-SUFFIX,toutiaoabc.com
