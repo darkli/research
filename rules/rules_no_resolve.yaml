@@ -160,3 +160,9 @@ apple_media:
   path: ./rules_set/no_resolve/apple_media.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/apple_media.yaml
+china_direct:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/china_direct.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/china_direct.yaml
