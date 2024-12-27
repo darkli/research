@@ -166,3 +166,9 @@ china_direct:
   path: ./rules_set/no_resolve/china_direct.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/china_direct.yaml
+iCloudPrivateRelay:
+  type: http
+  behavior: classical
+  path: ./rules_set/no_resolve/iCloudPrivateRelay.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/no_resolve/iCloudPrivateRelay.yaml
