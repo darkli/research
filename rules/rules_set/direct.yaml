@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,hsbc.com
+  - DOMAIN-SUFFIX,hsbc.com.cn
   - DOMAIN-SUFFIX,hsbc.com.hk
   - DOMAIN-SUFFIX,hsbc.com.sg
   - DOMAIN-SUFFIX,sc.com
