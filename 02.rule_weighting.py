@@ -130,6 +130,10 @@ def main():
     for dirpath, dirnames, filenames in os.walk(RULES_DIR):
         rule_weighting(dirpath, EXCLUDE_DIR)
 
+    # Clean up the exclude directory
+    if os.path.exists(EXCLUDE_DIR):
+        shutil.rmtree(EXCLUDE_DIR)
+
 
 if __name__ == "__main__":
     main()
