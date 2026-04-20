@@ -1,157 +1,277 @@
 import os
-import yaml
 import shutil
+import sys
+import time
+from pathlib import Path
+
 import requests
-from urllib.parse import urlparse
-
-# 定义全局变量
-SOURCE_DIR = "./source"
-TMP_DIR = "./.tmp"
-RULES_DIR = "./rules"
-RULES_SET_DIR = "./rules/rules_set"
+import yaml
 
 
-def download_files(urls, tmp_dir):
-    """
-    下载URLs中的文件到临时目录
-    """
-    downloaded_payloads = []
-    for url in urls:
+SOURCE_DIR = Path("./source")
+RULES_DIR = Path("./rules")
+RULES_SET_DIR = RULES_DIR / "rules_set"
+TMP_OUTPUT_DIR = Path("./.tmp_rules")
+REPO_RAW_BASE = "https://raw.githubusercontent.com/darkli/research/main/rules/rules_set"
+REQUEST_HEADERS = {"User-Agent": "darkli-research-rule-updater"}
+REQUEST_TIMEOUT = (10, 300)
+MAX_DOWNLOAD_ATTEMPTS = 3
+MANUAL_RULE_PATHS = {
+    "private_direct.yaml",
+    "proxy_selected.yaml",
+    "uk_vowifi.yaml",
+}
+
+
+class RuleUpdateError(Exception):
+    """Raised when rule generation cannot complete safely."""
+
+
+def load_yaml_file(file_path):
+    with file_path.open("r", encoding="utf-8") as f:
         try:
-            response = requests.get(url, timeout=1000)
-            response.raise_for_status()
-            file_name = os.path.basename(urlparse(url).path)
-            file_path = os.path.join(tmp_dir, file_name)
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(response.text)
-            with open(file_path, "r", encoding="utf-8") as f:
-                data = yaml.safe_load(f)
-            downloaded_payloads.extend(data.get("payload", []))
-        except Exception as e:
-            print(f"Error downloading file: {url}, {e}")
-    return downloaded_payloads
+            data = yaml.safe_load(f)
+        except yaml.YAMLError as exc:
+            raise RuleUpdateError(f"Invalid YAML in {file_path}: {exc}") from exc
+    return data
 
 
-def merge_payloads(payloads):
-    """
-    合并Payloads列表并去重
-    """
-    merged_payloads = []
-    for payload in payloads:
-        if payload not in merged_payloads:
-            merged_payloads.append(payload)
-    return merged_payloads
-
-
-def write_to_yaml(file_path, data):
-    """
-    写入YAML文件
-    """
-    with open(file_path, "w", encoding="utf-8") as f:
+def write_yaml_file(file_path, data):
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+    with file_path.open("w", encoding="utf-8") as f:
         yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
-        # if "payload" in data and data["payload"] is not None:
-        #     f.write("payload:\n")
-        #     for payload in data["payload"]:
-        #         if payload.startswith("-"):
-        #             f.write("  " + payload + "\n")
-        #         else:
-        #             f.write("  - " + payload + "\n")
 
 
-def process_file(subpath, file_path, rules_yaml):
-    with open(file_path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f)
+def validate_payload(data, url):
+    if not isinstance(data, dict):
+        raise RuleUpdateError(f"Downloaded YAML is not a mapping: {url}")
+    if "payload" not in data:
+        raise RuleUpdateError(f"Downloaded YAML has no payload node: {url}")
+    payload = data["payload"]
+    if not isinstance(payload, list):
+        raise RuleUpdateError(f"Downloaded payload is not a list: {url}")
+    if not payload:
+        raise RuleUpdateError(f"Downloaded payload is empty: {url}")
+    return payload
 
-    total_payloads = 0
-    processed_payloads = 0
-    for node_name, node_data in data.items():
-        urls = node_data.get("urls", [])
-        downloaded_payloads = download_files(urls, TMP_DIR)
-        total_payloads += len(downloaded_payloads)
 
-        merged_payloads = merge_payloads(downloaded_payloads)
-        processed_payloads += len(merged_payloads)
-
-        rule_set_file = os.path.join(RULES_SET_DIR, subpath, f"{node_name}.yaml")
-        if not os.path.exists(os.path.join(RULES_SET_DIR, subpath)):
-            # 如果路径不存在，则创建路径
-            os.makedirs(os.path.join(RULES_SET_DIR, subpath))
-        write_to_yaml(rule_set_file, {"payload": merged_payloads})
-
-        if len(subpath) > 0:
-            yaml_path = f"./rules_set/{subpath}/{node_name}.yaml"
-            yaml_url = (
-                f"https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/{subpath}/{node_name}.yaml"
+def download_payload(url):
+    last_error = None
+    for attempt in range(1, MAX_DOWNLOAD_ATTEMPTS + 1):
+        try:
+            response = requests.get(url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
+            response.raise_for_status()
+            if attempt > 1:
+                print(f"Download recovered for {url} on attempt {attempt}/{MAX_DOWNLOAD_ATTEMPTS}")
+            break
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt == MAX_DOWNLOAD_ATTEMPTS:
+                raise RuleUpdateError(
+                    f"Failed to download {url} after {MAX_DOWNLOAD_ATTEMPTS} attempts: {exc}"
+                ) from exc
+            print(
+                f"Download failed for {url} on attempt {attempt}/{MAX_DOWNLOAD_ATTEMPTS}; "
+                f"retrying attempt {attempt + 1}/{MAX_DOWNLOAD_ATTEMPTS}: {exc}"
             )
-        else:
-            yaml_path = f"./rules_set/{node_name}.yaml"
-            yaml_url = f"https://raw.githubusercontent.com/darkli/research/main/rules/rules_set/{node_name}.yaml"
-        rules_yaml[node_name] = {
-            "type": node_data.get("type"),
-            "behavior": node_data.get("behavior"),
-            "path": yaml_path,
-            "interval": node_data.get("interval", 86400),
-            "url": yaml_url,
-        }
-
-    if total_payloads != processed_payloads:
-        print(
-            f"Warning: Payload count mismatch for {os.path.basename(file_path)}. Expected: {total_payloads}, Processed: {processed_payloads}"
-        )
+            time.sleep(attempt)
     else:
-        print(f"Successfully processed {os.path.basename(file_path)}. Total payloads: {total_payloads}")
+        raise RuleUpdateError(f"Failed to download {url}: {last_error}")
 
-    return rules_yaml
+    try:
+        data = yaml.safe_load(response.text)
+    except yaml.YAMLError as exc:
+        raise RuleUpdateError(f"Invalid YAML downloaded from {url}: {exc}") from exc
+
+    return validate_payload(data, url)
 
 
-def process_dir(base_dirpath):
-    # 遍历SOURCE_DIR及其子文件夹
-    for dirpath, dirnames, filenames in os.walk(base_dirpath):
-        if dirpath == base_dirpath:
-            subpath = ""
-            rules_path = os.path.join(RULES_DIR, "rules.yaml")  # 在每个文件夹创建rules.yaml
-        else:
-            subpath = os.path.basename(dirpath)
-            rules_path = os.path.join(RULES_DIR, f"rules_{subpath}.yaml")  # 在每个文件夹创建rules.yaml
+def dedupe_keep_order(items):
+    seen = set()
+    result = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
 
-        if not os.path.exists(RULES_DIR):
-            # 如果路径不存在，则创建路径
-            os.makedirs(RULES_DIR)
 
-        if not os.path.exists(rules_path):
-            # 如果文件不存在，则创建
-            with open(rules_path, "w", encoding="utf-8") as f:
-                pass
-            rules_yaml = {}
-        else:
-            with open(rules_path, "r", encoding="utf-8") as f:
-                rules_yaml = yaml.safe_load(f) or {}
+def normalize_index_name(subpath):
+    if not subpath:
+        return "rules.yaml"
+    return f"rules_{subpath.replace(os.sep, '_')}.yaml"
 
-        # for filename in os.listdir(SOURCE_DIR):
+
+def build_rule_entry(node_name, node_data, subpath):
+    if subpath:
+        yaml_path = f"./rules_set/{subpath}/{node_name}.yaml"
+        yaml_url = f"{REPO_RAW_BASE}/{subpath}/{node_name}.yaml"
+    else:
+        yaml_path = f"./rules_set/{node_name}.yaml"
+        yaml_url = f"{REPO_RAW_BASE}/{node_name}.yaml"
+
+    return {
+        "type": node_data.get("type"),
+        "behavior": node_data.get("behavior"),
+        "path": yaml_path,
+        "interval": node_data.get("interval", 86400),
+        "url": yaml_url,
+    }
+
+
+def validate_source_node(file_path, node_name, node_data):
+    if not isinstance(node_data, dict):
+        raise RuleUpdateError(f"Node {node_name} in {file_path} is not a mapping")
+    urls = node_data.get("urls")
+    if not isinstance(urls, list) or not urls:
+        raise RuleUpdateError(f"Node {node_name} in {file_path} must define a non-empty urls list")
+    for url in urls:
+        if not isinstance(url, str) or not url:
+            raise RuleUpdateError(f"Node {node_name} in {file_path} contains an invalid URL: {url!r}")
+    return urls
+
+
+def collect_generated_rules(source_dir):
+    if not source_dir.exists():
+        raise RuleUpdateError(f"Source directory does not exist: {source_dir}")
+
+    generated_rules = {}
+    generated_indexes = {}
+    stats = {
+        "nodes": 0,
+        "source_payloads": 0,
+        "deduped_payloads": 0,
+        "removed_duplicates": 0,
+    }
+
+    for dirpath, dirnames, filenames in os.walk(source_dir):
+        dirnames.sort()
+        filenames = sorted(filenames)
+        dirpath = Path(dirpath)
+        rel_dir = dirpath.relative_to(source_dir)
+        subpath = "" if rel_dir == Path(".") else rel_dir.as_posix()
+        index_name = normalize_index_name(subpath)
+        index_data = {}
+
         for filename in filenames:
             if not filename.endswith(".yaml"):
-                continue  # 跳过非yaml文件
-            # file_path = os.path.join(SOURCE_DIR, filename)
-            file_path = os.path.join(dirpath, filename)
-            rules_yaml = process_file(subpath, file_path, rules_yaml)
+                continue
 
-        write_to_yaml(rules_path, rules_yaml)
+            file_path = dirpath / filename
+            source_data = load_yaml_file(file_path)
+            if not isinstance(source_data, dict) or not source_data:
+                raise RuleUpdateError(f"Source file must contain at least one mapping node: {file_path}")
 
-        # process subdir
-        # for dirname in dirnames:
-        #     process_dir(os.path.join(dirpath, dirname))
+            for node_name, node_data in source_data.items():
+                urls = validate_source_node(file_path, node_name, node_data)
+                downloaded_payloads = []
+                for url in urls:
+                    downloaded_payloads.extend(download_payload(url))
+
+                merged_payloads = dedupe_keep_order(downloaded_payloads)
+                rule_rel_path = Path(subpath) / f"{node_name}.yaml" if subpath else Path(f"{node_name}.yaml")
+                generated_rules[rule_rel_path.as_posix()] = {"payload": merged_payloads}
+                index_data[node_name] = build_rule_entry(node_name, node_data, subpath)
+
+                source_count = len(downloaded_payloads)
+                deduped_count = len(merged_payloads)
+                stats["nodes"] += 1
+                stats["source_payloads"] += source_count
+                stats["deduped_payloads"] += deduped_count
+                stats["removed_duplicates"] += source_count - deduped_count
+                print(
+                    f"Processed {file_path}::{node_name}: "
+                    f"source={source_count}, deduped={deduped_count}, duplicates={source_count - deduped_count}"
+                )
+
+        generated_indexes[index_name] = index_data
+
+    if stats["nodes"] == 0:
+        raise RuleUpdateError(f"No rule nodes found in source directory: {source_dir}")
+
+    return generated_rules, generated_indexes, stats
+
+
+def existing_auto_rule_paths():
+    paths = set()
+    for index_name in ("rules.yaml", "rules_no_resolve.yaml"):
+        index_path = RULES_DIR / index_name
+        if not index_path.exists():
+            continue
+        data = load_yaml_file(index_path) or {}
+        if not isinstance(data, dict):
+            raise RuleUpdateError(f"Index file is not a mapping: {index_path}")
+        for node_name, node_data in data.items():
+            if not isinstance(node_data, dict):
+                continue
+            local_path = node_data.get("path")
+            if not isinstance(local_path, str):
+                continue
+            normalized = local_path.removeprefix("./")
+            if normalized.startswith("rules_set/"):
+                rel_path = Path(normalized).relative_to("rules_set").as_posix()
+                if rel_path not in MANUAL_RULE_PATHS:
+                    paths.add(rel_path)
+    return paths
+
+
+def replace_file(source_path, target_path):
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+    temp_path = target_path.with_name(f".{target_path.name}.tmp")
+    shutil.copy2(source_path, temp_path)
+    temp_path.replace(target_path)
+
+
+def write_tmp_output(tmp_dir, generated_rules, generated_indexes):
+    if tmp_dir.exists():
+        shutil.rmtree(tmp_dir)
+    tmp_rules_set_dir = tmp_dir / "rules_set"
+
+    for rel_path, data in generated_rules.items():
+        write_yaml_file(tmp_rules_set_dir / rel_path, data)
+    for index_name, data in generated_indexes.items():
+        write_yaml_file(tmp_dir / index_name, data)
+
+
+def publish_output(tmp_dir, generated_rules, generated_indexes):
+    RULES_DIR.mkdir(parents=True, exist_ok=True)
+    RULES_SET_DIR.mkdir(parents=True, exist_ok=True)
+
+    auto_paths = existing_auto_rule_paths()
+    auto_paths.update(generated_rules.keys())
+
+    for rel_path in sorted(auto_paths):
+        target_path = RULES_SET_DIR / rel_path
+        source_path = tmp_dir / "rules_set" / rel_path
+        if source_path.exists():
+            replace_file(source_path, target_path)
+        elif target_path.exists():
+            target_path.unlink()
+
+    for index_name in sorted(generated_indexes):
+        replace_file(tmp_dir / index_name, RULES_DIR / index_name)
 
 
 def main():
-    # 创建必要的目录
-    os.makedirs(TMP_DIR, exist_ok=True)
-    os.makedirs(RULES_SET_DIR, exist_ok=True)
-    # rules_path = os.path.join(RULES_DIR, "rules.yaml")
-    process_dir(SOURCE_DIR)
-
-    # 删除临时目录
-    shutil.rmtree(TMP_DIR)
+    try:
+        generated_rules, generated_indexes, stats = collect_generated_rules(SOURCE_DIR)
+        write_tmp_output(TMP_OUTPUT_DIR, generated_rules, generated_indexes)
+        publish_output(TMP_OUTPUT_DIR, generated_rules, generated_indexes)
+        print(
+            "Rule update complete: "
+            f"nodes={stats['nodes']}, files={len(generated_rules)}, "
+            f"source_payloads={stats['source_payloads']}, "
+            f"deduped_payloads={stats['deduped_payloads']}, "
+            f"removed_duplicates={stats['removed_duplicates']}"
+        )
+    except RuleUpdateError as exc:
+        print(f"Rule update failed: {exc}", file=sys.stderr)
+        return 1
+    finally:
+        if TMP_OUTPUT_DIR.exists():
+            shutil.rmtree(TMP_OUTPUT_DIR)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
