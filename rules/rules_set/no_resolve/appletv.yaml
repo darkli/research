@@ -5,5 +5,6 @@ payload:
 - DOMAIN,play-edge.itunes.apple.com
 - DOMAIN,tv.applemusic.com
 - DOMAIN,uts-api.itunes.apple.com
+- DOMAIN,apple-tv-plus-press.apple.com
 - DOMAIN-SUFFIX,tv.apple.com
 - PROCESS-NAME,TV

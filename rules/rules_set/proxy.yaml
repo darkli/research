@@ -4,6 +4,7 @@ payload:
 - DOMAIN,assets-priconne-redive-us.akamaized.net
 - DOMAIN,cloud.oracle.com
 - DOMAIN,login.microsoftonline.com
+- DOMAIN,voice.telephony.goog
 - DOMAIN-SUFFIX,000webhost.com
 - DOMAIN-SUFFIX,030buy.com
 - DOMAIN-SUFFIX,0rz.tw
@@ -210,7 +211,6 @@ payload:
 - DOMAIN-SUFFIX,ai-kan.net
 - DOMAIN-SUFFIX,ai-wen.net
 - DOMAIN-SUFFIX,ai.dev
-- DOMAIN-SUFFIX,ai.studio
 - DOMAIN-SUFFIX,aiosearch.com
 - DOMAIN-SUFFIX,aiph.net
 - DOMAIN-SUFFIX,airasia.com
@@ -794,6 +794,7 @@ payload:
 - DOMAIN-SUFFIX,c-est-simple.com
 - DOMAIN-SUFFIX,c-span.org
 - DOMAIN-SUFFIX,c-spanvideo.org
+- DOMAIN-SUFFIX,c.gle
 - DOMAIN-SUFFIX,c.mi.com
 - DOMAIN-SUFFIX,c100tibet.org
 - DOMAIN-SUFFIX,c2cx.com
@@ -930,7 +931,6 @@ payload:
 - DOMAIN-SUFFIX,chaos.social
 - DOMAIN-SUFFIX,chapm25.com
 - DOMAIN-SUFFIX,character.ai
-- DOMAIN-SUFFIX,chat.com
 - DOMAIN-SUFFIX,chat.openai.com
 - DOMAIN-SUFFIX,chatnook.com
 - DOMAIN-SUFFIX,chatpdf.com
@@ -1063,7 +1063,6 @@ payload:
 - DOMAIN-SUFFIX,cl.ly
 - DOMAIN-SUFFIX,clarionproject.org
 - DOMAIN-SUFFIX,classicalguitarblog.net
-- DOMAIN-SUFFIX,claude.com
 - DOMAIN-SUFFIX,clb.org.hk
 - DOMAIN-SUFFIX,cleansite.biz
 - DOMAIN-SUFFIX,cleansite.info
@@ -1397,7 +1396,6 @@ payload:
 - DOMAIN-SUFFIX,dockerhub.com
 - DOMAIN-SUFFIX,dockerstatus.com
 - DOMAIN-SUFFIX,docs.cfw.lbyczf.com
-- DOMAIN-SUFFIX,docs.new
 - DOMAIN-SUFFIX,doctorvoice.org
 - DOMAIN-SUFFIX,documentingreality.com
 - DOMAIN-SUFFIX,dogfartnetwork.com
@@ -1754,7 +1752,6 @@ payload:
 - DOMAIN-SUFFIX,fawanghuihui.org
 - DOMAIN-SUFFIX,faydao.com
 - DOMAIN-SUFFIX,faz.net
-- DOMAIN-SUFFIX,fb.watch
 - DOMAIN-SUFFIX,fc2.com
 - DOMAIN-SUFFIX,fc2blog.net
 - DOMAIN-SUFFIX,fc2china.com
@@ -2880,7 +2877,6 @@ payload:
 - DOMAIN-SUFFIX,jkb.cc
 - DOMAIN-SUFFIX,jkforum.net
 - DOMAIN-SUFFIX,jkub.com
-- DOMAIN-SUFFIX,jma.go.jp
 - DOMAIN-SUFFIX,jmscult.com
 - DOMAIN-SUFFIX,joachims.org
 - DOMAIN-SUFFIX,jobso.tv
@@ -3758,7 +3754,6 @@ payload:
 - DOMAIN-SUFFIX,nowtorrents.com
 - DOMAIN-SUFFIX,noxinfluencer.com
 - DOMAIN-SUFFIX,noypf.com
-- DOMAIN-SUFFIX,npa.go.jp
 - DOMAIN-SUFFIX,npnt.me
 - DOMAIN-SUFFIX,nps.gov
 - DOMAIN-SUFFIX,npsboost.com
@@ -3834,7 +3829,6 @@ payload:
 - DOMAIN-SUFFIX,ocry.com
 - DOMAIN-SUFFIX,ocsp.int-x3.letsencrypt.org
 - DOMAIN-SUFFIX,october-review.org
-- DOMAIN-SUFFIX,octocaptcha.com
 - DOMAIN-SUFFIX,odysee.com
 - DOMAIN-SUFFIX,oex.com
 - DOMAIN-SUFFIX,offbeatchina.com
@@ -4118,6 +4112,7 @@ payload:
 - DOMAIN-SUFFIX,pixnet.in
 - DOMAIN-SUFFIX,pixnet.net
 - DOMAIN-SUFFIX,pk.com
+- DOMAIN-SUFFIX,pki.goog
 - DOMAIN-SUFFIX,pkqjiasu.com
 - DOMAIN-SUFFIX,pkuanvil.com
 - DOMAIN-SUFFIX,placemix.com
@@ -4618,7 +4613,6 @@ payload:
 - DOMAIN-SUFFIX,sharpdaily.hk
 - DOMAIN-SUFFIX,shat-tibet.com
 - DOMAIN-SUFFIX,sheet.new
-- DOMAIN-SUFFIX,sheets.new
 - DOMAIN-SUFFIX,sheikyermami.com
 - DOMAIN-SUFFIX,shellfire.de
 - DOMAIN-SUFFIX,shemalez.com
@@ -4719,7 +4713,6 @@ payload:
 - DOMAIN-SUFFIX,slheng.com
 - DOMAIN-SUFFIX,slickvpn.com
 - DOMAIN-SUFFIX,slides.com
-- DOMAIN-SUFFIX,slides.new
 - DOMAIN-SUFFIX,slideshare.net
 - DOMAIN-SUFFIX,slime.com.tw
 - DOMAIN-SUFFIX,slinkset.com
@@ -5261,7 +5254,6 @@ payload:
 - DOMAIN-SUFFIX,tibetwrites.org
 - DOMAIN-SUFFIX,ticket.com.tw
 - DOMAIN-SUFFIX,tigervpn.com
-- DOMAIN-SUFFIX,tiktokcdn-eu.com
 - DOMAIN-SUFFIX,timdir.com
 - DOMAIN-SUFFIX,time.com
 - DOMAIN-SUFFIX,timeinc.net
@@ -5380,7 +5372,6 @@ payload:
 - DOMAIN-SUFFIX,tt1069.com
 - DOMAIN-SUFFIX,tttan.com
 - DOMAIN-SUFFIX,ttv.com.tw
-- DOMAIN-SUFFIX,ttwstatic.com
 - DOMAIN-SUFFIX,tu8964.com
 - DOMAIN-SUFFIX,tubaholic.com
 - DOMAIN-SUFFIX,tube.com
@@ -5924,7 +5915,6 @@ payload:
 - DOMAIN-SUFFIX,wforum.com
 - DOMAIN-SUFFIX,wha.la
 - DOMAIN-SUFFIX,whatblocked.com
-- DOMAIN-SUFFIX,whats.new
 - DOMAIN-SUFFIX,whatsonweibo.com
 - DOMAIN-SUFFIX,wheatseeds.org
 - DOMAIN-SUFFIX,wheelockslatin.com
@@ -6388,11 +6378,14 @@ payload:
 - IP-CIDR,125.6.146.0/24
 - IP-CIDR,125.6.149.0/24
 - IP-CIDR,125.6.190.0/24
+- IP-CIDR,13.35.0.0/17
 - IP-CIDR,14.102.250.18/31
 - IP-CIDR,147.92.128.0/17
 - IP-CIDR,174.142.105.153/32
 - IP-CIDR,174.37.0.0/16
 - IP-CIDR,179.60.192.0/22
+- IP-CIDR,18.208.0.0/13
+- IP-CIDR,18.232.0.0/14
 - IP-CIDR,180.163.150.162/32
 - IP-CIDR,180.163.150.34/32
 - IP-CIDR,180.163.151.162/32
@@ -6415,6 +6408,15 @@ payload:
 - IP-CIDR,27.0.236.0/22
 - IP-CIDR,31.13.24.0/21
 - IP-CIDR,45.64.40.0/22
+- IP-CIDR,52.200.0.0/13
+- IP-CIDR,52.58.0.0/15
+- IP-CIDR,52.74.0.0/16
+- IP-CIDR,52.77.0.0/16
+- IP-CIDR,52.84.0.0/15
+- IP-CIDR,54.156.0.0/14
+- IP-CIDR,54.226.0.0/15
+- IP-CIDR,54.230.156.0/22
+- IP-CIDR,54.93.0.0/16
 - IP-CIDR,66.220.144.0/20
 - IP-CIDR,67.220.91.15/32
 - IP-CIDR,67.220.91.18/32
@@ -6427,4 +6429,5 @@ payload:
 - IP-CIDR,74.86.0.0/16
 - IP-CIDR,75.126.0.0/16
 - IP-CIDR,91.105.192.0/23
+- IP-CIDR6,2001:b28:f23d::/48
 - IP-CIDR6,2a0a:f280::/32

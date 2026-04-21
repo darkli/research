@@ -25,6 +25,7 @@ payload:
 - DOMAIN-SUFFIX,twvid.com
 - DOMAIN-SUFFIX,vine.co
 - DOMAIN-SUFFIX,x.com
+- DOMAIN-SUFFIX,twitter.map.fastly.net
 - DOMAIN-KEYWORD,twitter
 - IP-CIDR,192.133.76.0/22
 - IP-CIDR,199.59.148.0/22

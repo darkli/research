@@ -1,7 +1,6 @@
 payload:
 - DOMAIN,e13252.dscg.akamaiedge.net
 - DOMAIN,h-netflix.online-metrix.net
-- DOMAIN,netflix.com.edgesuite.net
 - DOMAIN-SUFFIX,cookielaw.org
 - DOMAIN-SUFFIX,fast.com
 - DOMAIN-SUFFIX,flxvpn.net
@@ -36,6 +35,10 @@ payload:
 - DOMAIN-KEYWORD,dualstack.apiproxy-
 - DOMAIN-KEYWORD,dualstack.ichnaea-web-
 - DOMAIN-KEYWORD,netflixdnstest
+- DOMAIN-REGEX,(^|\.)apiproxy-device-prod-nlb-.+\.amazonaws\.com$
+- DOMAIN-REGEX,(^|\.)apiproxy-website-nlb-prod-.+\.amazonaws\.com$
+- DOMAIN-REGEX,(^|\.)dualstack\.apiproxy-.+\.amazonaws\.com$
+- DOMAIN-REGEX,(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com$
 - IP-CIDR,103.87.204.0/22
 - IP-CIDR,107.23.255.0/26
 - IP-CIDR,108.128.160.0/23

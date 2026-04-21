@@ -17,7 +17,6 @@ payload:
   # 战略级规则：捕获所有依据 3GPP 标准解析的英国(MCC234) ePDG 流量
   - DOMAIN-KEYWORD,mcc234
   - DOMAIN-SUFFIX,3gppnetwork.org
-  - DOMAIN-SUFFIX,pub.3gppnetwork.org
 
   # ==========================================
   # 🔴 阶段 3: 各运营商定制化路由 (Media Plane & Entitlement)
@@ -38,9 +37,7 @@ payload:
   # ==========================================
   # 域名
   - DOMAIN-SUFFIX,ee.co.uk
-  - DOMAIN-SUFFIX,ct.ee.co.uk                     # CTE 鉴权与企业端点
   - DOMAIN-SUFFIX,bt.com
-  - DOMAIN-SUFFIX,entitlement.ee.co.uk
   # IP段 (AS2856 - BT/EE 核心网)
   # 31.94.x.x 是目前 EE VoWiFi 的主要出口
   - IP-CIDR,31.94.0.0/16,no-resolve

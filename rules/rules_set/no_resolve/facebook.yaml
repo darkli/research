@@ -543,8 +543,14 @@ payload:
 - DOMAIN-SUFFIX,yogalayout.com
 - DOMAIN-SUFFIX,zuckerberg.com
 - DOMAIN-SUFFIX,zuckerberg.net
+- DOMAIN-SUFFIX,bintray.com
+- DOMAIN-SUFFIX,fb.gg
+- DOMAIN-SUFFIX,fb.watch
+- DOMAIN-SUFFIX,fbwat.ch
 - DOMAIN-KEYWORD,facebook
 - DOMAIN-KEYWORD,fbcdn
+- DOMAIN-KEYWORD,whatsapp
+- DOMAIN-KEYWORD,instagram
 - IP-CIDR,108.168.176.192/26,no-resolve
 - IP-CIDR,108.168.177.0/27,no-resolve
 - IP-CIDR,108.168.180.96/27,no-resolve
@@ -568,10 +574,6 @@ payload:
 - IP-CIDR,54.173.34.141/32,no-resolve
 - IP-CIDR,54.235.23.242/32,no-resolve
 - IP-CIDR,54.93.124.31/32,no-resolve
-- IP-ASN,32934,no-resolve
-- DOMAIN,graph.facebook.com
-- DOMAIN-SUFFIX,bintray.com
-- DOMAIN-KEYWORD,whatsapp
 - IP-CIDR,158.85.224.160/27,no-resolve
 - IP-CIDR,158.85.46.128/27,no-resolve
 - IP-CIDR,158.85.5.192/27,no-resolve
@@ -583,4 +585,4 @@ payload:
 - IP-CIDR,34.224.0.0/12,no-resolve
 - IP-CIDR,50.22.198.204/30,no-resolve
 - IP-CIDR,54.242.0.0/15,no-resolve
-- DOMAIN-KEYWORD,instagram
+- IP-ASN,32934,no-resolve

@@ -1,8 +1,15 @@
 import os
 import sys
+import time
 from pathlib import Path
 
 import yaml
+
+try:
+    from yaml import CSafeDumper as SafeDumper
+    from yaml import CSafeLoader as SafeLoader
+except ImportError:
+    from yaml import SafeDumper, SafeLoader
 
 
 RULES_SET_DIR = Path("./rules/rules_set")
@@ -13,10 +20,18 @@ class RuleWeightingError(Exception):
     """Raised when proxy rule weighting cannot complete safely."""
 
 
+def yaml_load(stream):
+    return yaml.load(stream, Loader=SafeLoader)
+
+
+def yaml_dump(data, stream):
+    yaml.dump(data, stream, Dumper=SafeDumper, allow_unicode=True, sort_keys=False, default_flow_style=False)
+
+
 def load_yaml_file(file_path):
     with file_path.open("r", encoding="utf-8") as f:
         try:
-            data = yaml.safe_load(f)
+            data = yaml_load(f)
         except yaml.YAMLError as exc:
             raise RuleWeightingError(f"Invalid YAML in {file_path}: {exc}") from exc
     return data
@@ -25,11 +40,44 @@ def load_yaml_file(file_path):
 def write_yaml_file(file_path, data):
     temp_path = file_path.with_name(f".{file_path.name}.tmp")
     with temp_path.open("w", encoding="utf-8") as f:
-        yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+        yaml_dump(data, f)
     temp_path.replace(file_path)
 
 
+def load_payload_file_fast(file_path):
+    payload = []
+    payload_started = False
+
+    with file_path.open("r", encoding="utf-8") as f:
+        for raw_line in f:
+            stripped = raw_line.strip()
+            if not stripped or stripped.startswith("#"):
+                continue
+            if not payload_started:
+                if stripped == "payload:":
+                    payload_started = True
+                    continue
+                return None
+            if not stripped.startswith("- "):
+                return None
+
+            value = stripped[2:].strip()
+            if not value:
+                return None
+            if value[0] in {"'", '"'} or "#" in value or value in {"[]", "{}"}:
+                return None
+            payload.append(value)
+
+    if not payload_started:
+        return None
+    return payload
+
+
 def load_payload_file(file_path):
+    fast_payload = load_payload_file_fast(file_path)
+    if fast_payload is not None:
+        return fast_payload
+
     data = load_yaml_file(file_path)
     if not isinstance(data, dict):
         raise RuleWeightingError(f"Rule file is not a mapping: {file_path}")
@@ -78,6 +126,7 @@ def iter_rules_dirs(rules_set_dir):
 
 
 def main():
+    started_at = time.perf_counter()
     if not RULES_SET_DIR.exists():
         print(f"Rule weighting failed: directory does not exist: {RULES_SET_DIR}", file=sys.stderr)
         return 1
@@ -105,6 +154,7 @@ def main():
             f"Weighted {result['file']}: "
             f"original={result['original']}, filtered={result['filtered']}, removed={result['removed']}"
         )
+    print(f"Rule weighting complete in {time.perf_counter() - started_at:.2f}s")
     return 0
 
 
