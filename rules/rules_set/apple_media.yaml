@@ -1,12 +1,11 @@
 payload:
-- DOMAIN,aod-ssl.itunes.apple.com
 - DOMAIN,gspe1-ssl.ls.apple.com
 - DOMAIN,news-client-search.apple.com
 - DOMAIN,apps.apple.com
-- DOMAIN,itunes.apple.com
 - DOMAIN,apple-tv-plus-press.apple.com
-- DOMAIN,np-edge.itunes.apple.com
-- DOMAIN,uts-api.itunes.apple.com
+- DOMAIN,iosapps.itunes.g.aaplimg.com
+- DOMAIN,itunesconnect.apple.com
+- DOMAIN,osxapps.itunes.g.aaplimg.com
 - DOMAIN-SUFFIX,appledaily.com
 - DOMAIN-SUFFIX,appledaily.com.hk
 - DOMAIN-SUFFIX,appledaily.com.tw
@@ -39,7 +38,6 @@ payload:
 - DOMAIN-SUFFIX,sharpdaily.tw
 - DOMAIN-SUFFIX,tomonews.net
 - DOMAIN-SUFFIX,twnextdigital.com
-- DOMAIN-SUFFIX,aod.itunes.apple.com
 - DOMAIN-SUFFIX,apple.comscoreresearch.com
 - DOMAIN-SUFFIX,apple.news
 - DOMAIN-SUFFIX,appleenews.com
@@ -61,11 +59,7 @@ payload:
 - DOMAIN-SUFFIX,appletv4.cn
 - DOMAIN-SUFFIX,appletv4.com.cn
 - DOMAIN-SUFFIX,appletvapp.apple
-- DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
-- DOMAIN-SUFFIX,audio.itunes.apple.com
 - DOMAIN-SUFFIX,blobstore.apple.com
-- DOMAIN-SUFFIX,hls-amt.itunes.apple.com
-- DOMAIN-SUFFIX,hls.itunes.apple.com
 - DOMAIN-SUFFIX,i-book.com
 - DOMAIN-SUFFIX,i-book.net
 - DOMAIN-SUFFIX,ibook.co.nz
@@ -82,13 +76,10 @@ payload:
 - DOMAIN-SUFFIX,iphoto.se
 - DOMAIN-SUFFIX,iphoto.wang
 - DOMAIN-SUFFIX,musickit.net
-- DOMAIN-SUFFIX,mvod.itunes.apple.com
 - DOMAIN-SUFFIX,news-assets.apple.com
 - DOMAIN-SUFFIX,news-client.apple.com
 - DOMAIN-SUFFIX,news-edge.apple.com
 - DOMAIN-SUFFIX,news-events.apple.com
-- DOMAIN-SUFFIX,play-edge.itunes.apple.com
-- DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
 - DOMAIN-SUFFIX,tv.apple.com
 - DOMAIN-SUFFIX,wwwapplemusic.com
 - DOMAIN-SUFFIX,music.apple.com
@@ -113,7 +104,6 @@ payload:
 - DOMAIN-SUFFIX,itunbes.com
 - DOMAIN-SUFFIX,ituneas.com
 - DOMAIN-SUFFIX,itunes-apple.cn
-- DOMAIN-SUFFIX,itunes-apple.com.akadns.net
 - DOMAIN-SUFFIX,itunes-radio.net
 - DOMAIN-SUFFIX,itunes.ca
 - DOMAIN-SUFFIX,itunes.co
@@ -144,4 +134,6 @@ payload:
 - DOMAIN-SUFFIX,itunesu.net
 - DOMAIN-SUFFIX,iutunes.com
 - DOMAIN-SUFFIX,wwwitunes.com
+- DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+- DOMAIN-SUFFIX,itunes.apple.com
 - PROCESS-NAME,Music

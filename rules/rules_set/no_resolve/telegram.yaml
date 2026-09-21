@@ -25,6 +25,7 @@ payload:
 - DOMAIN-SUFFIX,usercontent.dev
 - DOMAIN-SUFFIX,fragment.com
 - DOMAIN-SUFFIX,ton.org
+- DOMAIN-SUFFIX,toncenter.com
 - DOMAIN-KEYWORD,nicegram
 - IP-CIDR,109.239.140.0/24,no-resolve
 - IP-CIDR,139.59.210.98/32,no-resolve

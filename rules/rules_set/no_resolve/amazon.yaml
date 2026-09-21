@@ -206,6 +206,7 @@ payload:
 - DOMAIN-SUFFIX,amazonaws.org
 - DOMAIN-SUFFIX,amazoncognito.com
 - DOMAIN-SUFFIX,amazonses.com
+- DOMAIN-SUFFIX,amazonwebservices.com
 - DOMAIN-SUFFIX,aws.com
 - DOMAIN-SUFFIX,aws.dev
 - DOMAIN-SUFFIX,awsapprunner.com
@@ -219,6 +220,7 @@ payload:
 - DOMAIN-SUFFIX,amzndns.org
 - DOMAIN-SUFFIX,a2z.org.cn
 - DOMAIN-SUFFIX,amazonaws.cn
+- DOMAIN-SUFFIX,amazonwebservices.cn
 - DOMAIN-SUFFIX,amazonwebservices.com.cn
 - DOMAIN-SUFFIX,asfiovnxocqpcry.com.cn
 - DOMAIN-SUFFIX,aws-border.cn

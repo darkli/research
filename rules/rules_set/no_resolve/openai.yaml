@@ -5,6 +5,8 @@ payload:
 - DOMAIN,openaicomproductionae4b.blob.core.windows.net
 - DOMAIN,production-openaicom-storage.azureedge.net
 - DOMAIN,static.cloudflareinsights.com
+- DOMAIN,openaiassets.blob.core.windows.net
+- DOMAIN,openai.qualtrics.com
 - DOMAIN-SUFFIX,ai.com
 - DOMAIN-SUFFIX,algolia.net
 - DOMAIN-SUFFIX,api.statsig.com
@@ -30,7 +32,9 @@ payload:
 - DOMAIN-SUFFIX,stripe.com
 - DOMAIN-SUFFIX,turn.livekit.cloud
 - DOMAIN-SUFFIX,chat.com
+- DOMAIN-SUFFIX,chatgpt.site
 - DOMAIN-SUFFIX,crixet.com
+- DOMAIN-SUFFIX,oaistatsig.com
 - DOMAIN-SUFFIX,sora.com
 - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 - DOMAIN-KEYWORD,openai

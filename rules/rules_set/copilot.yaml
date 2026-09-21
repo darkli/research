@@ -19,6 +19,11 @@ payload:
 - DOMAIN,static.cloudflareinsights.com
 - DOMAIN,sydney.bing.com
 - DOMAIN,www.bing.com
+- DOMAIN,copilot-proxy.githubusercontent.com
+- DOMAIN,copilot-workspace.githubnext.com
+- DOMAIN,copilotprodattachments.blob.core.windows.net
+- DOMAIN,copilot-telemetry-service.githubusercontent.com
+- DOMAIN,copilot-telemetry.githubusercontent.com
 - DOMAIN-SUFFIX,algolia.net
 - DOMAIN-SUFFIX,api.microsoftapp.net
 - DOMAIN-SUFFIX,auth0.com

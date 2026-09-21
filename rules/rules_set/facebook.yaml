@@ -547,6 +547,7 @@ payload:
 - DOMAIN-SUFFIX,fb.gg
 - DOMAIN-SUFFIX,fb.watch
 - DOMAIN-SUFFIX,fbwat.ch
+- DOMAIN-SUFFIX,tfbnw.net
 - DOMAIN-KEYWORD,facebook
 - DOMAIN-KEYWORD,fbcdn
 - DOMAIN-KEYWORD,whatsapp
