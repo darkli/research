@@ -819,6 +819,7 @@ payload:
 - DOMAIN-SUFFIX,c-span.org
 - DOMAIN-SUFFIX,c-spanvideo.org
 - DOMAIN-SUFFIX,c.gle
+- DOMAIN-SUFFIX,c.go-mpulse.net
 - DOMAIN-SUFFIX,c.mi.com
 - DOMAIN-SUFFIX,c100tibet.org
 - DOMAIN-SUFFIX,c2cx.com
@@ -1039,6 +1040,7 @@ payload:
 - DOMAIN-SUFFIX,chinesen.de
 - DOMAIN-SUFFIX,chinesenews.net.au
 - DOMAIN-SUFFIX,chinesepen.org
+- DOMAIN-SUFFIX,chineseposters.net
 - DOMAIN-SUFFIX,chineseradioseattle.com
 - DOMAIN-SUFFIX,chinesetalks.net
 - DOMAIN-SUFFIX,chineseupress.com
@@ -2059,6 +2061,7 @@ payload:
 - DOMAIN-SUFFIX,fututrustee.com
 - DOMAIN-SUFFIX,fux.com
 - DOMAIN-SUFFIX,fuyin.net
+- DOMAIN-SUFFIX,fuyin116.com
 - DOMAIN-SUFFIX,fuyindiantai.org
 - DOMAIN-SUFFIX,fuyu.org.tw
 - DOMAIN-SUFFIX,fw.cm
@@ -3615,6 +3618,7 @@ payload:
 - DOMAIN-SUFFIX,multiupload.com
 - DOMAIN-SUFFIX,mummysgold.com
 - DOMAIN-SUFFIX,murmur.tw
+- DOMAIN-SUFFIX,muse.ai
 - DOMAIN-SUFFIX,musicade.net
 - DOMAIN-SUFFIX,musixmatch.com
 - DOMAIN-SUFFIX,muslimvideo.com
@@ -3856,6 +3860,7 @@ payload:
 - DOMAIN-SUFFIX,nordstromrack.com
 - DOMAIN-SUFFIX,nordvpn.com
 - DOMAIN-SUFFIX,nos.nl
+- DOMAIN-SUFFIX,note.com
 - DOMAIN-SUFFIX,notepad-plus-plus.org
 - DOMAIN-SUFFIX,notion.so
 - DOMAIN-SUFFIX,nottinghampost.com
@@ -4410,6 +4415,7 @@ payload:
 - DOMAIN-SUFFIX,qiwen.lu
 - DOMAIN-SUFFIX,qkshare.com
 - DOMAIN-SUFFIX,qmp4.com
+- DOMAIN-SUFFIX,qobuz.com
 - DOMAIN-SUFFIX,qoos.com
 - DOMAIN-SUFFIX,qpoe.com
 - DOMAIN-SUFFIX,qq.co.za
@@ -5843,6 +5849,7 @@ payload:
 - DOMAIN-SUFFIX,vansky.com
 - DOMAIN-SUFFIX,vaticannews.va
 - DOMAIN-SUFFIX,vatn.org
+- DOMAIN-SUFFIX,vava8.com
 - DOMAIN-SUFFIX,vbstatic.co
 - DOMAIN-SUFFIX,vcf-online.org
 - DOMAIN-SUFFIX,vcfbuilder.org
@@ -5996,6 +6003,7 @@ payload:
 - DOMAIN-SUFFIX,waiwaier.com
 - DOMAIN-SUFFIX,walletconnect.com
 - DOMAIN-SUFFIX,walletconnect.org
+- DOMAIN-SUFFIX,wallhaven.cc
 - DOMAIN-SUFFIX,wallmama.com
 - DOMAIN-SUFFIX,wallornot.org
 - DOMAIN-SUFFIX,wallpapercasa.com
@@ -6108,6 +6116,7 @@ payload:
 - DOMAIN-SUFFIX,wikia.com
 - DOMAIN-SUFFIX,wikibooks.org
 - DOMAIN-SUFFIX,wikidata.org
+- DOMAIN-SUFFIX,wikifunctions.org
 - DOMAIN-SUFFIX,wikileaks-forum.com
 - DOMAIN-SUFFIX,wikileaks.ch
 - DOMAIN-SUFFIX,wikileaks.com
@@ -6120,12 +6129,14 @@ payload:
 - DOMAIN-SUFFIX,wikilivres.info
 - DOMAIN-SUFFIX,wikimapia.org
 - DOMAIN-SUFFIX,wikimedia.org
+- DOMAIN-SUFFIX,wikimediafoundation.org
 - DOMAIN-SUFFIX,wikinews.org
 - DOMAIN-SUFFIX,wikipedia.com
 - DOMAIN-SUFFIX,wikipedia.org
 - DOMAIN-SUFFIX,wikiquote.org
 - DOMAIN-SUFFIX,wikis.tw
 - DOMAIN-SUFFIX,wikisource.org
+- DOMAIN-SUFFIX,wikispecies.org
 - DOMAIN-SUFFIX,wikiunblocked.org
 - DOMAIN-SUFFIX,wikiversity.org
 - DOMAIN-SUFFIX,wikivoyage.org
@@ -6563,9 +6574,12 @@ payload:
 - IP-CIDR,125.6.146.0/24,no-resolve
 - IP-CIDR,125.6.149.0/24,no-resolve
 - IP-CIDR,125.6.190.0/24,no-resolve
+- IP-CIDR,13.251.24.0/24,no-resolve
+- IP-CIDR,13.251.41.0/24,no-resolve
 - IP-CIDR,13.35.0.0/17,no-resolve
 - IP-CIDR,14.102.250.18/31,no-resolve
 - IP-CIDR,147.92.128.0/17,no-resolve
+- IP-CIDR,17.252.156.0/23,no-resolve
 - IP-CIDR,174.142.105.153/32,no-resolve
 - IP-CIDR,174.37.0.0/16,no-resolve
 - IP-CIDR,179.60.192.0/22,no-resolve

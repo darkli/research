@@ -3,6 +3,8 @@ payload:
 - DOMAIN,alkalimakersuite-pa.clients6.google.com
 - DOMAIN,alkalicore-pa.clients6.google.com
 - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+- DOMAIN,geminiweb-pa.clients.google.com
+- DOMAIN,geminiweb-pa.clients6.google.com
 - DOMAIN,cloudaicompanion.googleapis.com
 - DOMAIN,cloudcode-pa.googleapis.com
 - DOMAIN,daily-cloudcode-pa.googleapis.com
@@ -25,6 +27,7 @@ payload:
 - DOMAIN-SUFFIX,aistudio.google.com
 - DOMAIN-SUFFIX,gemini.google
 - DOMAIN-SUFFIX,gemini.gstatic.com
+- DOMAIN-SUFFIX,labstailwind.pa.googleapis.com
 - DOMAIN-SUFFIX,notebook.google
 - DOMAIN-SUFFIX,notebook.google.com
 - DOMAIN-SUFFIX,notebooklm.google
