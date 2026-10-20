@@ -35,6 +35,7 @@ payload:
 - DOMAIN-SUFFIX,chatgpt.site
 - DOMAIN-SUFFIX,crixet.com
 - DOMAIN-SUFFIX,oaistatsig.com
+- DOMAIN-SUFFIX,openai.org
 - DOMAIN-SUFFIX,sora.com
 - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 - DOMAIN-KEYWORD,openai
