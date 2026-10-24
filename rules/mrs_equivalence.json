@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "match",
+    "policy",
+    "DNS queries",
+    "process lookup",
+    "resulting IP",
+    "ASN metadata",
+    "TCP/UDP",
+    "CIDR boundaries",
+    "IPv4-mapped IPv6"
+  ],
+  "classical_files": 61,
+  "comparisons": 40856,
+  "manifest_sha256": "661d3c740e47f086bba5d314c944081272fc70a1d1657a4d6b409ede517d7b1a",
+  "mihomo": "v1.19.33",
+  "result": "passed",
+  "snapshot": "2b766b32f7a777159b3d3f28"
+}

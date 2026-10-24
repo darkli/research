@@ -121,7 +121,8 @@ def build_proxy_update(rules_dir, proxy_name):
 
 def iter_rules_dirs(rules_set_dir):
     for dirpath, dirnames, _ in os.walk(rules_set_dir):
-        dirnames.sort()
+        # Immutable compiled bundles are outputs, never classical weighting inputs.
+        dirnames[:] = sorted(name for name in dirnames if not (Path(dirpath) == rules_set_dir and name == "mrs"))
         yield Path(dirpath)
 
 

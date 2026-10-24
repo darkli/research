@@ -16,6 +16,7 @@
 .
 ├── 01.merge_rules.py          # 从 source 下载、合并并生成 rules 目录内容
 ├── 02.rule_weighting.py       # 对 proxy.yaml 做去重/权重整理的辅助脚本
+├── 03.generate_mrs.py         # 从现有 classical 派生并校验 MRS 输出
 ├── source/                    # 规则源配置
 │   ├── *.yaml                 # 普通规则源
 │   └── no_resolve/            # no-resolve 规则源
@@ -144,6 +145,7 @@ pip install pyyaml requests
 ```bash
 python 01.merge_rules.py
 python 02.rule_weighting.py
+python 03.generate_mrs.py --mihomo /path/to/mihomo
 ```
 
 `01.merge_rules.py` 会执行以下操作：
@@ -172,6 +174,44 @@ RULE_DOWNLOAD_WORKERS=12 python 01.merge_rules.py
 
 如果 GitHub raw 下载失败，脚本会先重试，并在前几次失败后尝试使用 jsDelivr 作为 raw 文件 fallback。生成日志中的 `Download recovered` 表示该 URL 已经通过后续重试或 fallback 成功恢复。
 
+## MRS 输出与无损迁移
+
+`03.generate_mrs.py` 只读取已经生成的 classical 文件，不下载上游，也不修改 `source`、现有 classical payload 或手工规则。可单独运行，为当前规则生成 MRS；正常更新时放在合并、权重整理之后。需提供支持 MRS 双向转换的官方 Mihomo，本次验证版本为 v1.19.33：
+
+```bash
+MIHOMO_BIN=/path/to/mihomo python 03.generate_mrs.py
+```
+
+输出包括：
+
+- `rules/rules_set/mrs/<snapshot>/`：不可变版本的 domain/ipcidr MRS 和必要的 classical 分段。
+- `rules/rules_mrs.yaml`、`rules/rules_mrs_no_resolve.yaml`：物理 provider 索引。
+- `rules/rule_groups_mrs.yaml`、`rules/rule_groups_mrs_no_resolve.yaml`：有顺序的逻辑分组元数据，需由订阅生成器消费，并非可直接追加到 Mihomo 根配置的字段。
+- `rules/rule_providers_mrs.conf`、`rules/rule_providers_mrs_no_resolve.conf`：配套 Bash 订阅配置，保留原服务名称；no-resolve 配置还包含三个手工规则集，保持各自原有参数。
+- `rules/mrs_manifest.json`：输入 SHA-256、分段计数、产物 SHA-256、转换器版本和全量回转校验证据。
+
+规则沿原有 DNS/IP/进程等副作用边界分段。精确域名和域名后缀转换为 domain MRS，普通目标 CIDR 转为 ipcidr MRS；关键词、正则、ASN、进程、源地址规则、特殊字面量保留 classical。IPv4 映射的 IPv6 CIDR 必须保留 classical，避免 IP 集合编译时将它转换成 IPv4，扩大原匹配范围。不能只根据文件名给整个集合统一添加或删除 `no-resolve`。
+
+最新版 Mihomo 的 domain 集合会折叠查询域名的大小写，classical 的 DOMAIN/DOMAIN-SUFFIX 则依赖大小写。为严格兼容，域名块进一步按精确域名和后缀长度分区，引用时添加 `case-exact` / `case-suffix-N` 条件：精确匹配要求全域名保持原小写 ASCII；后缀匹配只约束实际匹配的后缀，仍允许前缀子域包含大写或 Unicode。这些是订阅生成器的内部兼容标记，不是原生 RULE-SET 参数。不能删除这些条件，因此每个服务不一定恰好输出三个文件。
+
+同一逻辑规则的各分段由一条有序、短路的 OR 引用，target 和顶层绑定位置保持不变。纯域名块内部只重组无副作用的匹配条件，不能把不同服务的域名或 IP 全部跨组重排。完整 classical 输出继续兼容旧客户端；选择 MRS 的配置不要同时加载旧大集合。原来的手工文件也保持字节不变，只新增派生输出。
+
+生成器逐条核对分配，并用官方转换器将每个 MRS 回转成文本，验证域名/网段覆盖双向相等。检查的是覆盖集合，不是压缩后行数。未知类型、无效参数、转换告警或覆盖差异都会使构建失败，不发布新清单。全部产物通过后才发布不可变快照，清单最后替换；旧快照不自动清理。生成的订阅配置引用同一快照，避免客户端刷新时混用不同批次的分段。
+
+要迁移另一个项目的订阅，需要同步支持 `name|type|behavior|path|interval[|format]` 和 `CLASH_RULE_GROUPS`，再使用生成的完整配置。本机 vps-configuration 保留原 `modules/subscription/rule_providers.conf`，另存 `modules/subscription/rule_providers.mrs.conf`。通过 `RULE_PROVIDERS_FILE=/absolute/path/to/rule_providers.mrs.conf` 显式选择新配置；不指定时仍沿用旧配置。配套生成器保持 profile 的逻辑名称和策略绑定，不需要批量重写 profile。应先将对应规则快照发布到远程，再生成/部署引用它的订阅；本地新增文件并不表示远程地址已经可用。后续规则更新后，需同步新快照的公共引用配置。旧规则源地址仍可用于回退。
+
+### 等价性验证
+
+```bash
+MIHOMO_BIN=/path/to/mihomo python -m unittest discover -s tests -v
+cd tests/native
+MRS_NATIVE_REPORT=../../rules/mrs_equivalence.json go test -count=1 -v ./...
+```
+
+原生测试固定使用 Mihomo v1.19.33 的规则实现及离线 ASN 测试数据库，读取全部当前 classical 和 MRS，比较命中、target、实际 DNS 解析次数、进程查询、结果 IP/ASN；覆盖 TCP/UDP、CIDR 边界、映射地址、大小写和 Unicode 域名等情况。Go 依赖首次准备需要网络，后续可离线运行。原生报告带快照和清单校验值，不能沿用不同快照的旧报告。路由器实际 CPU/内存收益仍需在相同负载下测量，不能将文件体积降幅当成内存降幅。
+
+本次迁移以现有 payload 为基线；上游补漏、删除 china_direct、改变分类边界等内容变化应单独处理。
+
 ## 手工维护规则
 
 部分规则不是由 `source` 自动生成，而是手工维护，例如：
@@ -199,6 +239,7 @@ RULE_DOWNLOAD_WORKERS=12 python 01.merge_rules.py
 ```bash
 python 01.merge_rules.py
 python 02.rule_weighting.py
+python 03.generate_mrs.py --mihomo /path/to/mihomo
 ```
 
 ## 维护流程
@@ -208,6 +249,7 @@ python 02.rule_weighting.py
 ```bash
 python 01.merge_rules.py
 python 02.rule_weighting.py
+python 03.generate_mrs.py --mihomo /path/to/mihomo
 git diff
 ```
 
