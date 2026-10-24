@@ -1,0 +1,2 @@
+# MRS is a compiled binary format: never normalize line endings or render text diffs.
+*.mrs binary
