@@ -11,9 +11,14 @@
     "IPv4-mapped IPv6"
   ],
   "classical_files": 61,
-  "comparisons": 40856,
-  "manifest_sha256": "c9a9ff0d87bad354bf90e8d30de22eb0a4dd3a49b28cc63764917eddae005b63",
+  "comparisons": 41336,
+  "manifest_sha256": "887f38409f33df631f7fb8b072dd45611b38d5236dfcf629bfeff82dda1aa9fc",
   "mihomo": "v1.19.33",
   "result": "passed",
-  "snapshot": "2b766b32f7a777159b3d3f28"
+  "snapshot": "29dcca285ea27372bb165aa3",
+  "validation_schema": 1,
+  "inputs_sha256": "8590ffaa806c21534ce4c583f5e88bd05ce9792fe874453d011b869a47c7dd22",
+  "artifacts_sha256": "c48ecb434a9289a0ce0bb7fce34cdafb79e96f2a4c4e11396e0190cfe671de16",
+  "rendered_config_sha256": "e5787a007e2f50ee6f5ec0d3a115753f272441d18794892cdec9bd7625c7a025",
+  "rendered_bindings_sha256": "2626b30beb38a91e90f0e6bfc3f76fdc96cc5e083f3393cc4c3aa23961679eaa"
 }

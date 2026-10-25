@@ -40,8 +40,8 @@ advertising:
 - mrs_nr_advertising_039,case-suffix-45
 - mrs_nr_advertising_040,case-suffix-46
 - mrs_nr_advertising_041,case-suffix-42
-- mrs_nr_advertising_042,case-suffix-44
-- mrs_nr_advertising_043,case-suffix-43
+- mrs_nr_advertising_042,case-suffix-43
+- mrs_nr_advertising_043,case-suffix-44
 - mrs_nr_advertising_044,case-suffix-5
 - mrs_nr_advertising_045,case-suffix-52
 - mrs_nr_advertising_046,case-suffix-73
@@ -226,10 +226,16 @@ claude:
 - mrs_nr_claude_002,case-suffix-13
 - mrs_nr_claude_003,case-suffix-9
 - mrs_nr_claude_004,case-suffix-7
-- mrs_nr_claude_005,case-suffix-10
-- mrs_nr_claude_006,case-suffix-19
-- mrs_nr_claude_007,case-suffix-20
-- mrs_nr_claude_008,case-suffix-21
+- mrs_nr_claude_005,case-suffix-14
+- mrs_nr_claude_006,case-suffix-12
+- mrs_nr_claude_007,case-suffix-17
+- mrs_nr_claude_008,case-suffix-10
+- mrs_nr_claude_009,case-suffix-11
+- mrs_nr_claude_010,case-suffix-19
+- mrs_nr_claude_011,case-suffix-20
+- mrs_nr_claude_012,case-suffix-15
+- mrs_nr_claude_013,case-suffix-16
+- mrs_nr_claude_014,case-suffix-21
 copilot:
 - mrs_nr_copilot_001,case-exact
 - mrs_nr_copilot_002,case-suffix-11
