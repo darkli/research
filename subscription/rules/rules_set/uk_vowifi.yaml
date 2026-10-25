@@ -1,0 +1,87 @@
+payload:
+  # ==========================================
+  # 🟢 阶段 1: OS级环境伪装与通用配置 (Geo-Spoofing & Provisioning)
+  # ==========================================
+  # 突破 iOS 定位服务地理围栏，允许开启 Wi-Fi 通话入口
+  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+  # Apple 通用 VoWiFi/VoLTE 权益验证与配置下发
+  - DOMAIN-SUFFIX,entitlement.apple.com
+  - DOMAIN-SUFFIX,iphone-ld.apple.com
+  - DOMAIN-SUFFIX,comm.apple.com
+  # Android 通用运营商配置
+  - DOMAIN-SUFFIX,carrierconfig.android.com
+
+  # ==========================================
+  # 🟢 阶段 2: 3GPP 核心网关自动发现 (Service Discovery)
+  # ==========================================
+  # 战略级规则：捕获所有依据 3GPP 标准解析的英国(MCC234) ePDG 流量
+  - DOMAIN-KEYWORD,mcc234
+  - DOMAIN-SUFFIX,3gppnetwork.org
+
+  # ==========================================
+  # 🔴 阶段 3: 各运营商定制化路由 (Media Plane & Entitlement)
+  # ==========================================
+  
+  # ➡️ Vodafone UK Group (Vodafone, VOXI, Lebara, Talkmobile)
+  - DOMAIN-SUFFIX,vodafone.co.uk
+  - DOMAIN-SUFFIX,entsrv-uk.vodafone.com          # 权益服务器校验
+  - DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com # IDEMIA eSIM 配置文件下载
+  - DOMAIN,vfgb.idemia.io                         # eSIM 远程管理信令
+  - IP-CIDR,88.82.0.0/19,no-resolve               # 核心 ePDG 网关
+  - IP-CIDR,148.252.160.0/19,no-resolve           # 精细化 VOXI/企业 接入段
+  - IP-CIDR,212.183.0.0/19,no-resolve
+
+  # ==========================================
+  # 🟡 EE / BT Group
+  # 包含: EE, BT Mobile, 1pMobile, Lyca Mobile (新版), Utility Warehouse
+  # ==========================================
+  # 域名
+  - DOMAIN-SUFFIX,ee.co.uk
+  - DOMAIN-SUFFIX,bt.com
+  # IP段 (AS2856 - BT/EE 核心网)
+  # 31.94.x.x 是目前 EE VoWiFi 的主要出口
+  - IP-CIDR,31.94.0.0/16,no-resolve
+  # 46.68.x.x 是 EE 的旧版/备用网关
+  - IP-CIDR,46.68.0.0/17,no-resolve
+  # 109.249.x.x 也是 EE 的移动网关段
+  - IP-CIDR,109.249.128.0/17,no-resolve
+
+  # ==========================================
+  # 🔵 O2 UK (Telefonica) Group
+  # 包含: O2, Giffgaff, Tesco Mobile
+  # ==========================================
+  # 域名
+  - DOMAIN-SUFFIX,o2.co.uk
+  - DOMAIN-SUFFIX,telefonica.co.uk
+  - DOMAIN-SUFFIX,giffgaff.com
+  # IP段 (AS13285 - TalkTalk/O2 Gateway & AS29180)
+  # O2 的 ePDG 经常解析到 87.194.x.x
+  - IP-CIDR,87.194.0.0/16,no-resolve
+  - IP-CIDR,82.132.0.0/16,no-resolve
+  # Tesco Mobile 有时使用特定段
+  - IP-CIDR,193.113.0.0/19,no-resolve
+
+  # ==========================================
+  # 🟣 Sky Mobile (基于 O2 但有独立核心网)
+  # MNC: 57 (注意：Sky 是 Thick MVNO，有自己的网关)
+  # ==========================================
+  # 域名
+  - DOMAIN-SUFFIX,sky.com
+  - DOMAIN-KEYWORD,mnc057
+  # IP段 (AS5607 - Sky UK)
+  # Sky 的 ePDG 通常在 185.110.x.x
+  - IP-CIDR,185.110.176.0/22,no-resolve
+
+  # ==========================================
+  # ⚫ Three UK (Hutchison) Group
+  # 包含: Three, Smarty, iD Mobile
+  # ==========================================
+  # 域名
+  - DOMAIN-SUFFIX,three.co.uk
+  - DOMAIN-SUFFIX,idmobile.co.uk
+  - DOMAIN-SUFFIX,smarty.co.uk
+  # IP段 (AS206067 - H3G UK)
+  # 185.153.237.x 是 Three 的主要 VoWiFi 入口
+  - IP-CIDR,185.153.236.0/22,no-resolve
+  # 188.31.x.x 用于内部 DNS 和信令
+  - IP-CIDR,188.31.248.0/21,no-resolve

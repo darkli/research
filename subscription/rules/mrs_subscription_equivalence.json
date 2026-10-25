@@ -1,0 +1,8 @@
+{
+  "comparisons": 20940,
+  "logical_bindings": 32,
+  "manifest_sha256": "c9a9ff0d87bad354bf90e8d30de22eb0a4dd3a49b28cc63764917eddae005b63",
+  "rendered_config_sha256": "23bbea101cf37b21676c544a58326773293aefe0b2c607f0ec99d061644bf2e4",
+  "result": "passed",
+  "snapshot": "2b766b32f7a777159b3d3f28"
+}
