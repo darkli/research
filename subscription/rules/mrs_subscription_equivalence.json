@@ -3,11 +3,11 @@
   "domain_case": "native_case_insensitive; other classical predicates unchanged",
   "logical_bindings": 32,
   "manifest_sha256": "25192254477e0d1e0b8a631523aa898568f42cc69f27c6439d5f08cb2432a40c",
-  "rendered_config_sha256": "ce22b9af89d90e3073696fe57bfac4e98fc10ce4f86ea55a195d52bf5531b861",
+  "rendered_config_sha256": "336e5e7c21ff6dce3b7f5e6c907f6d7600f0858d1bbc32116c904776caa324df",
   "result": "passed",
   "snapshot": "836530bec980f0621e2f9e0c",
   "validation_schema": 1,
   "artifacts_sha256": "5fe175af40d2ab4f83657fb325eddc2d146eb1fe98b74aefc1d7d8434e031584",
   "rendered_bindings_sha256": "2626b30beb38a91e90f0e6bfc3f76fdc96cc5e083f3393cc4c3aa23961679eaa",
-  "inputs_sha256": "077be4425b474a510a32154d29ab73660ab8a6ebc998a255bf4a89a5301cf977"
+  "inputs_sha256": "0a840e3e4d4d78e0a2cde905b5273d308aa8071c1a0070384e69599d6b11efb5"
 }
