@@ -25,8 +25,9 @@ bing:
 - mrs_nr_bing_001
 china_direct:
 - mrs_nr_china_direct_001
-- mrs_nr_china_direct_002,no-resolve
-- mrs_nr_china_direct_003
+- mrs_nr_china_direct_002
+- mrs_nr_china_direct_003,no-resolve
+- mrs_nr_china_direct_004
 claude:
 - mrs_nr_claude_001
 copilot:

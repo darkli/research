@@ -11,15 +11,16 @@
     "IPv4-mapped IPv6"
   ],
   "classical_files": 61,
-  "comparisons": 41336,
+  "comparisons": 41572,
   "domain_case": "native_case_insensitive; other classical predicates unchanged",
-  "manifest_sha256": "25192254477e0d1e0b8a631523aa898568f42cc69f27c6439d5f08cb2432a40c",
+  "manifest_sha256": "43132d3651ef15f8a6507b28ed7683cd2ec00207b3b87cd57fe0ea7142d061fe",
   "mihomo": "v1.19.33",
   "result": "passed",
-  "snapshot": "836530bec980f0621e2f9e0c",
+  "snapshot": "e3f0b449b749642b77c66403",
   "validation_schema": 1,
-  "artifacts_sha256": "5fe175af40d2ab4f83657fb325eddc2d146eb1fe98b74aefc1d7d8434e031584",
-  "rendered_config_sha256": "336e5e7c21ff6dce3b7f5e6c907f6d7600f0858d1bbc32116c904776caa324df",
+  "artifacts_sha256": "bdcbb4fa9c7d159127541fd171caf3894a71b40a2bf3219bbd9d7e655166b595",
+  "rendered_config_sha256": "272e6bfdd5b0425a5c7d17bb72198798d573da747012cd5a72f8c4157451aa1b",
   "rendered_bindings_sha256": "2626b30beb38a91e90f0e6bfc3f76fdc96cc5e083f3393cc4c3aa23961679eaa",
-  "inputs_sha256": "0a840e3e4d4d78e0a2cde905b5273d308aa8071c1a0070384e69599d6b11efb5"
+  "company_config_sha256": "7d6c14d5ab570bb41bc3fcaabcdba6add2fde8a2358a3944d227e8375f89e7ef",
+  "inputs_sha256": "96645c9ac8bfc8dc88fcdb66e9b4caf6a5309e02f4eb46c84da0ddce043c0abb"
 }
