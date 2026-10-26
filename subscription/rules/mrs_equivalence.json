@@ -12,13 +12,14 @@
   ],
   "classical_files": 61,
   "comparisons": 41336,
-  "manifest_sha256": "887f38409f33df631f7fb8b072dd45611b38d5236dfcf629bfeff82dda1aa9fc",
+  "domain_case": "native_case_insensitive; other classical predicates unchanged",
+  "manifest_sha256": "25192254477e0d1e0b8a631523aa898568f42cc69f27c6439d5f08cb2432a40c",
   "mihomo": "v1.19.33",
   "result": "passed",
-  "snapshot": "29dcca285ea27372bb165aa3",
+  "snapshot": "836530bec980f0621e2f9e0c",
   "validation_schema": 1,
-  "inputs_sha256": "8590ffaa806c21534ce4c583f5e88bd05ce9792fe874453d011b869a47c7dd22",
-  "artifacts_sha256": "c48ecb434a9289a0ce0bb7fce34cdafb79e96f2a4c4e11396e0190cfe671de16",
-  "rendered_config_sha256": "e5787a007e2f50ee6f5ec0d3a115753f272441d18794892cdec9bd7625c7a025",
-  "rendered_bindings_sha256": "2626b30beb38a91e90f0e6bfc3f76fdc96cc5e083f3393cc4c3aa23961679eaa"
+  "artifacts_sha256": "5fe175af40d2ab4f83657fb325eddc2d146eb1fe98b74aefc1d7d8434e031584",
+  "rendered_config_sha256": "ce22b9af89d90e3073696fe57bfac4e98fc10ce4f86ea55a195d52bf5531b861",
+  "rendered_bindings_sha256": "2626b30beb38a91e90f0e6bfc3f76fdc96cc5e083f3393cc4c3aa23961679eaa",
+  "inputs_sha256": "077be4425b474a510a32154d29ab73660ab8a6ebc998a255bf4a89a5301cf977"
 }
