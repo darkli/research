@@ -1,0 +1,4 @@
+payload:
+- DOMAIN-REGEX,^hses[1-7]?\.akamaized\.net$
+- PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
+- PROCESS-NAME,com.disney.disneyplus

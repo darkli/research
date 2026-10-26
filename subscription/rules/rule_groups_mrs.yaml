@@ -30,6 +30,35 @@ china_direct:
 - mrs_n_china_direct_004
 claude:
 - mrs_n_claude_001
+company_anthropic:
+- mrs_n_company_anthropic_001
+company_apple:
+- mrs_n_company_apple_001
+- mrs_n_company_apple_002
+- mrs_n_company_apple_003,no-resolve
+- mrs_n_company_apple_004
+- mrs_n_company_apple_005
+company_google:
+- mrs_n_company_google_001
+- mrs_n_company_google_002
+- mrs_n_company_google_003
+- mrs_n_company_google_004
+company_meta:
+- mrs_n_company_meta_001
+- mrs_n_company_meta_002
+- mrs_n_company_meta_003
+company_microsoft:
+- mrs_n_company_microsoft_001
+- mrs_n_company_microsoft_002
+- mrs_n_company_microsoft_003
+company_openai:
+- mrs_n_company_openai_001
+- mrs_n_company_openai_002
+- mrs_n_company_openai_003
+- mrs_n_company_openai_004
+company_x:
+- mrs_n_company_x_001
+- mrs_n_company_x_002
 copilot:
 - mrs_n_copilot_001
 - mrs_n_copilot_002

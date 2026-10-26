@@ -172,3 +172,45 @@ youtube:
   path: ./rules_set/youtube.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/youtube.yaml
+company_google:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_google.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_google.yaml
+company_openai:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_openai.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_openai.yaml
+company_anthropic:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_anthropic.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_anthropic.yaml
+company_microsoft:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_microsoft.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_microsoft.yaml
+company_meta:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_meta.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_meta.yaml
+company_x:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_x.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_x.yaml
+company_apple:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_apple.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_apple.yaml

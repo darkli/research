@@ -1,0 +1,5 @@
+payload:
+- IP-ASN,14061,no-resolve
+- IP-ASN,20473,no-resolve
+- PROCESS-NAME,OneDrive
+- PROCESS-NAME,OneDriveUpdater
