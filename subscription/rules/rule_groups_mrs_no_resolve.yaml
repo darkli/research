@@ -34,29 +34,35 @@ company_anthropic:
 - mrs_nr_company_anthropic_001
 company_apple:
 - mrs_nr_company_apple_001
-- mrs_nr_company_apple_002,no-resolve
-- mrs_nr_company_apple_003
+company_apple_network:
+- mrs_nr_company_apple_network_001,no-resolve
+company_apple_process:
+- mrs_nr_company_apple_process_001
 company_google:
 - mrs_nr_company_google_001
 - mrs_nr_company_google_002
-- mrs_nr_company_google_003,no-resolve
-- mrs_nr_company_google_004
+company_google_network:
+- mrs_nr_company_google_network_001,no-resolve
+company_google_process:
+- mrs_nr_company_google_process_001
 company_meta:
 - mrs_nr_company_meta_001
-- mrs_nr_company_meta_002,no-resolve
-- mrs_nr_company_meta_003
+company_meta_network:
+- mrs_nr_company_meta_network_001,no-resolve
+- mrs_nr_company_meta_network_002
 company_microsoft:
 - mrs_nr_company_microsoft_001
-- mrs_nr_company_microsoft_002,no-resolve
-- mrs_nr_company_microsoft_003
+company_microsoft_network:
+- mrs_nr_company_microsoft_network_001,no-resolve
+company_microsoft_process:
+- mrs_nr_company_microsoft_process_001
 company_openai:
 - mrs_nr_company_openai_001
 - mrs_nr_company_openai_002
-- mrs_nr_company_openai_003,no-resolve
-- mrs_nr_company_openai_004
 company_x:
 - mrs_nr_company_x_001
-- mrs_nr_company_x_002,no-resolve
+company_x_network:
+- mrs_nr_company_x_network_001,no-resolve
 copilot:
 - mrs_nr_copilot_001
 - mrs_nr_copilot_002

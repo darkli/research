@@ -178,6 +178,18 @@ company_google:
   path: ./rules_set/company_google.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_google.yaml
+company_google_process:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_google_process.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_google_process.yaml
+company_google_network:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_google_network.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_google_network.yaml
 company_openai:
   type: http
   behavior: classical
@@ -196,21 +208,57 @@ company_microsoft:
   path: ./rules_set/company_microsoft.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_microsoft.yaml
+company_microsoft_process:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_microsoft_process.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_microsoft_process.yaml
+company_microsoft_network:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_microsoft_network.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_microsoft_network.yaml
 company_meta:
   type: http
   behavior: classical
   path: ./rules_set/company_meta.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_meta.yaml
+company_meta_network:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_meta_network.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_meta_network.yaml
 company_x:
   type: http
   behavior: classical
   path: ./rules_set/company_x.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_x.yaml
+company_x_network:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_x_network.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_x_network.yaml
 company_apple:
   type: http
   behavior: classical
   path: ./rules_set/company_apple.yaml
   interval: 86400
   url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_apple.yaml
+company_apple_process:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_apple_process.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_apple_process.yaml
+company_apple_network:
+  type: http
+  behavior: classical
+  path: ./rules_set/company_apple_network.yaml
+  interval: 86400
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/company_apple_network.yaml

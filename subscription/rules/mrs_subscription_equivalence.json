@@ -3,16 +3,16 @@
     "mihomo",
     "openclash"
   ],
-  "comparisons": 53460,
+  "comparisons": 54996,
   "domain_case": "native_case_insensitive; other classical predicates unchanged",
-  "logical_bindings": 39,
-  "manifest_sha256": "4535195e44c239266892edb4fd10ec171115280b6a6116e4e022ef443f2ddb60",
-  "rendered_config_sha256": "c915b9298ca33ecece0b3b8e715f882d6a0ee04fdb89010d3e2022d9ad425f85",
+  "logical_bindings": 47,
+  "manifest_sha256": "38e0a534aab1d7f48c6d8ae20bf0a18a77ae77061b1e770051f392d888b005aa",
+  "rendered_config_sha256": "8407485e2107ee96b3be0c1ae9db9606281bd6bdc4d8f2ee6a2ca34b000ee62f",
   "result": "passed",
-  "snapshot": "4d33b710c05cf3453bd86be7",
+  "snapshot": "2ce269f7b758534cd07d8834",
   "validation_schema": 1,
-  "artifacts_sha256": "969a38a1ea3f48ba6f4153ebbc61ee8b9d3096c2de59a9e839bbc1622b3a4d63",
-  "rendered_bindings_sha256": "1aa667f199b018628364101689ed030588553b467496c44d802ecad28597d013",
-  "company_config_sha256": "8c86659772d6a7a08a57921dc50141be1ff6a0a640c7699d8876a4f191427c27",
-  "inputs_sha256": "70612f2ba8cc0243c9c9f4bc962c5e58c525fd6fa747527549790125cf2373bf"
+  "artifacts_sha256": "d9ddca540d9efeaaaa643f8605cbb84eca7f28e6842342d886d47a23ccbafa19",
+  "rendered_bindings_sha256": "012c344d864b6bf9a044a3edd47baa962f5c70beaed1d4d364c205b5af7243bf",
+  "company_config_sha256": "30312de03685fa72b585087a94a1e824a2da319d74131088a82f820a09ff9aa8",
+  "inputs_sha256": "654c1b7da89b16628a83b4777be476aac396f28edbb905c3522f98b14650ef9d"
 }

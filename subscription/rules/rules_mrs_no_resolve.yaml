@@ -2,769 +2,755 @@ mrs_nr_advertising_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/advertising/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/advertising/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-9ae04403233b6305492e03a4f209cccbdbf2ad9f8a9bf27295332dbfb85bb1d5.mrs
+  path: ./rules_set/rule-10ae73f1c92308c0780a7370f99ecfe951fc8fd97b957a5bf6f4b271d3ec32d8.mrs
 mrs_nr_advertising_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/advertising/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/advertising/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-d507244a5622097882a95ea73d386486f0d59a0eb79bfb9372c62084dd5946e9.yaml
+  path: ./rules_set/rule-6908943d350529ca6f4b8b4973e4787bf6cd2232412c68003ce1626564330e00.yaml
 mrs_nr_advertising_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/advertising/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/advertising/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-c624625d815c701bd70d31ad06489b9329cbe42260fa0c0476e4dd9b03b8f04d.mrs
+  path: ./rules_set/rule-886c34d613983f33b3fa87499da2b21c3ae49bc406fbeeef3b7c360b67feb133.mrs
 mrs_nr_amazon_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/amazon/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/amazon/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-1990c5127aaafd2c7c2182b10d81f770824540e4e5edda8170a72294473fbe5c.mrs
+  path: ./rules_set/rule-836dd2a43f446fa56368e02e76c416510ec96042fae12192b3c32c615ef7d17b.mrs
 mrs_nr_amazon_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/amazon/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/amazon/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-1b3af2f6ef7e9b52e09b7f11d8d041a1f19e40c2a062f3608a9e06075b309485.yaml
+  path: ./rules_set/rule-ea369bfbdf9c690f2dba30c9ba560f0ead77a66e01a8dd720fb67e827f50369b.yaml
 mrs_nr_amazon_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/amazon/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/amazon/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-f265b7ace4874a6ba1cb5b2b9758ef5771e674f108a867c41cb49b14188db654.mrs
+  path: ./rules_set/rule-e16fb8df741f6a1cf88ea0c260236377a49c159a173ceaa11627c969c7cb1bbc.mrs
 mrs_nr_amazon_004:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/amazon/004.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/amazon/004.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-5f7fd1df2285011700f01f64cc23362035a250e5214bfa80af3a0cc9a5f7894d.yaml
+  path: ./rules_set/rule-54d467ddcb2aa4bb6def048063bf68cab745d3856a306ae416ed278c01398c5e.yaml
 mrs_nr_apple_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/apple/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/apple/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-44864060da7a762202cd0ee2582046cdc436c85b465b6090320c2dbcb9db21e3.mrs
+  path: ./rules_set/rule-61e465e8efa895a134c4235efc8aed29389198fbec8cdc4c286e0b899ec06a53.mrs
 mrs_nr_apple_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/apple/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/apple/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-28e8f16b1b6fbbdfc4cf8bcb0600365654f677e61bd48d390108ce34d177e947.yaml
+  path: ./rules_set/rule-d475a896f63d5006b22e1189c09960aa0f139ad381b813a0d3ce95bd6ba5f520.yaml
 mrs_nr_apple_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/apple/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/apple/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-f169ea881e309b6af384236767c1fa038d684194276e7500be0814acdad173fb.mrs
+  path: ./rules_set/rule-aee59e96d4bf17f79635b41af7aa1bd5ec0e812417f13b2aff3c9a799a9a3829.mrs
 mrs_nr_apple_004:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/apple/004.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/apple/004.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-6d0097960de4c332360f5243adb65787b4bb357be73d5137f028c257eb552037.yaml
+  path: ./rules_set/rule-b073428cbe67a7084f0f362046b06229f9a5b29b9564031189c449f63f790372.yaml
 mrs_nr_apple_media_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/apple_media/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/apple_media/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-d23e2ea24c28974f640ddb968bb3e00fa38ef7156c079e655f160704c1c90a09.mrs
+  path: ./rules_set/rule-3326308e67c042ac4b50a883d683d3aa9338e879e3c15594f084a65f0593f0aa.mrs
 mrs_nr_apple_media_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/apple_media/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/apple_media/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-dc79da7cd3ecc90e78b98061f159bf8cb272843abf9bf3ee20ad365cd7a310b5.yaml
+  path: ./rules_set/rule-afffb5a7c8865bd218e6762e8e3fc0beb135728d22ea7e2b5aa76077342674f3.yaml
 mrs_nr_apple_proxy_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/apple_proxy/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/apple_proxy/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-7dbca4cdc0c121db89c0e4dba3914230cc8f27e63251dea24dc856956077d5af.mrs
+  path: ./rules_set/rule-8a31361a8638491de1b0b694a7cbeb0ca37034b3d01b8af3688a2b0b634b532e.mrs
 mrs_nr_apple_proxy_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/apple_proxy/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/apple_proxy/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-a9a608ae12ade68de5580a07f25a9f5a5c2679a5633f9c33d80a09f3b398f823.yaml
+  path: ./rules_set/rule-a17f3521721e5a0a57921185188e4ddb07d49b8b14be2c34807d34fedd98550a.yaml
 mrs_nr_appletv_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/appletv/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/appletv/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-f2ea9696ad895ec69cbcfb8da19861f81d82ce95438cec149becb0006bc46765.mrs
+  path: ./rules_set/rule-7686386e76e08585bd0f63ad9786a213607e77127e05262303427e2439889818.mrs
 mrs_nr_appletv_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/appletv/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/appletv/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-58a51c635da3afc5372d14f7518f62d2e5a7910b6b234957fe74090ff5de151f.yaml
+  path: ./rules_set/rule-5af1eac0282a84864eb956ec84bd88eea79a02c7146476b373daf803bcff9391.yaml
 mrs_nr_bing_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/bing/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/bing/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-b740df5d44e65a777413e3d1ce3ca5c4d0120ef3c92d80dfa099a365005974c8.mrs
+  path: ./rules_set/rule-83e70fc6ae92d161f27deb8434a6d6b0834b5666c793eb59d3d192c41303bc75.mrs
 mrs_nr_china_direct_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/china_direct/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/china_direct/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-86904c70744df9e6bf7f88abe7bcb2dad20255ae0f3ddd69d4a5885751b8dc9a.mrs
+  path: ./rules_set/rule-80ff083eb9c88791a9c85c06744b76f4852615524c480140a3b467e10004f581.mrs
 mrs_nr_china_direct_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/china_direct/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/china_direct/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-7e2a81eebb18c5e6379898270d3679954ac7533191ac8334a6538a5a66da00a6.yaml
+  path: ./rules_set/rule-558e00f4faf3a436b76398aa4a058bffad42e0f25f247087ee2cf426f0697c93.yaml
 mrs_nr_china_direct_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/china_direct/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/china_direct/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-a0ce0bd322388d43365f2772deaa30a1ee258757f298f114ad037368af11187c.mrs
+  path: ./rules_set/rule-cd864aa889f4429ab979a59715625f2a1ccc6b2b9d4e544b95d4c8d2eb849d01.mrs
 mrs_nr_china_direct_004:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/china_direct/004.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/china_direct/004.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-711603ce6c018cdf70029ca6aec864167036dc3184673abb7409a30ba77c8317.yaml
+  path: ./rules_set/rule-8e23db0364eca212c6d629fbb424aaad8c1b73f2f8b0c9f2a54a24fdb0ab2fd7.yaml
 mrs_nr_claude_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/claude/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/claude/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-20ac04c59947cbe7cb8d2c2c83acb72b85418fb13585cd2eee0b79d8503d99c6.mrs
+  path: ./rules_set/rule-1377d0c5dab10c6ccb2d73374d0d59c07322ce7a3c7a37e3b10c45ca30d26578.mrs
 mrs_nr_company_anthropic_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_anthropic/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_anthropic/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-e4065262781f2c6a4469d0c80a44f447a16a583487a035f9d9fa1a52051079b3.mrs
+  path: ./rules_set/rule-bfc5937745e95cbcb2e3288f97ec7c84ec745d9d49c9a3911cca570f1e07e354.mrs
 mrs_nr_company_apple_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_apple/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_apple/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-b7d8e6355c7a60586d20942059808b8a4e6ed6144e655bf299a333eecdb2b4d2.mrs
-mrs_nr_company_apple_002:
+  path: ./rules_set/rule-e09e6d4dd46ba5d23e8e7809bcda813f46f1ac5758d4e29fd98fcd811bee0796.mrs
+mrs_nr_company_apple_network_001:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_apple/002.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_apple_network/001.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-7ca61cc33fce55383f4d191442d2b9f7b638460b64f36c08250f6e25cc683ceb.mrs
-mrs_nr_company_apple_003:
+  path: ./rules_set/rule-edb7bb36ff01a2205af815ce58b075174882cd487011e0665e1d374821402bf5.mrs
+mrs_nr_company_apple_process_001:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_apple/003.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_apple_process/001.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-5d84e420f4d01d2b82e24662498dc6b5402950e10553965b89ea490501c4a614.yaml
+  path: ./rules_set/rule-b78cb4b5a900d22e81a97b312a46545ab85fb8499000b9dbe7354b2402420731.yaml
 mrs_nr_company_google_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_google/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_google/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-a1fdf359616b8c7b3d570b2e628e3cac178399d37a357440bac3374e162cfa83.mrs
+  path: ./rules_set/rule-6a366942c1e9d6d8533174dcca6d19a5c8b77a2fc0a50e221a35debac512b5b6.mrs
 mrs_nr_company_google_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_google/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_google/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-187f6f3f93e472fbd91149e70c00db7213f3b6245c9ac7be879643d5193b0050.yaml
-mrs_nr_company_google_003:
+  path: ./rules_set/rule-448997cbd0b917053f20408b7de7a418c7c6af01caca2ecaa1714b98bb0beca8.yaml
+mrs_nr_company_google_network_001:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_google/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_google_network/001.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-28a85d256fef271779493f91a7b84212d3ce26e9e3c5563f70a36abc42e92b47.mrs
-mrs_nr_company_google_004:
+  path: ./rules_set/rule-c5048abf69e0aa33c129329773c6ab3549df97146d3047fbfef1b3c19c946903.mrs
+mrs_nr_company_google_process_001:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_google/004.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_google_process/001.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-7115a60eb97edc275177ccee7dd7d78e273bd7009a2786dac37cf76a2009a6d7.yaml
+  path: ./rules_set/rule-bb21b27786237e1f1ba7e9a59aa3f40c69137513b1925490f91d60a463443c05.yaml
 mrs_nr_company_meta_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_meta/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_meta/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-d3f38fa7a4ea64a200672dc44b0a66267a9099a60f05691f42dedc386c463542.mrs
-mrs_nr_company_meta_002:
+  path: ./rules_set/rule-00171906642f979b3516a9351e16c074864496a20dcb5a11d568f340f5979fda.mrs
+mrs_nr_company_meta_network_001:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_meta/002.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_meta_network/001.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-f1b5754cb874bd9aa1ccfc547ef5339cf3b3bc561888451320ac66bebd12a3ad.mrs
-mrs_nr_company_meta_003:
+  path: ./rules_set/rule-c579a9ec533a482342bbb617f3bf931c97914774db8feeb500aad3e996427ed0.mrs
+mrs_nr_company_meta_network_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_meta/003.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_meta_network/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-fbe5585a7cdfa792e1405cbe8c43bd1632825d7bf33e97c9954670f517147212.yaml
+  path: ./rules_set/rule-a37d6586a14d7de0523975d823e20d6e1cffb091f1420af5cfc73ce3d51d9d49.yaml
 mrs_nr_company_microsoft_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_microsoft/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_microsoft/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-eceaef7c0c3cc596851b3d1e939aadd9373e778cfa5d138e9cc070976d3aed5c.mrs
-mrs_nr_company_microsoft_002:
+  path: ./rules_set/rule-97db901dfe739624654b475e72ad1e7993ff902e287b89edd5a8ddb6fa8b7882.mrs
+mrs_nr_company_microsoft_network_001:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_microsoft/002.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_microsoft_network/001.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-510fae0440e0529a4ce2b4e1d813600a07b0dcb14cee4e304cfc2843b4c696f9.mrs
-mrs_nr_company_microsoft_003:
+  path: ./rules_set/rule-2e6baf61fda5dec45288b5bd0858f8232dae4703977c16fd33bb022ca21ce28d.mrs
+mrs_nr_company_microsoft_process_001:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_microsoft/003.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_microsoft_process/001.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-9ee64da115b3cad53cd8a24823c9a75d4832d78e7a810b289bf8907c940cc8f3.yaml
+  path: ./rules_set/rule-b8ec035bf97b0f0237627130a9d86925b3bf849efce1ba0fd3b22dc5cbfbc3a0.yaml
 mrs_nr_company_openai_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_openai/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_openai/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-c96c4b7b14d9cada5ef9fafec483d901f84b4df23dc12f931696470e04a37f02.mrs
+  path: ./rules_set/rule-9cb1fae9a1ff305b5b85d2c49917704e96ac9699263314b0e28a4ba452acf19c.mrs
 mrs_nr_company_openai_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_openai/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_openai/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-b0e9dbffcee7c4816e6c153e3de03dc07c36eaaa1b8b5bfefd337476435a42d1.yaml
-mrs_nr_company_openai_003:
-  type: http
-  behavior: ipcidr
-  format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_openai/003.ipcidr.mrs
-  interval: 86400
-  path: ./rules_set/rule-456377ec28ec1f568b151c12ff5791cbbbb52e78e07e61adf7221da4a485cb1e.mrs
-mrs_nr_company_openai_004:
-  type: http
-  behavior: classical
-  format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_openai/004.classical.yaml
-  interval: 86400
-  path: ./rules_set/rule-27bf670b32cc028d48f334509d3165cc86d9b3ff6176da62ae32c48305a33305.yaml
+  path: ./rules_set/rule-61f1610753b57dd2105247775b6c1379a10a883ea757055acae8f4cc664e18bd.yaml
 mrs_nr_company_x_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_x/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_x/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-4d27ee4a7fa2ca6499c8c7a92d611b2c440b906fb2d707e570d67fb851f5d974.mrs
-mrs_nr_company_x_002:
+  path: ./rules_set/rule-4e6d1de938d13f1c6ff2a423731453cdfe71c572bd89d6de102af009dc4cda16.mrs
+mrs_nr_company_x_network_001:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/company_x/002.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/company_x_network/001.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-6162868bd7bf2950e6331049eb905713f46db7eb1235a9db75b2ef834396977e.mrs
+  path: ./rules_set/rule-4b84ff40e7ee7d92cf82fb7fc4b7bf0d1414a2f2c7b0b59f24435986d9599946.mrs
 mrs_nr_copilot_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/copilot/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/copilot/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-afeb230ce6e2c9d6dbb1e55d46b78dfa635be6bc2064064b234cc56a07a5f626.mrs
+  path: ./rules_set/rule-7eb24e6a22d35c92d6eba84cbf2105f56b5c231673146bad8c2eb3f563943a76.mrs
 mrs_nr_copilot_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/copilot/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/copilot/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-b9daafb658779a7b45cd53182031e699baac04e19203c141bec99ceaba9d3153.yaml
+  path: ./rules_set/rule-d6cee2a01afe3b97133e996f5b89a229505a04cfe9d9b32943c595632325dc93.yaml
 mrs_nr_copilot_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/copilot/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/copilot/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-02d358cd2d5a421a9ebd0dda71dd2dbb380ad4039fa658d26cc5b5ab671bef8b.mrs
+  path: ./rules_set/rule-09a5320555b298b0ffa781551da09c3c65317b7c2c4725cd83797fc55b9731f2.mrs
 mrs_nr_copilot_004:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/copilot/004.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/copilot/004.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-f03028af6a27a5f2e1755d99aad09831e0112ed3100a828f2c64dd55b0fd81e0.yaml
+  path: ./rules_set/rule-e710ace552c082f8523fd4caf085288a859738554b5a689d42c783d3054961a2.yaml
 mrs_nr_discord_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/discord/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/discord/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-626a69b29e4a652347647ddb2113e83991312f82fe495bae1ef73040a270e2cb.mrs
+  path: ./rules_set/rule-7c2fa74bff484c11288ec5f8607846f883ae3de167a20d96f3a8291c9788ac21.mrs
 mrs_nr_disney_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/disney/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/disney/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-6362b60b722965f59d0c41a7cedd96f2087cf390472e6cb832de23b93d29acbb.mrs
+  path: ./rules_set/rule-73f0e770150d6f8682353160858d2ea0e2a6cf849cda4f8638277e8d1dec4e53.mrs
 mrs_nr_disney_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/disney/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/disney/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-03f15673ba14d0c54b6bcfb5c0fee844e9bda7a3584b5545e8aa3258fd1a2c1c.yaml
+  path: ./rules_set/rule-f890ac43e98bff755ef1bf7315458e0ffea6343505110a1b19ac3ee2aef53bcb.yaml
 mrs_nr_facebook_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/facebook/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/facebook/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-2575c7c38a56fc33a25a6c5137f7d57347651201b9e93161271a228fdd2f89c5.mrs
+  path: ./rules_set/rule-79d09755672addacd4745343f4822b96e80dd0cdf96e52fa2600c50616700fde.mrs
 mrs_nr_facebook_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/facebook/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/facebook/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-8decd80cb621f206a50b344f55256e3fdbb5022e7edea7846a795145e770a0ae.yaml
+  path: ./rules_set/rule-6fdff49a7c3c6f1bfdbe0d152c0686ed6fd4683a085534ebf80b1a3d8064e906.yaml
 mrs_nr_facebook_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/facebook/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/facebook/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-0f2e95bd42e4c59653189f0278530870d53fc76018a9a27b17278399188cd828.mrs
+  path: ./rules_set/rule-25e6bc57dca6c867b30b152c1a89f86b0c955bf01ce752f3e0dcb36bf0770db5.mrs
 mrs_nr_facebook_004:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/facebook/004.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/facebook/004.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-639bafe01c83b612ca25d9ecf9dfe8316afcb3ecd5850847af3ec8e3e9253cad.yaml
+  path: ./rules_set/rule-f0b4622b349f704dda10460a2369c65058e79238fc1cf72e65e9bdc529951969.yaml
 mrs_nr_github_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/github/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/github/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-963a85eb26e92fb76441942f766f7ff893d712c2feb9e33a101e8be803aedf46.mrs
+  path: ./rules_set/rule-601c633670e0e7506e3d85d60b631338c202f55983b376981139439fb8942fbe.mrs
 mrs_nr_github_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/github/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/github/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-8e8d3b81d4b3bd368c225a3c0c1b5306c0d90fb67914f5826f2d0649a9dc5137.yaml
+  path: ./rules_set/rule-020c8ced5b7c0009459ee10fd65689d23471d1b32ded07c78ef51c1df2ee56a4.yaml
 mrs_nr_google_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/google/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/google/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-533cf9d838578ac54b05340310de42f433e2e36510cdf470936d447722db7777.mrs
+  path: ./rules_set/rule-99a07443bf610bd523733a68fd4c16b30923440465187e1790c7902fd88c585c.mrs
 mrs_nr_google_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/google/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/google/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-170520a901f4933f1947b9f88bd3fd31a9bd4568c67939cbc159d013d18349f0.yaml
+  path: ./rules_set/rule-3474214d486a9c2c79fb2be8d1f25afe38a1f4322333ca69003f32a734e3b483.yaml
 mrs_nr_google_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/google/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/google/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-6029d3982184b4fcf718ad72f0675553871c25b4c4f57ebe06cffd8ded2c14f9.mrs
+  path: ./rules_set/rule-6f7700dd37759e168bc7ae3ed8146391037f47dc7b0350328cafa69a6fb26698.mrs
 mrs_nr_google_004:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/google/004.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/google/004.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-3784d017db3546f9ef515d5c7bc037f338e2af6fadd8d3f4d4fa0f8b23d1d40f.yaml
+  path: ./rules_set/rule-daaa768fcb00023028ce2185fe5203a68fd25621a91e2ff5cac77e934f2c05a5.yaml
 mrs_nr_google_gemini_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/google_gemini/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/google_gemini/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-53dc4d4c8ecc2931e30455e2150ac5c4d3b510ff7f13bcf462a647218ad22a1c.mrs
+  path: ./rules_set/rule-72a48e886223785666eef508a203562d165028ab9df75523c307064df8c8e11b.mrs
 mrs_nr_google_gemini_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/google_gemini/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/google_gemini/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-da03a15f10c4fc0c68a30a6e447db92392fa28608fcb4094c6881d37280df0dd.yaml
+  path: ./rules_set/rule-f0d0493b8e0fcc0428a86fe1d0c2d720f34930a51a93d807fb4b0a3ac2389f28.yaml
 mrs_nr_google_voice_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/google_voice/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/google_voice/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-37c4674016f53f5b19fb30f48917321cd369f5f193c91b0c287a341455ec4963.mrs
+  path: ./rules_set/rule-6f9da1019b172bbe703bfd7309ae78d3d5a6f8152b0726a0a5391bd4db804b44.mrs
 mrs_nr_iCloudPrivateRelay_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/iCloudPrivateRelay/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/iCloudPrivateRelay/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-830be0505b9f9d95680ccd497bece4a2e4eef42aff3ee3f2423ba3ab5a5747a3.mrs
+  path: ./rules_set/rule-be95728c29fc34d12e3efd6f3ab65efa0d819b767ab87d6e3ab996b28ae05607.mrs
 mrs_nr_icloud_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/icloud/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/icloud/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-7672e37af110a051ac30ca8ea8c12300fbcf2c1933366b94418379bfb517c1ad.mrs
+  path: ./rules_set/rule-0869912184675a34c18a28d0edcdef77a69fb25baa5aae24d6171c8109a7d4de.mrs
 mrs_nr_icloud_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/icloud/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/icloud/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-93e84556e40e46946a75fe3f0aa0a4ac02eeeb36a3b77e41295d3b9f46a88054.yaml
+  path: ./rules_set/rule-cd200bab820cdcd2bcca3c43475153595ba5ae88021733f7cf85fdfd5e5bcb2f.yaml
 mrs_nr_microsoft_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/microsoft/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/microsoft/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-0aa7d8d10b2ee76a10933e2ebad8917c033c4b05b51093f83c2233eb2c0f82fc.mrs
+  path: ./rules_set/rule-0084b0acefd435bbde2230acfc32e27848df1896cf150b9e1408968a0a4ebfac.mrs
 mrs_nr_microsoft_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/microsoft/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/microsoft/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-93e7bc4d18d79c2bd807043f18d9a8d8741e4f6aba5d21da62222e49557a979d.yaml
+  path: ./rules_set/rule-6616ea7c6b66bdb9d543866a707735e28d1fdf20e4981fea45e119a8e268cd47.yaml
 mrs_nr_netflix_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/netflix/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/netflix/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-45f980496d745718ddaecafa223c7d170c2925bfddc92d623908083133ebad10.mrs
+  path: ./rules_set/rule-3e45a7e2cfe316b73059f83d3818fb689f0f443bf54ec91eb04cd48acefd3723.mrs
 mrs_nr_netflix_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/netflix/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/netflix/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-c83dcd4a3eca1d9eef6ffc75b5f90f938e2ad748c7e3830b6d238791ea0e330f.yaml
+  path: ./rules_set/rule-0388290dcb0c0506154f3a3a14c9fa73134b037bd67fb2d640bafb0747bdc4cf.yaml
 mrs_nr_netflix_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/netflix/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/netflix/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-92723a9857d354e83134f2d44b9fe5e59b8f0be9bbb5d71dc2e3c9fd5945ca50.mrs
+  path: ./rules_set/rule-4d2462f268843b2824a05fb91f6e3106aa228e9d509e8cc39f8565ebac8dbf45.mrs
 mrs_nr_netflix_004:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/netflix/004.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/netflix/004.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-308f85f15151f4e7349fb1c8d7c2acb378a8887aa152f58062d3357f251bea6a.yaml
+  path: ./rules_set/rule-e36a5eca5b06b84e1d27fc05eca07a575f52cb52ddb6120bb0f0c25c35530780.yaml
 mrs_nr_onedrive_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/onedrive/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/onedrive/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-7fe424d5389e568dbfa4a8a7a26b39970c2e5467a8ae76ca290e3b70bcd18908.mrs
+  path: ./rules_set/rule-c0f2aa2e86dea4eda16f9f1c28dafae701409948ef6db232e66edd5d1be4b05c.mrs
 mrs_nr_onedrive_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/onedrive/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/onedrive/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-4d7a5515d81064c998f6d3e6d5af8303e47dc5ecfaf66581d12d65b307fab498.yaml
+  path: ./rules_set/rule-e0c77ca7897cff6e1843c66adfdb7117c4d49843b6744fee39a8f2c1e020c50a.yaml
 mrs_nr_openai_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/openai/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/openai/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-57bb22669a09f922ef5ded46cf29565e275263ffac3227117412bddbb55d23a4.mrs
+  path: ./rules_set/rule-08d5f7e50a3a8f05fb581cbf491a42ca18b7c7a7874788c02dca410779052473.mrs
 mrs_nr_openai_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/openai/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/openai/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-e0771eb0c45c382bf842300c8e89f6b6780e91f560280a4efd6a140e267db5b4.yaml
+  path: ./rules_set/rule-6740f5b884cc8adba8a5c26140e72929e71b61c49fef0bc7aa2ed6df382c2b42.yaml
 mrs_nr_openai_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/openai/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/openai/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-fce2957455d916830f081f278c710503f7396caed0a176c7ad40bec1a58e8181.mrs
+  path: ./rules_set/rule-7a26de764efc201fd15b5ba409def173abde9d35327b7695f1084784f919e4a3.mrs
 mrs_nr_openai_004:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/openai/004.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/openai/004.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-6a098bfd9e051813d8e2938ad3506822ce3c0e4620f8adc80cb6ceae1af8ed2c.yaml
+  path: ./rules_set/rule-135c47aef7072074702e16fd45992e04c7d4c46911798484979e42dd650f2408.yaml
 mrs_nr_paypal_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/paypal/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/paypal/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-87ca5b789ed0d932503a597a5b3c5d1873f138a3c2dfe65e403fb7863dc33a7b.mrs
+  path: ./rules_set/rule-9220ecd4b270f45cef6690052b53a47da45be9d385afe734cc16768918b9a6ec.mrs
 mrs_nr_paypal_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/paypal/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/paypal/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-f4f91e7f3b9ea1b796f97af2457308c69d82fca1b0b2e3b2592ebd02447208e7.yaml
+  path: ./rules_set/rule-70b383d7080f2e50786227ae2db1a6418e0f11fe952027cd43866480e143a1a6.yaml
 mrs_nr_proxy_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/proxy/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/proxy/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-ffc5d1d5572793076879a0a145b137a17808452c8936c18f5ecb5f4b4930e849.mrs
+  path: ./rules_set/rule-05f236874f2009c41cb7d837bc3c1fc1e5aeb254f8e907a876a0e4438ee16f14.mrs
 mrs_nr_proxy_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/proxy/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/proxy/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-dfda8ec74d58194378b77e02bfb99b17d8335addb5f7fef2eca8cf1d04986092.yaml
+  path: ./rules_set/rule-b64ee900107ffdb927ae8d35f97ce29e6e5c5b7363152819927f6d9abaef91b2.yaml
 mrs_nr_proxy_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/proxy/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/proxy/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-e3cf79cd82254538a6c0dcfa07dc1b05a84cd5b2534633d474a4d528a0b2b2c5.mrs
+  path: ./rules_set/rule-3024e5ba4ee4b9e85262427311cd1fdea3999be7f659585f2429d9f6986f1d2c.mrs
 mrs_nr_social_media_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/social_media/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/social_media/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-2636dd6627db40a52d6486012ce8d0580c9502f95a4d0a454943b653a0886550.mrs
+  path: ./rules_set/rule-f5fc0f47191f7f2db237a18426463bd3d3fb0a0eb64357b75c248e6f0215972d.mrs
 mrs_nr_social_media_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/social_media/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/social_media/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-a2707e2d74c9bdeb3e9caa2fbba88e694d117ce0d1fc956cdc2c2d980483087f.yaml
+  path: ./rules_set/rule-c0dfcc2705584dd34daa1810eeae17245f1729ddba908549ab6c0c0f42590256.yaml
 mrs_nr_telegram_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/telegram/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/telegram/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-369452de78600d9b2ef1860f973ba8c6685ed545835da1402855910b83a8b61d.mrs
+  path: ./rules_set/rule-7ef168a787e891942c555e4a11aa4c1593c98b4acefb3bac4c5ab75d806faed6.mrs
 mrs_nr_telegram_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/telegram/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/telegram/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-e3afe7e07dda65b8d206570ab11dc22c343c2256699add24632cac955695ca5e.yaml
+  path: ./rules_set/rule-187d352723641fb82c3102029673a6d884592afc99b87d04be27012db982a1b5.yaml
 mrs_nr_telegram_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/telegram/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/telegram/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-72676abe470c35a3b8304855742afc7cfee07307a61c7c7fc84ef809bac9157c.mrs
+  path: ./rules_set/rule-6b290478c9707c1e6de62dd344145f22d65b10799fb7355b17482abc0b5a6c27.mrs
 mrs_nr_telegram_004:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/telegram/004.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/telegram/004.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-94d89a547a36551c0787ab3415db69fb2a9c731eecedf876e566e0630c1f02e0.yaml
+  path: ./rules_set/rule-930fe771fac10ca8c7d26f8bdd4dea49653dd810e6f502f978f955e6e1350a12.yaml
 mrs_nr_twitter_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/twitter/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/twitter/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-0db903b8733abd0e85d82b98141abe1400ad72994568d7abe0105c33055a6aa6.mrs
+  path: ./rules_set/rule-c08073a30b9627209c4f3178a160d5b13b09fabc62a0ddf62b3350c7abf87879.mrs
 mrs_nr_twitter_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/twitter/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/twitter/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-4380f0adfcaede9f82676648de4eb71d303ddf9b0fb38cfd1c37c9656cd2690b.yaml
+  path: ./rules_set/rule-2242736cfd745684c0b110ffad97362f9cfa9a5f0771b2db85421cfd2a1ad067.yaml
 mrs_nr_twitter_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/twitter/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/twitter/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-ec1f1096f68f8ef7edde7705fb17a07943fb10de7852d9f091822999436ba179.mrs
+  path: ./rules_set/rule-529c78fe09a42c48ec2ee2df9e45c7c883ea00875b38ce3a91a1b919f4f2583a.mrs
 mrs_nr_youtube_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/youtube/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/youtube/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-26824e6153d1bdbd79588fa49c37161468081f7671b85555e5ab8dc411d2d747.mrs
+  path: ./rules_set/rule-5b50a54a6f8d0c899da4196ab180a4ed7dee1cbed3efea26512cd8f602f59eea.mrs
 mrs_nr_youtube_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/youtube/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/youtube/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-4758f10ca25a261e6cb9f046469c5e081704852e51b7f1b8d6533bd717eed534.yaml
+  path: ./rules_set/rule-80c78eab11dc5eac67747fd7ba5be6afacc5f4b56d011fbfde82392d258c9b5d.yaml
 mrs_nr_youtube_003:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/no_resolve/youtube/003.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/no_resolve/youtube/003.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-4c5b079eec58cc8728a0c1629df7b141403e659a711e37a467c30f1f7c52c947.mrs
+  path: ./rules_set/rule-4b4077fc492a95c7bd7edd7e4bf46969a2f7c9d655763918f0ed11d7dc5a1875.mrs
 mrs_n_private_direct_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/private_direct/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/private_direct/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-500a33ebec049e72a6d43b18b0fab7491608470eb6d891f75a9e2831105f4b9e.mrs
+  path: ./rules_set/rule-ffbed69a208fd10b3d53b285b36f3f027ccd9faff9670742f99b73422baa5036.mrs
 mrs_n_proxy_selected_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/proxy_selected/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/proxy_selected/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-18e9a1a094ba3ad5206b173308fd35bea8ce015f16b41a57e03fb7b1e5c77364.mrs
+  path: ./rules_set/rule-a760e060b1a8b23c6d87c63e429a668d310e9b4f280c332b2af23eb0906fa446.mrs
 mrs_n_uk_vowifi_001:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/001.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/001.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-1f457c0427caa4fcaccdfd5f8860a68d980ab2ddc1bc975b738f49f2b797ab37.mrs
+  path: ./rules_set/rule-f6a4519c8102ce086778532424ecfb1b1ea3e2b8d07690d9db7f09f352d783c3.mrs
 mrs_n_uk_vowifi_002:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/002.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/002.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-bc28f66eca7d6489b1e2440c143378ac7385018d6147e45750e826d8b96afbe8.yaml
+  path: ./rules_set/rule-911a0cf4decbc3e65b2c62d915b77b21194368374acae81062b6f05651027f83.yaml
 mrs_n_uk_vowifi_003:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/003.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/003.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-03a8ae86619e7db27688918751943ab04b59412cb714281551163a46299448db.mrs
+  path: ./rules_set/rule-255dd9563deb8bd9038dab298af2a5acaa2e865e9f09d5ae1aaa6db38c00852f.mrs
 mrs_n_uk_vowifi_004:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/004.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/004.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-09a1e965c8fa08f242bc8672d402a2e414d96a6968edd3b3f1823bed55e96355.mrs
+  path: ./rules_set/rule-063cc475612b9acc228c7eb2e41a2bb8895419e50f03db07953d32585878a88c.mrs
 mrs_n_uk_vowifi_005:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/005.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/005.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-b6be04f8c37be51ab95f3613c66a7a8e2f987468f07e105d57d27cfe538ee844.mrs
+  path: ./rules_set/rule-7b2f991f1ea5dbe87596e454b5083ca4996e0e3cb3721cb415ab8b952c86c7d1.mrs
 mrs_n_uk_vowifi_006:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/006.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/006.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-8c8e84d0e5bfe9c488876563debdfea20d9c71cef3b7d12874ca1dbadbe69930.mrs
+  path: ./rules_set/rule-ed84ca2f67009451816fc08bcc8baa3e6b130a7321b520b17193ddcf785ff4d8.mrs
 mrs_n_uk_vowifi_007:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/007.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/007.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-bcfa32ddd0a4ea897766831c075d1fd1a5f7425dd313a4b2ec98cc037924ad3f.mrs
+  path: ./rules_set/rule-b95e06d96d15edf00706cd35ff760b621813bc7ae2def81dd5558a25558f8c77.mrs
 mrs_n_uk_vowifi_008:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/008.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/008.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-a69818b03e08c032fac672cc7cc3ace2b4b66d92e807602407f650a2df081918.mrs
+  path: ./rules_set/rule-9804dcd43b9bf4629ebf472b7c2f28f37f2b2de2c1d759e42ab84f906443bacc.mrs
 mrs_n_uk_vowifi_009:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/009.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/009.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-cd7263290e5843c1c8deb91887667ab582864b24fe2aab542a4dc9d777462cd3.mrs
+  path: ./rules_set/rule-4dbd52feb1447c1ff370331348450dbc66d5ef6029daecf24201a4e0646a4d57.mrs
 mrs_n_uk_vowifi_010:
   type: http
   behavior: classical
   format: yaml
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/010.classical.yaml
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/010.classical.yaml
   interval: 86400
-  path: ./rules_set/rule-c051f0b339c4e1a4a3b76bb9631255e9d98478452f088dc4dfc1e1d7e69792d9.yaml
+  path: ./rules_set/rule-a82f5c45b3d45b1e8ed0382eb0301c8f9098a88f26408c827eb466ea704e517c.yaml
 mrs_n_uk_vowifi_011:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/011.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/011.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-72c8cdbce8c314e09a0348d9579b055dfcb74bead43fe06398b4742253db2aed.mrs
+  path: ./rules_set/rule-876a740428e16b1509c02ebc03587be9da14982bb6dd86c185057c7a3e732290.mrs
 mrs_n_uk_vowifi_012:
   type: http
   behavior: domain
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/012.domain.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/012.domain.mrs
   interval: 86400
-  path: ./rules_set/rule-99d391bc35fd46c748c9a73b0bae4e117f50df04e91610977e11770f708ad230.mrs
+  path: ./rules_set/rule-b8b8f081b520292a03fe9e72ed639fefb6053951599fb9448c33094e58143a17.mrs
 mrs_n_uk_vowifi_013:
   type: http
   behavior: ipcidr
   format: mrs
-  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/4d33b710c05cf3453bd86be7/normal/uk_vowifi/013.ipcidr.mrs
+  url: https://raw.githubusercontent.com/darkli/research/main/subscription/rules/rules_set/mrs/2ce269f7b758534cd07d8834/normal/uk_vowifi/013.ipcidr.mrs
   interval: 86400
-  path: ./rules_set/rule-4456f3821a3fba53cb5d326ec2e8f59ff1be440affceb207539615ab13b2d2ee.mrs
+  path: ./rules_set/rule-9cccc43454a440b2271b0ce925cc776cc21a4031f365488dc44d596be98a7190.mrs
