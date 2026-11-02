@@ -1,0 +1,14 @@
+payload:
+- ocsp.globalsign.com
+- ocsp2.globalsign.com
+- cdn.agentclientprotocol.com
+- browser-intake-datadoghq.com
+- static.cloudflareinsights.com
+- cdn.arkoselabs.com
+- +.digicert.com
+- +.api.statsig.com
+- +.client-api.arkoselabs.com
+- +.events.statsigapi.net
+- +.host.livekit.cloud
+- +.turn.livekit.cloud
+- +.nodejs.org

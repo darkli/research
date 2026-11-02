@@ -1,0 +1,756 @@
+rule-providers:
+  mrs_n_advertising_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/advertising/001.domain.mrs
+  mrs_n_advertising_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/advertising/002.classical.yaml
+  mrs_n_advertising_003:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/advertising/003.ipcidr.mrs
+  mrs_n_amazon_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/amazon/001.domain.mrs
+  mrs_n_amazon_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/amazon/002.classical.yaml
+  mrs_n_amazon_process_001:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/amazon_process/001.classical.yaml
+  mrs_n_apple_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/apple/001.domain.mrs
+  mrs_n_apple_002:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/apple/002.ipcidr.mrs
+  mrs_n_apple_003:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/apple/003.classical.yaml
+  mrs_n_apple_media_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/apple_media/001.domain.mrs
+  mrs_n_apple_media_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/apple_media/002.classical.yaml
+  mrs_n_apple_proxy_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/apple_proxy/001.domain.mrs
+  mrs_n_appletv_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/appletv/001.domain.mrs
+  mrs_n_appletv_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/appletv/002.classical.yaml
+  mrs_n_bing_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/bing/001.domain.mrs
+  mrs_n_china_direct_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/china_direct/001.domain.mrs
+  mrs_n_china_direct_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/china_direct/002.classical.yaml
+  mrs_n_china_direct_network_001:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/china_direct_network/001.ipcidr.mrs
+  mrs_n_china_direct_network_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/china_direct_network/002.classical.yaml
+  mrs_n_claude_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/claude/001.domain.mrs
+  mrs_n_company_anthropic_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_anthropic/001.domain.mrs
+  mrs_n_company_apple_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_apple/001.domain.mrs
+  mrs_n_company_apple_network_001:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_apple_network/001.ipcidr.mrs
+  mrs_n_company_apple_network_002:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_apple_network/002.ipcidr.mrs
+  mrs_n_company_apple_network_003:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_apple_network/003.ipcidr.mrs
+  mrs_n_company_apple_process_001:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_apple_process/001.classical.yaml
+  mrs_n_company_github_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_github/001.domain.mrs
+  mrs_n_company_google_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_google/001.domain.mrs
+  mrs_n_company_google_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_google/002.classical.yaml
+  mrs_n_company_google_network_001:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_google_network/001.ipcidr.mrs
+  mrs_n_company_google_process_001:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_google_process/001.classical.yaml
+  mrs_n_company_meta_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_meta/001.domain.mrs
+  mrs_n_company_meta_network_001:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_meta_network/001.ipcidr.mrs
+  mrs_n_company_meta_network_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_meta_network/002.classical.yaml
+  mrs_n_company_microsoft_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_microsoft/001.domain.mrs
+  mrs_n_company_microsoft_network_001:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_microsoft_network/001.ipcidr.mrs
+  mrs_n_company_microsoft_process_001:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_microsoft_process/001.classical.yaml
+  mrs_n_company_openai_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_openai/001.domain.mrs
+  mrs_n_company_openai_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_openai/002.classical.yaml
+  mrs_n_company_x_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_x/001.domain.mrs
+  mrs_n_company_x_network_001:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/company_x_network/001.ipcidr.mrs
+  mrs_n_copilot_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/copilot/001.domain.mrs
+  mrs_n_discord_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/discord/001.domain.mrs
+  mrs_n_disney_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/disney/001.domain.mrs
+  mrs_n_disney_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/disney/002.classical.yaml
+  mrs_n_disney_process_001:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/disney_process/001.classical.yaml
+  mrs_n_facebook_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/facebook/001.domain.mrs
+  mrs_n_facebook_002:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/facebook/002.ipcidr.mrs
+  mrs_n_facebook_003:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/facebook/003.classical.yaml
+  mrs_n_github_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/github/001.domain.mrs
+  mrs_n_google_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/google/001.domain.mrs
+  mrs_n_google_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/google/002.classical.yaml
+  mrs_n_google_003:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/google/003.ipcidr.mrs
+  mrs_n_google_004:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/google/004.classical.yaml
+  mrs_n_google_gemini_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/google_gemini/001.domain.mrs
+  mrs_n_google_voice_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/google_voice/001.domain.mrs
+  mrs_n_iCloudPrivateRelay_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/iCloudPrivateRelay/001.domain.mrs
+  mrs_n_icloud_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/icloud/001.domain.mrs
+  mrs_n_microsoft_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/microsoft/001.domain.mrs
+  mrs_n_microsoft_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/microsoft/002.classical.yaml
+  mrs_n_netflix_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/netflix/001.domain.mrs
+  mrs_n_netflix_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/netflix/002.classical.yaml
+  mrs_n_netflix_network_001:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/netflix_network/001.ipcidr.mrs
+  mrs_n_netflix_process_001:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/netflix_process/001.classical.yaml
+  mrs_n_onedrive_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/onedrive/001.domain.mrs
+  mrs_n_onedrive_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/onedrive/002.classical.yaml
+  mrs_n_openai_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/openai/001.domain.mrs
+  mrs_n_openai_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/openai/002.classical.yaml
+  mrs_n_paypal_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/paypal/001.domain.mrs
+  mrs_n_private_direct_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/private_direct/001.domain.mrs
+  mrs_n_proxy_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/proxy/001.domain.mrs
+  mrs_n_proxy_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/proxy/002.classical.yaml
+  mrs_n_proxy_network_001:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/proxy_network/001.ipcidr.mrs
+  mrs_n_proxy_selected_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/proxy_selected/001.domain.mrs
+  mrs_n_service_codebuddy_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/service_codebuddy/001.domain.mrs
+  mrs_n_service_jetbrains_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/service_jetbrains/001.domain.mrs
+  mrs_n_shared_dependencies_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/shared_dependencies/001.domain.mrs
+  mrs_n_shared_tencent_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/shared_tencent/001.domain.mrs
+  mrs_n_social_media_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/social_media/001.domain.mrs
+  mrs_n_social_media_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/social_media/002.classical.yaml
+  mrs_n_telegram_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/telegram/001.domain.mrs
+  mrs_n_telegram_network_001:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/telegram_network/001.ipcidr.mrs
+  mrs_n_telegram_network_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/telegram_network/002.classical.yaml
+  mrs_n_telegram_process_001:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/telegram_process/001.classical.yaml
+  mrs_n_twitter_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/twitter/001.domain.mrs
+  mrs_n_twitter_002:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/twitter/002.ipcidr.mrs
+  mrs_n_uk_vowifi_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/uk_vowifi/001.domain.mrs
+  mrs_n_uk_vowifi_002:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/uk_vowifi/002.classical.yaml
+  mrs_n_uk_vowifi_003:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/uk_vowifi/003.ipcidr.mrs
+  mrs_n_youtube_001:
+    type: file
+    behavior: domain
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/youtube/001.domain.mrs
+  mrs_n_youtube_002:
+    type: file
+    behavior: ipcidr
+    format: mrs
+    path: ./rules_set/mrs/94b1d36a6f41af99f4039f7c/normal/youtube/002.ipcidr.mrs
+  advertising:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_advertising_001),(RULE-SET,mrs_n_advertising_002),(RULE-SET,mrs_n_advertising_003))
+  amazon:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_amazon_001),(RULE-SET,mrs_n_amazon_002))
+  amazon_process:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_amazon_process_001))
+  apple:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_apple_001),(RULE-SET,mrs_n_apple_002),(RULE-SET,mrs_n_apple_003))
+  apple_media:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_apple_media_001),(RULE-SET,mrs_n_apple_media_002))
+  apple_proxy:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_apple_proxy_001))
+  appletv:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_appletv_001),(RULE-SET,mrs_n_appletv_002))
+  bing:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_bing_001))
+  china_direct:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_china_direct_001),(RULE-SET,mrs_n_china_direct_002))
+  china_direct_network:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_china_direct_network_001),(RULE-SET,mrs_n_china_direct_network_002))
+  claude:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_claude_001))
+  company_anthropic:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_anthropic_001))
+  company_apple:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_apple_001))
+  company_apple_network:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_apple_network_001),(RULE-SET,mrs_n_company_apple_network_002,no-resolve),(RULE-SET,mrs_n_company_apple_network_003))
+  company_apple_process:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_apple_process_001))
+  company_github:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_github_001))
+  company_google:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_google_001),(RULE-SET,mrs_n_company_google_002))
+  company_google_network:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_google_network_001))
+  company_google_process:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_google_process_001))
+  company_meta:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_meta_001))
+  company_meta_network:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_meta_network_001),(RULE-SET,mrs_n_company_meta_network_002))
+  company_microsoft:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_microsoft_001))
+  company_microsoft_network:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_microsoft_network_001))
+  company_microsoft_process:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_microsoft_process_001))
+  company_openai:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_openai_001),(RULE-SET,mrs_n_company_openai_002))
+  company_x:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_x_001))
+  company_x_network:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_company_x_network_001))
+  copilot:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_copilot_001))
+  discord:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_discord_001))
+  disney:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_disney_001),(RULE-SET,mrs_n_disney_002))
+  disney_process:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_disney_process_001))
+  facebook:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_facebook_001),(RULE-SET,mrs_n_facebook_002),(RULE-SET,mrs_n_facebook_003))
+  github:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_github_001))
+  google:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_google_001),(RULE-SET,mrs_n_google_002),(RULE-SET,mrs_n_google_003),(RULE-SET,mrs_n_google_004))
+  google_gemini:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_google_gemini_001))
+  google_voice:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_google_voice_001))
+  iCloudPrivateRelay:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_iCloudPrivateRelay_001))
+  icloud:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_icloud_001))
+  microsoft:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_microsoft_001),(RULE-SET,mrs_n_microsoft_002))
+  netflix:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_netflix_001),(RULE-SET,mrs_n_netflix_002))
+  netflix_network:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_netflix_network_001))
+  netflix_process:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_netflix_process_001))
+  onedrive:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_onedrive_001),(RULE-SET,mrs_n_onedrive_002))
+  openai:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_openai_001),(RULE-SET,mrs_n_openai_002))
+  paypal:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_paypal_001))
+  private_direct:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_private_direct_001))
+  proxy:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_proxy_001),(RULE-SET,mrs_n_proxy_002))
+  proxy_network:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_proxy_network_001))
+  proxy_selected:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_proxy_selected_001))
+  service_codebuddy:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_service_codebuddy_001))
+  service_jetbrains:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_service_jetbrains_001))
+  shared_dependencies:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_shared_dependencies_001))
+  shared_tencent:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_shared_tencent_001))
+  social_media:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_social_media_001),(RULE-SET,mrs_n_social_media_002))
+  telegram:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_telegram_001))
+  telegram_network:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_telegram_network_001),(RULE-SET,mrs_n_telegram_network_002))
+  telegram_process:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_telegram_process_001))
+  twitter:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_twitter_001),(RULE-SET,mrs_n_twitter_002))
+  uk_vowifi:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_uk_vowifi_001),(RULE-SET,mrs_n_uk_vowifi_002),(RULE-SET,mrs_n_uk_vowifi_003,no-resolve))
+  youtube:
+    type: inline
+    behavior: classical
+    payload:
+    - OR,((RULE-SET,mrs_n_youtube_001),(RULE-SET,mrs_n_youtube_002))

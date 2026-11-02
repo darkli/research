@@ -1,0 +1,26 @@
+{
+  "checks": [
+    "match",
+    "policy",
+    "DNS queries",
+    "process lookup",
+    "resulting IP",
+    "ASN metadata",
+    "TCP/UDP",
+    "CIDR boundaries",
+    "IPv4-mapped IPv6"
+  ],
+  "classical_files": 120,
+  "comparisons": 60824,
+  "domain_case": "native_case_insensitive; other classical predicates unchanged",
+  "manifest_sha256": "1b908c094eeaa063ed68decbd0a42556a1ff82ad1fb0c81fabe2cb94d2d18ece",
+  "mihomo": "v1.19.33",
+  "result": "passed",
+  "snapshot": "94b1d36a6f41af99f4039f7c",
+  "validation_schema": 1,
+  "artifacts_sha256": "c7e71d7e257f9c6a2afaf6ef7d46759337d6d500bf9dd4d3d09a71fa5bd5aff5",
+  "rendered_config_sha256": "b4e2109d8dee0d06241982396918cfb9cd19b4645203cdfea7d3220438bc9393",
+  "rendered_bindings_sha256": "a5eab1dfed4b69cb2f6e484c42669de668020e61dc2d1dc1d922443125dea43e",
+  "company_config_sha256": "0b5509ecd0a11b300e086267efa856365493cfdcec706c0840990864f0cf5858",
+  "inputs_sha256": "f7bba6c608adc72077a6eb3c73b2d0fa931eed8c257630e51b2e9bfdba767477"
+}

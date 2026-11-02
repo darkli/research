@@ -1,0 +1,149 @@
+advertising:
+- mrs_nr_advertising_001
+- mrs_nr_advertising_002
+- mrs_nr_advertising_003,no-resolve
+amazon:
+- mrs_nr_amazon_001
+- mrs_nr_amazon_002
+amazon_process:
+- mrs_nr_amazon_process_001
+apple:
+- mrs_nr_apple_001
+- mrs_nr_apple_002,no-resolve
+- mrs_nr_apple_003
+apple_media:
+- mrs_nr_apple_media_001
+- mrs_nr_apple_media_002
+apple_proxy:
+- mrs_nr_apple_proxy_001
+appletv:
+- mrs_nr_appletv_001
+- mrs_nr_appletv_002
+bing:
+- mrs_nr_bing_001
+china_direct:
+- mrs_nr_china_direct_001
+- mrs_nr_china_direct_002
+china_direct_network:
+- mrs_nr_china_direct_network_001,no-resolve
+- mrs_nr_china_direct_network_002
+claude:
+- mrs_nr_claude_001
+company_anthropic:
+- mrs_nr_company_anthropic_001
+company_apple:
+- mrs_nr_company_apple_001
+company_apple_network:
+- mrs_nr_company_apple_network_001,no-resolve
+company_apple_process:
+- mrs_nr_company_apple_process_001
+company_github:
+- mrs_nr_company_github_001
+company_google:
+- mrs_nr_company_google_001
+- mrs_nr_company_google_002
+company_google_network:
+- mrs_nr_company_google_network_001,no-resolve
+company_google_process:
+- mrs_nr_company_google_process_001
+company_meta:
+- mrs_nr_company_meta_001
+company_meta_network:
+- mrs_nr_company_meta_network_001,no-resolve
+- mrs_nr_company_meta_network_002
+company_microsoft:
+- mrs_nr_company_microsoft_001
+company_microsoft_network:
+- mrs_nr_company_microsoft_network_001,no-resolve
+company_microsoft_process:
+- mrs_nr_company_microsoft_process_001
+company_openai:
+- mrs_nr_company_openai_001
+- mrs_nr_company_openai_002
+company_x:
+- mrs_nr_company_x_001
+company_x_network:
+- mrs_nr_company_x_network_001,no-resolve
+copilot:
+- mrs_nr_copilot_001
+discord:
+- mrs_nr_discord_001
+disney:
+- mrs_nr_disney_001
+- mrs_nr_disney_002
+disney_process:
+- mrs_nr_disney_process_001
+facebook:
+- mrs_nr_facebook_001
+- mrs_nr_facebook_002,no-resolve
+- mrs_nr_facebook_003
+github:
+- mrs_nr_github_001
+google:
+- mrs_nr_google_001
+- mrs_nr_google_002
+- mrs_nr_google_003,no-resolve
+- mrs_nr_google_004
+google_gemini:
+- mrs_nr_google_gemini_001
+google_voice:
+- mrs_nr_google_voice_001
+iCloudPrivateRelay:
+- mrs_nr_iCloudPrivateRelay_001
+icloud:
+- mrs_nr_icloud_001
+microsoft:
+- mrs_nr_microsoft_001
+- mrs_nr_microsoft_002
+netflix:
+- mrs_nr_netflix_001
+- mrs_nr_netflix_002
+netflix_network:
+- mrs_nr_netflix_network_001,no-resolve
+netflix_process:
+- mrs_nr_netflix_process_001
+onedrive:
+- mrs_nr_onedrive_001
+- mrs_nr_onedrive_002
+openai:
+- mrs_nr_openai_001
+- mrs_nr_openai_002
+paypal:
+- mrs_nr_paypal_001
+private_direct:
+- mrs_nr_private_direct_001
+proxy:
+- mrs_nr_proxy_001
+- mrs_nr_proxy_002
+proxy_network:
+- mrs_nr_proxy_network_001,no-resolve
+proxy_selected:
+- mrs_nr_proxy_selected_001
+service_codebuddy:
+- mrs_nr_service_codebuddy_001
+service_jetbrains:
+- mrs_nr_service_jetbrains_001
+shared_dependencies:
+- mrs_nr_shared_dependencies_001
+shared_tencent:
+- mrs_nr_shared_tencent_001
+social_media:
+- mrs_nr_social_media_001
+- mrs_nr_social_media_002
+telegram:
+- mrs_nr_telegram_001
+telegram_network:
+- mrs_nr_telegram_network_001,no-resolve
+- mrs_nr_telegram_network_002
+telegram_process:
+- mrs_nr_telegram_process_001
+twitter:
+- mrs_nr_twitter_001
+- mrs_nr_twitter_002,no-resolve
+uk_vowifi:
+- mrs_nr_uk_vowifi_001
+- mrs_nr_uk_vowifi_002
+- mrs_nr_uk_vowifi_003,no-resolve
+youtube:
+- mrs_nr_youtube_001
+- mrs_nr_youtube_002,no-resolve
