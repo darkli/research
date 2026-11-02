@@ -1,0 +1,18 @@
+{
+  "clients": [
+    "mihomo",
+    "openclash"
+  ],
+  "comparisons": 61740,
+  "domain_case": "native_case_insensitive; other classical predicates unchanged",
+  "logical_bindings": 60,
+  "manifest_sha256": "ee03a89705f875ec53df9adeade0246c6448114f2c7413a49f8bf843281d1256",
+  "rendered_config_sha256": "a6662605bb02fa3c678bee1678916c43850c5ed223eb7d4d3083ec7dfce70a06",
+  "result": "passed",
+  "snapshot": "4d9d282eb2639ad465b619bf",
+  "validation_schema": 1,
+  "artifacts_sha256": "fd89076b4c78e5909c329241fdada8249ce3742e96c06cccec9d3882c243660f",
+  "rendered_bindings_sha256": "a5eab1dfed4b69cb2f6e484c42669de668020e61dc2d1dc1d922443125dea43e",
+  "company_config_sha256": "916bbd83766c7a17abcc4673048576b8a99a9f8644113edf14b933d52a570e4c",
+  "inputs_sha256": "b5606955eac5b38d65e7d8684662e1379e505bfaaed0017ec2a623c8ca07cc60"
+}

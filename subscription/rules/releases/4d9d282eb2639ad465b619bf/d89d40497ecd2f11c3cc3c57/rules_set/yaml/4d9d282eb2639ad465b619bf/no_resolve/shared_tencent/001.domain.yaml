@@ -1,0 +1,15 @@
+payload:
+- relay.oneid.tencent.com
+- open.weixin.qq.com
+- long.weixin.qq.com
+- res.weixin.qq.com
+- localhost.weixin.qq.com
+- captcha.gtimg.com
+- t.captcha.qq.com
+- turing.captcha.qcloud.com
+- turing.captcha.gtimg.com
+- cloud.tencent.com
+- faceid.qq.com
+- +.account.tencent.com
+- +.workspace.tencent.com
+- +.identity.tencent.com

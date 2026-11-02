@@ -1,0 +1,15 @@
+payload:
+- DOMAIN,relay.oneid.tencent.com
+- DOMAIN,open.weixin.qq.com
+- DOMAIN,long.weixin.qq.com
+- DOMAIN,res.weixin.qq.com
+- DOMAIN,localhost.weixin.qq.com
+- DOMAIN,captcha.gtimg.com
+- DOMAIN,t.captcha.qq.com
+- DOMAIN,turing.captcha.qcloud.com
+- DOMAIN,turing.captcha.gtimg.com
+- DOMAIN,cloud.tencent.com
+- DOMAIN,faceid.qq.com
+- DOMAIN-SUFFIX,account.tencent.com
+- DOMAIN-SUFFIX,workspace.tencent.com
+- DOMAIN-SUFFIX,identity.tencent.com

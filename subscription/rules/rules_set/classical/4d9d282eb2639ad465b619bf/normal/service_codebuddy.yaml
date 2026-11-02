@@ -1,0 +1,11 @@
+payload:
+- DOMAIN,acc-1258344699.cos.accelerate.myqcloud.com
+- DOMAIN,cs-res-1258344699.file.myqcloud.com
+- DOMAIN,codebuddy-1328495429.cos.ap-singapore.myqcloud.com
+- DOMAIN,client-pkg-1258344699.cos.accelerate.myqcloud.com
+- DOMAIN-SUFFIX,codebuddy.ai
+- DOMAIN-SUFFIX,codebuddy.cn
+- DOMAIN-SUFFIX,copilot.tencent.com
+- DOMAIN-SUFFIX,copilot-invite.tencent.com
+- DOMAIN-SUFFIX,workbuddy.ai
+- DOMAIN-SUFFIX,workbuddy.cn
