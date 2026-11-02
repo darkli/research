@@ -1,0 +1,6 @@
+payload:
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?globalsign[.]com$),(NOT,((DOMAIN-REGEX,(?i)^ocsp[.]globalsign[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^ocsp2[.]globalsign[.]com$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?sl-reverse[.]com$),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?ip6[.]static[.]sl-reverse[.]com$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?ubnt[.]com$),(NOT,((DOMAIN-REGEX,(?i)^config[.]ubnt[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^dl[.]ubnt[.]com$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?unity3d[.]com$),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?cdp[.]cloud[.]unity3d[.]com$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?zendesk[.]com$),(NOT,((DOMAIN-REGEX,(?i)^hammerandchisel[.]ssl[.]zendesk[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?hammerandchisel[.]ssl[.]zendesk[.]com$))))

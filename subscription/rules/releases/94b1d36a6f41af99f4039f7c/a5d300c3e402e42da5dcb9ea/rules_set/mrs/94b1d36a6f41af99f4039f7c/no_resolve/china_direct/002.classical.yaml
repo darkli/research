@@ -1,0 +1,10 @@
+payload:
+- DOMAIN-WILDCARD,qhimgs?.com
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?qq[.]com$),(NOT,((DOMAIN-REGEX,(?i)^faceid[.]qq[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^localhost[.]weixin[.]qq[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^long[.]weixin[.]qq[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^open[.]weixin[.]qq[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^res[.]weixin[.]qq[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^t[.]captcha[.]qq[.]com$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?127[.]net$),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?blz[.]nosdn[.]127[.]net$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?diablo3[.]nosdn[.]127[.]net$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?hearthstone[.]nosdn[.]127[.]net$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?overwatch[.]nosdn[.]127[.]net$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?sc2[.]nosdn[.]127[.]net$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?wow[.]nosdn[.]127[.]net$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?163[.]com$),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?bnet[.]163[.]com$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?gtimg[.]com$),(NOT,((DOMAIN-REGEX,(?i)^captcha[.]gtimg[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^turing[.]captcha[.]gtimg[.]com$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?netease[.]com$),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?di[.]res[.]netease[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?heroes[.]nos[.]netease[.]com$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?tencent[.]com$),(NOT,((DOMAIN-REGEX,(?i)^cloud[.]tencent[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^relay[.]oneid[.]tencent[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?account[.]tencent[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?copilot-invite[.]tencent[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?copilot[.]tencent[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?identity[.]tencent[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?workspace[.]tencent[.]com$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?autonavi[.]com$),(NOT,((DOMAIN-REGEX,(?i)^(.*[.])?dispatcher[.]is[.]autonavi[.]com$))))
+- AND,((DOMAIN-REGEX,(?i)^(.*[.])?weixin[.]qq[.]com$),(NOT,((DOMAIN-REGEX,(?i)^localhost[.]weixin[.]qq[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^long[.]weixin[.]qq[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^open[.]weixin[.]qq[.]com$))),(NOT,((DOMAIN-REGEX,(?i)^res[.]weixin[.]qq[.]com$))))

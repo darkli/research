@@ -1,0 +1,753 @@
+{
+  "schema": 1,
+  "snapshot": "94b1d36a6f41af99f4039f7c",
+  "canonical": {
+    "advertising": {
+      "canonical": "advertising",
+      "section": "domains",
+      "members": [
+        "mrs_nr_advertising_001",
+        "mrs_nr_advertising_002",
+        "mrs_nr_advertising_003,no-resolve"
+      ],
+      "dependencies": []
+    },
+    "amazon": {
+      "canonical": "amazon",
+      "section": "domains",
+      "members": [
+        "mrs_nr_amazon_001",
+        "mrs_nr_amazon_002"
+      ],
+      "dependencies": []
+    },
+    "amazon_process": {
+      "canonical": "amazon",
+      "section": "process",
+      "members": [
+        "mrs_nr_amazon_process_001"
+      ],
+      "dependencies": [
+        "amazon"
+      ]
+    },
+    "apple": {
+      "canonical": "company_apple",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_apple_001",
+        "mrs_nr_apple_002,no-resolve",
+        "mrs_nr_apple_003"
+      ],
+      "dependencies": [
+        "company_apple",
+        "shared_dependencies"
+      ]
+    },
+    "apple_media": {
+      "canonical": "company_apple",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_apple_media_001",
+        "mrs_nr_apple_media_002"
+      ],
+      "dependencies": [
+        "company_apple",
+        "shared_dependencies"
+      ]
+    },
+    "apple_proxy": {
+      "canonical": "company_apple",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_apple_proxy_001"
+      ],
+      "dependencies": [
+        "company_apple",
+        "shared_dependencies"
+      ]
+    },
+    "appletv": {
+      "canonical": "company_apple",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_appletv_001",
+        "mrs_nr_appletv_002"
+      ],
+      "dependencies": [
+        "company_apple",
+        "shared_dependencies"
+      ]
+    },
+    "bing": {
+      "canonical": "company_microsoft",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_bing_001"
+      ],
+      "dependencies": [
+        "company_microsoft",
+        "shared_dependencies"
+      ]
+    },
+    "china_direct": {
+      "canonical": "china_direct",
+      "section": "domains",
+      "members": [
+        "mrs_nr_china_direct_001",
+        "mrs_nr_china_direct_002"
+      ],
+      "dependencies": []
+    },
+    "china_direct_network": {
+      "canonical": "china_direct",
+      "section": "network",
+      "members": [
+        "mrs_nr_china_direct_network_001,no-resolve",
+        "mrs_nr_china_direct_network_002"
+      ],
+      "dependencies": [
+        "china_direct"
+      ]
+    },
+    "claude": {
+      "canonical": "company_anthropic",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_claude_001"
+      ],
+      "dependencies": [
+        "company_anthropic"
+      ]
+    },
+    "company_anthropic": {
+      "canonical": "company_anthropic",
+      "section": "domains",
+      "members": [
+        "mrs_nr_company_anthropic_001"
+      ],
+      "dependencies": []
+    },
+    "company_apple": {
+      "canonical": "company_apple",
+      "section": "domains",
+      "members": [
+        "mrs_nr_company_apple_001"
+      ],
+      "dependencies": [
+        "shared_dependencies"
+      ]
+    },
+    "company_apple_network": {
+      "canonical": "company_apple",
+      "section": "network",
+      "members": [
+        "mrs_nr_company_apple_network_001,no-resolve"
+      ],
+      "dependencies": [
+        "company_apple",
+        "shared_dependencies"
+      ]
+    },
+    "company_apple_process": {
+      "canonical": "company_apple",
+      "section": "process",
+      "members": [
+        "mrs_nr_company_apple_process_001"
+      ],
+      "dependencies": [
+        "company_apple",
+        "shared_dependencies"
+      ]
+    },
+    "company_github": {
+      "canonical": "company_github",
+      "section": "domains",
+      "members": [
+        "mrs_nr_company_github_001"
+      ],
+      "dependencies": [
+        "company_microsoft",
+        "shared_dependencies"
+      ]
+    },
+    "company_google": {
+      "canonical": "company_google",
+      "section": "domains",
+      "members": [
+        "mrs_nr_company_google_001",
+        "mrs_nr_company_google_002"
+      ],
+      "dependencies": []
+    },
+    "company_google_network": {
+      "canonical": "company_google",
+      "section": "network",
+      "members": [
+        "mrs_nr_company_google_network_001,no-resolve"
+      ],
+      "dependencies": [
+        "company_google"
+      ]
+    },
+    "company_google_process": {
+      "canonical": "company_google",
+      "section": "process",
+      "members": [
+        "mrs_nr_company_google_process_001"
+      ],
+      "dependencies": [
+        "company_google"
+      ]
+    },
+    "company_meta": {
+      "canonical": "company_meta",
+      "section": "domains",
+      "members": [
+        "mrs_nr_company_meta_001"
+      ],
+      "dependencies": []
+    },
+    "company_meta_network": {
+      "canonical": "company_meta",
+      "section": "network",
+      "members": [
+        "mrs_nr_company_meta_network_001,no-resolve",
+        "mrs_nr_company_meta_network_002"
+      ],
+      "dependencies": [
+        "company_meta"
+      ]
+    },
+    "company_microsoft": {
+      "canonical": "company_microsoft",
+      "section": "domains",
+      "members": [
+        "mrs_nr_company_microsoft_001"
+      ],
+      "dependencies": [
+        "shared_dependencies"
+      ]
+    },
+    "company_microsoft_network": {
+      "canonical": "company_microsoft",
+      "section": "network",
+      "members": [
+        "mrs_nr_company_microsoft_network_001,no-resolve"
+      ],
+      "dependencies": [
+        "company_microsoft",
+        "shared_dependencies"
+      ]
+    },
+    "company_microsoft_process": {
+      "canonical": "company_microsoft",
+      "section": "process",
+      "members": [
+        "mrs_nr_company_microsoft_process_001"
+      ],
+      "dependencies": [
+        "company_microsoft",
+        "shared_dependencies"
+      ]
+    },
+    "company_openai": {
+      "canonical": "company_openai",
+      "section": "domains",
+      "members": [
+        "mrs_nr_company_openai_001",
+        "mrs_nr_company_openai_002"
+      ],
+      "dependencies": [
+        "shared_dependencies"
+      ]
+    },
+    "company_x": {
+      "canonical": "company_x",
+      "section": "domains",
+      "members": [
+        "mrs_nr_company_x_001"
+      ],
+      "dependencies": []
+    },
+    "company_x_network": {
+      "canonical": "company_x",
+      "section": "network",
+      "members": [
+        "mrs_nr_company_x_network_001,no-resolve"
+      ],
+      "dependencies": [
+        "company_x"
+      ]
+    },
+    "copilot": {
+      "canonical": "company_microsoft",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_copilot_001"
+      ],
+      "dependencies": [
+        "company_microsoft",
+        "shared_dependencies"
+      ]
+    },
+    "discord": {
+      "canonical": "discord",
+      "section": "domains",
+      "members": [
+        "mrs_nr_discord_001"
+      ],
+      "dependencies": []
+    },
+    "disney": {
+      "canonical": "disney",
+      "section": "domains",
+      "members": [
+        "mrs_nr_disney_001",
+        "mrs_nr_disney_002"
+      ],
+      "dependencies": []
+    },
+    "disney_process": {
+      "canonical": "disney",
+      "section": "process",
+      "members": [
+        "mrs_nr_disney_process_001"
+      ],
+      "dependencies": [
+        "disney"
+      ]
+    },
+    "facebook": {
+      "canonical": "company_meta",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_facebook_001",
+        "mrs_nr_facebook_002,no-resolve",
+        "mrs_nr_facebook_003"
+      ],
+      "dependencies": [
+        "company_meta"
+      ]
+    },
+    "github": {
+      "canonical": "company_github",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_github_001"
+      ],
+      "dependencies": [
+        "company_github",
+        "company_microsoft",
+        "shared_dependencies"
+      ]
+    },
+    "google": {
+      "canonical": "company_google",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_google_001",
+        "mrs_nr_google_002",
+        "mrs_nr_google_003,no-resolve",
+        "mrs_nr_google_004"
+      ],
+      "dependencies": [
+        "company_google"
+      ]
+    },
+    "google_gemini": {
+      "canonical": "company_google",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_google_gemini_001"
+      ],
+      "dependencies": [
+        "company_google"
+      ]
+    },
+    "google_voice": {
+      "canonical": "company_google",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_google_voice_001"
+      ],
+      "dependencies": [
+        "company_google"
+      ]
+    },
+    "iCloudPrivateRelay": {
+      "canonical": "company_apple",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_iCloudPrivateRelay_001"
+      ],
+      "dependencies": [
+        "company_apple",
+        "shared_dependencies"
+      ]
+    },
+    "icloud": {
+      "canonical": "company_apple",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_icloud_001"
+      ],
+      "dependencies": [
+        "company_apple",
+        "shared_dependencies"
+      ]
+    },
+    "microsoft": {
+      "canonical": "company_microsoft",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_microsoft_001",
+        "mrs_nr_microsoft_002"
+      ],
+      "dependencies": [
+        "company_microsoft",
+        "shared_dependencies"
+      ]
+    },
+    "netflix": {
+      "canonical": "netflix",
+      "section": "domains",
+      "members": [
+        "mrs_nr_netflix_001",
+        "mrs_nr_netflix_002"
+      ],
+      "dependencies": []
+    },
+    "netflix_network": {
+      "canonical": "netflix",
+      "section": "network",
+      "members": [
+        "mrs_nr_netflix_network_001,no-resolve"
+      ],
+      "dependencies": [
+        "netflix"
+      ]
+    },
+    "netflix_process": {
+      "canonical": "netflix",
+      "section": "process",
+      "members": [
+        "mrs_nr_netflix_process_001"
+      ],
+      "dependencies": [
+        "netflix"
+      ]
+    },
+    "onedrive": {
+      "canonical": "company_microsoft",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_onedrive_001",
+        "mrs_nr_onedrive_002"
+      ],
+      "dependencies": [
+        "company_microsoft",
+        "shared_dependencies"
+      ]
+    },
+    "openai": {
+      "canonical": "company_openai",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_openai_001",
+        "mrs_nr_openai_002"
+      ],
+      "dependencies": [
+        "company_openai",
+        "shared_dependencies"
+      ]
+    },
+    "paypal": {
+      "canonical": "paypal",
+      "section": "domains",
+      "members": [
+        "mrs_nr_paypal_001"
+      ],
+      "dependencies": []
+    },
+    "private_direct": {
+      "canonical": "private_direct",
+      "section": "domains",
+      "members": [
+        "mrs_nr_private_direct_001"
+      ],
+      "dependencies": []
+    },
+    "proxy": {
+      "canonical": "proxy",
+      "section": "domains",
+      "members": [
+        "mrs_nr_proxy_001",
+        "mrs_nr_proxy_002"
+      ],
+      "dependencies": [
+        "company_google",
+        "shared_dependencies"
+      ]
+    },
+    "proxy_network": {
+      "canonical": "proxy",
+      "section": "network",
+      "members": [
+        "mrs_nr_proxy_network_001,no-resolve"
+      ],
+      "dependencies": [
+        "proxy",
+        "company_google",
+        "shared_dependencies"
+      ]
+    },
+    "proxy_selected": {
+      "canonical": "proxy_selected",
+      "section": "domains",
+      "members": [
+        "mrs_nr_proxy_selected_001"
+      ],
+      "dependencies": []
+    },
+    "service_codebuddy": {
+      "canonical": "service_codebuddy",
+      "section": "domains",
+      "members": [
+        "mrs_nr_service_codebuddy_001"
+      ],
+      "dependencies": [
+        "shared_tencent"
+      ]
+    },
+    "service_jetbrains": {
+      "canonical": "service_jetbrains",
+      "section": "domains",
+      "members": [
+        "mrs_nr_service_jetbrains_001"
+      ],
+      "dependencies": [
+        "company_github",
+        "shared_dependencies"
+      ]
+    },
+    "shared_dependencies": {
+      "canonical": "shared_dependencies",
+      "section": "domains",
+      "members": [
+        "mrs_nr_shared_dependencies_001"
+      ],
+      "dependencies": []
+    },
+    "shared_tencent": {
+      "canonical": "shared_tencent",
+      "section": "domains",
+      "members": [
+        "mrs_nr_shared_tencent_001"
+      ],
+      "dependencies": []
+    },
+    "social_media": {
+      "canonical": "social_media",
+      "section": "domains",
+      "members": [
+        "mrs_nr_social_media_001",
+        "mrs_nr_social_media_002"
+      ],
+      "dependencies": []
+    },
+    "telegram": {
+      "canonical": "telegram",
+      "section": "domains",
+      "members": [
+        "mrs_nr_telegram_001"
+      ],
+      "dependencies": []
+    },
+    "telegram_network": {
+      "canonical": "telegram",
+      "section": "network",
+      "members": [
+        "mrs_nr_telegram_network_001,no-resolve",
+        "mrs_nr_telegram_network_002"
+      ],
+      "dependencies": [
+        "telegram"
+      ]
+    },
+    "telegram_process": {
+      "canonical": "telegram",
+      "section": "process",
+      "members": [
+        "mrs_nr_telegram_process_001"
+      ],
+      "dependencies": [
+        "telegram"
+      ]
+    },
+    "twitter": {
+      "canonical": "company_x",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_twitter_001",
+        "mrs_nr_twitter_002,no-resolve"
+      ],
+      "dependencies": [
+        "company_x"
+      ]
+    },
+    "uk_vowifi": {
+      "canonical": "uk_vowifi",
+      "section": "domains",
+      "members": [
+        "mrs_nr_uk_vowifi_001",
+        "mrs_nr_uk_vowifi_002",
+        "mrs_nr_uk_vowifi_003,no-resolve"
+      ],
+      "dependencies": []
+    },
+    "youtube": {
+      "canonical": "company_google",
+      "section": "compatibility",
+      "members": [
+        "mrs_nr_youtube_001",
+        "mrs_nr_youtube_002,no-resolve"
+      ],
+      "dependencies": [
+        "company_google"
+      ]
+    }
+  },
+  "dependencies": {
+    "company_github": [
+      "company_microsoft",
+      "shared_dependencies"
+    ],
+    "company_openai": [
+      "shared_dependencies"
+    ],
+    "company_microsoft": [
+      "shared_dependencies"
+    ],
+    "service_jetbrains": [
+      "company_github",
+      "shared_dependencies"
+    ],
+    "company_apple": [
+      "shared_dependencies"
+    ],
+    "service_codebuddy": [
+      "shared_tencent"
+    ],
+    "proxy": [
+      "company_google",
+      "shared_dependencies"
+    ]
+  },
+  "compatibility": {
+    "google": "company_google",
+    "google_gemini": "company_google",
+    "google_voice": "company_google",
+    "youtube": "company_google",
+    "openai": "company_openai",
+    "claude": "company_anthropic",
+    "microsoft": "company_microsoft",
+    "copilot": "company_microsoft",
+    "bing": "company_microsoft",
+    "onedrive": "company_microsoft",
+    "facebook": "company_meta",
+    "twitter": "company_x",
+    "apple": "company_apple",
+    "apple_media": "company_apple",
+    "apple_proxy": "company_apple",
+    "appletv": "company_apple",
+    "icloud": "company_apple",
+    "iCloudPrivateRelay": "company_apple",
+    "github": "company_github"
+  },
+  "product_ownership": {
+    "service_codebuddy": {
+      "company": "Tencent / 腾讯",
+      "product": "Tencent Cloud CodeBuddy",
+      "references": [
+        "https://copilot.tencent.com/agreement/",
+        "https://www.codebuddy.cn/docs/plugin/操作指南/防火墙配置",
+        "https://www.codebuddy.ai/docs/ide/Support/Troubleshooting"
+      ]
+    },
+    "shared_tencent": {
+      "company": "Tencent / 腾讯",
+      "role": "shared authentication and CAPTCHA; not CodeBuddy-exclusive",
+      "references": [
+        "https://identity.tencent.com/docs/guides/SystemConfig/firewallConfig/"
+      ]
+    }
+  },
+  "publication": {
+    "bundle_layout": "releases/<snapshot>/<bundle_digest>/",
+    "immutable": true,
+    "legacy_classical_urls": "preserved"
+  },
+  "order": [
+    "explicit_domain_overrides",
+    "advertising",
+    "canonical_domains",
+    "manual_overlays",
+    "company_process",
+    "company_network",
+    "generic_fallback"
+  ],
+  "retired": {
+    "copilot": "Microsoft Copilot only; GitHub Copilot -> company_github"
+  },
+  "fragments": {
+    "providers_mrs_normal_file.yaml": {
+      "format": "mrs",
+      "mode": "normal",
+      "vehicle": "file",
+      "providers": 151
+    },
+    "providers_mrs_normal_http.yaml": {
+      "format": "mrs",
+      "mode": "normal",
+      "vehicle": "http",
+      "providers": 151
+    },
+    "providers_classical_normal_file.yaml": {
+      "format": "classical",
+      "mode": "normal",
+      "vehicle": "file",
+      "providers": 151
+    },
+    "providers_classical_normal_http.yaml": {
+      "format": "classical",
+      "mode": "normal",
+      "vehicle": "http",
+      "providers": 151
+    },
+    "providers_mrs_no_resolve_file.yaml": {
+      "format": "mrs",
+      "mode": "no_resolve",
+      "vehicle": "file",
+      "providers": 149
+    },
+    "providers_mrs_no_resolve_http.yaml": {
+      "format": "mrs",
+      "mode": "no_resolve",
+      "vehicle": "http",
+      "providers": 149
+    },
+    "providers_classical_no_resolve_file.yaml": {
+      "format": "classical",
+      "mode": "no_resolve",
+      "vehicle": "file",
+      "providers": 149
+    },
+    "providers_classical_no_resolve_http.yaml": {
+      "format": "classical",
+      "mode": "no_resolve",
+      "vehicle": "http",
+      "providers": 149
+    }
+  }
+}
