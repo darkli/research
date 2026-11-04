@@ -1,0 +1,12 @@
+onedrive:
+  type: http
+  behavior: classical
+  urls:
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive_No_Resolve.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/onedrive
+    format: dlc
+    name: onedrive
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list
+    format: classical-text
+  path: ./ruleset/onedrive_no_resolve.yaml
+  interval: 86400

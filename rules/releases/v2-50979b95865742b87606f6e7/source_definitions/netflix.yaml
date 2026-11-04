@@ -1,0 +1,12 @@
+netflix:
+  type: http
+  behavior: classical
+  urls:
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix_Classical.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/netflix
+    format: dlc
+    name: netflix
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+    format: classical-text
+  path: ./ruleset/netflix.yaml
+  interval: 86400

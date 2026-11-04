@@ -1,0 +1,12 @@
+twitter:
+  type: http
+  behavior: classical
+  urls:
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/twitter
+    format: dlc
+    name: twitter
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list
+    format: classical-text
+  path: ./ruleset/twitter.yaml
+  interval: 86400

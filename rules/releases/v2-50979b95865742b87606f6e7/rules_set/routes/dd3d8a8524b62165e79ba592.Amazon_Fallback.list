@@ -1,0 +1,2 @@
+AND,((RULE-SET,mrs_n_amazon_002))
+PROCESS-NAME,com.amazon.avod.thirdpartyclient
