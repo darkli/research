@@ -1,0 +1,167 @@
+{
+  "source_snapshot": "4ed466973ae20a57038102b8",
+  "files": {
+    "routes/33ce6521b095f473c9e9c79d.CF_Verification.list": {
+      "sha256": "33ce6521b095f473c9e9c79deeb371b016549199c29f7e1e94b9abce19c90ba0",
+      "bytes": 2911
+    },
+    "routes/70bbc18c01165084eb58179e.Direct.list": {
+      "sha256": "70bbc18c01165084eb58179edaca6635aa53c123040ee12f2e7e76a2994b31a4",
+      "bytes": 145
+    },
+    "routes/1236150a330caef1bf37bb1c.Proxy.list": {
+      "sha256": "1236150a330caef1bf37bb1c5b1eacbc0f7b007e5484b2b69033de45a67c823c",
+      "bytes": 426
+    },
+    "routes/2d99ccaff90738c1fa4a9f55.Google.list": {
+      "sha256": "2d99ccaff90738c1fa4a9f55728fa25ae8e05e2d2263828eb7ad2e9393e91338",
+      "bytes": 15618
+    },
+    "routes/6b2e3f404d38af97dfa76649.OpenAI.list": {
+      "sha256": "6b2e3f404d38af97dfa766491fdd50b060044604fe9a96d9769669c68dcec7d4",
+      "bytes": 1389
+    },
+    "routes/b564b8548e9e71d6834eeff1.Anthropic.list": {
+      "sha256": "b564b8548e9e71d6834eeff10fcac891e13f0155e444437e2d99f629282e29d5",
+      "bytes": 574
+    },
+    "routes/8fe5ec9e2ea0d571a9d838ab.Microsoft.list": {
+      "sha256": "8fe5ec9e2ea0d571a9d838abc65f56248bc3cccb942591d70586db1913157614",
+      "bytes": 1767
+    },
+    "routes/ac58d633440fc22e893e50a4.GitHub.list": {
+      "sha256": "ac58d633440fc22e893e50a46cf0a1efc618d70027abff96f74456c41d8f2665",
+      "bytes": 2526
+    },
+    "routes/b362b721474d281db434103f.Microsoft_2.list": {
+      "sha256": "b362b721474d281db434103f7858081600a36565aee8235f1cb93ed343caf0dc",
+      "bytes": 22158
+    },
+    "routes/f95b9c4519959b70301db9d3.Meta.list": {
+      "sha256": "f95b9c4519959b70301db9d3843b9a035b4064fd0eb469cb6fb659960160bf29",
+      "bytes": 12087
+    },
+    "routes/fb1231469d45c673aed9cc05.X.list": {
+      "sha256": "fb1231469d45c673aed9cc0580959467ebab1c744ccb6604eb65c1e04fbf1cf3",
+      "bytes": 762
+    },
+    "routes/6575bdce9be132078cf9e994.Apple.list": {
+      "sha256": "6575bdce9be132078cf9e99439472094bb9cc9f62d5eb785863aca1a33e55ce3",
+      "bytes": 21563
+    },
+    "routes/225346e97628331ef8b75c58.PayPal.list": {
+      "sha256": "225346e97628331ef8b75c582e927942f2499ff8b6b3275519fbe2a6ae022466",
+      "bytes": 7656
+    },
+    "routes/99a6d188208d273062ac12a2.Netflix.list": {
+      "sha256": "99a6d188208d273062ac12a21d0814239f8e75b0d3d3b42306a70094938e1505",
+      "bytes": 1412
+    },
+    "routes/7092e6b4896a0e0119566359.Disney.list": {
+      "sha256": "7092e6b4896a0e011956635941a4405b3a5b62f7c1f901fc0637ac13eb9f33f9",
+      "bytes": 7162
+    },
+    "routes/77efddfb5f09ec9cac5301f1.Telegram.list": {
+      "sha256": "77efddfb5f09ec9cac5301f16a0b0831396d65ebbe6a05a535f26c07847a8abf",
+      "bytes": 765
+    },
+    "routes/71b87b5eb938a4a2c6765f06.Discord.list": {
+      "sha256": "71b87b5eb938a4a2c6765f06a4a4947334f32e06b8ecee7391321779d4cabdcd",
+      "bytes": 918
+    },
+    "routes/46ee76ac03e8c9f3d372f1c9.Amazon.list": {
+      "sha256": "46ee76ac03e8c9f3d372f1c97342c22644cdafc2b3469dd572123f9197c62a67",
+      "bytes": 7144
+    },
+    "routes/25bf3b034aea899b2826e11c.Proxy_2.list": {
+      "sha256": "25bf3b034aea899b2826e11c809a09a97c7b1ef8418d21c294f239f47388611a",
+      "bytes": 3311
+    },
+    "routes/9f27ca3fc87d5b8acfba1fb8.Direct_2.list": {
+      "sha256": "9f27ca3fc87d5b8acfba1fb8044dad9242de903038110c7719dec48f5bd4a9b3",
+      "bytes": 8503
+    },
+    "routes/98b492ee5919ee925c8868cd.Proxy_3.list": {
+      "sha256": "98b492ee5919ee925c8868cdadc990460a5a25aca8cfae36684637f4710f4b96",
+      "bytes": 9115
+    },
+    "routes/6dd81631ce74bc1e28636fca.CF_Verification_Fallback.list": {
+      "sha256": "6dd81631ce74bc1e28636fcaf50815d9cde902093caf9b240c3f496b8450410f",
+      "bytes": 761
+    },
+    "routes/b60d76541a5cef2d011d5c21.Google_Fallback.list": {
+      "sha256": "b60d76541a5cef2d011d5c21a3ad8ddec8ba186ffb973456f34fbd9adf20c3f9",
+      "bytes": 1085
+    },
+    "routes/91c007fb6761976fc54119c0.OpenAI_Fallback.list": {
+      "sha256": "91c007fb6761976fc54119c0628e4d056055b3e87391a374a0f842f91620690c",
+      "bytes": 96
+    },
+    "routes/cceda9df089576e606168b8c.Microsoft_Fallback.list": {
+      "sha256": "cceda9df089576e606168b8cb73df250930dad38d7285a9a8c7d09097d64533c",
+      "bytes": 222
+    },
+    "routes/ec0aea80d721f915ca5f8f3e.Meta_Fallback.list": {
+      "sha256": "ec0aea80d721f915ca5f8f3ed32a310011bcba2550d7a1aaf0fa7dcaff1f63da",
+      "bytes": 1464
+    },
+    "routes/5180df31efc9654e3bf191bf.X_Fallback.list": {
+      "sha256": "5180df31efc9654e3bf191bf5bdd9ef946f9616d58d858b632cd193007a3bc4e",
+      "bytes": 211
+    },
+    "routes/2f7c6513939d12fb00c50be9.Apple_Fallback.list": {
+      "sha256": "2f7c6513939d12fb00c50be9bc0571275dbcaf9299b539b1297339f7572c119e",
+      "bytes": 830
+    },
+    "routes/223863b00bead23eb3074854.Netflix_Fallback.list": {
+      "sha256": "223863b00bead23eb3074854ac6209d44a1ad20a4917afe57e0ad95296a9de2a",
+      "bytes": 84
+    },
+    "routes/268810725db97d50f579995c.Disney_Fallback.list": {
+      "sha256": "268810725db97d50f579995c79962d0c7fab58f0854ee11e52087f72fb67d15d",
+      "bytes": 91
+    },
+    "routes/d22379f3c54571c781154348.Telegram_Fallback.list": {
+      "sha256": "d22379f3c54571c781154348deeb8b65322b78a488448a08b624d5bec8ca9e31",
+      "bytes": 706
+    },
+    "routes/cea3490a9e7e183bc668ea1c.Amazon_Fallback.list": {
+      "sha256": "cea3490a9e7e183bc668ea1cc9aca81a70a29e5e4e2edf2ef8394183cd501774",
+      "bytes": 92
+    },
+    "routes/00ed8f198e8aa37e7e54348d.Proxy_Fallback.list": {
+      "sha256": "00ed8f198e8aa37e7e54348d343ca8c63cbdeca296d228bdf2b041b07e65fb9c",
+      "bytes": 38
+    },
+    "routes/1579ea747eaec3442d44174a.Direct_Fallback.list": {
+      "sha256": "1579ea747eaec3442d44174ad079634c8cb91655e9721043579fb8814e1ca6b7",
+      "bytes": 2155
+    },
+    "routes/55e04b26fd0d5018d7a57798.Proxy_Fallback_2.list": {
+      "sha256": "55e04b26fd0d5018d7a57798f0bd39acf933b55058dce3d26b0f5f44d92c73ed",
+      "bytes": 337
+    },
+    "routes/2d99ccaff90738c1fa4a9f55.google_gemini_2.list": {
+      "sha256": "2d99ccaff90738c1fa4a9f55728fa25ae8e05e2d2263828eb7ad2e9393e91338",
+      "bytes": 15618
+    },
+    "routes/b60d76541a5cef2d011d5c21.youtube_fallback_Fallback.list": {
+      "sha256": "b60d76541a5cef2d011d5c21a3ad8ddec8ba186ffb973456f34fbd9adf20c3f9",
+      "bytes": 1085
+    },
+    "routes/04adc803a1f2eb96b1608759.Proxy_2.list": {
+      "sha256": "04adc803a1f2eb96b1608759a4c3d879adf4c245fa29945755d74c09543de86c",
+      "bytes": 37483
+    },
+    "routes/c47c26bef67f947a612796f1.Proxy_Fallback.list": {
+      "sha256": "c47c26bef67f947a612796f13d05a443bd78403f9178b2ad45cf4599330bfe85",
+      "bytes": 1348
+    }
+  },
+  "result": "verified",
+  "compiler_sha256": "73ff05d301f20ded8005d415869cbcf011bd847a9fa42404f30e0857b1b06888",
+  "source_commit": "eb4ed21bfca5bbed8d23be9f3c69135be4d091dc",
+  "policy": "same ordered predicates, case guards, side-effect phases and no-resolve flags; only adjacent identical targets combined",
+  "schema": 1,
+  "release": "compact-91a5dd8772da005e200f09e5"
+}
