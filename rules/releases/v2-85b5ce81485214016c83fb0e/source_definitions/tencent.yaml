@@ -1,0 +1,17 @@
+tencent:
+  type: http
+  behavior: classical
+  urls:
+  # Tencent.yaml currently only contains IP rules; the .list includes domains.
+  - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tencent/Tencent.list
+    format: classical-text
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo/TencentVideo.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/tencent
+    format: dlc
+    name: tencent
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Tencent.list
+    format: classical-text
+  # Ordinary Tencent services retain full upstream coverage in global direct.
+  path: ./ruleset/tencent.yaml
+  interval: 86400

@@ -1,0 +1,100 @@
+directai:
+  type: http
+  behavior: classical
+  # Chinese AI products and their domestic endpoints, independent of company.
+  # category-ai-!cn and ACL4SSR AI.list describe overseas services.
+  urls:
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-cn
+    format: dlc
+    name: category-ai-cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/aixcoder
+    format: dlc
+    name: aixcoder
+  - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/aiXcoder/aiXcoder.list
+    format: classical-text
+  # Reviewed product/API gaps outside the upstream AI category.
+  # Keep shared company domains (qq.com, aliyuncs.com, etc.) in their own routes.
+  additions:
+  - rule: DOMAIN-SUFFIX,workbuddy.ai
+    evidence: https://www.workbuddy.ai/document/term
+  - rule: DOMAIN-SUFFIX,workbuddy.host
+    evidence: https://workbuddy.host/
+  - rule: DOMAIN-SUFFIX,workbuddy.link
+    evidence: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
+  - rule: DOMAIN-SUFFIX,codebuddy.ai
+    evidence: https://cloud.tencent.com/document/product/1823/130068
+  - rule: DOMAIN-SUFFIX,codebuddy.info
+    evidence: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tencent/Tencent.list
+  - rule: DOMAIN-SUFFIX,codebuddy.net
+    evidence: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tencent/Tencent.list
+  - rule: DOMAIN-SUFFIX,codebuddy.pro
+    evidence: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tencent/Tencent.list
+  - rule: DOMAIN-SUFFIX,codebuddy.work
+    evidence: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tencent/Tencent.list
+  - rule: DOMAIN-SUFFIX,copilot.tencent.com
+    evidence: https://cloud.tencent.com/document/product/1831/134363
+  - rule: DOMAIN-SUFFIX,copilot-invite.tencent.com
+    evidence: https://cloud.tencent.com/document/product/1831/134363
+  - rule: DOMAIN-SUFFIX,copilot.qq.com
+    evidence: https://cloud.tencent.com/document/product/1831/134363
+  - rule: DOMAIN-SUFFIX,workbuddyenterprise.tencentcloudapi.com
+    evidence: https://cloud.tencent.com/document/api/1831/140522
+  - rule: DOMAIN-SUFFIX,ima.qq.com
+    evidence: https://ima.qq.com/
+  - rule: DOMAIN-SUFFIX,qclaw.qq.com
+    evidence: https://qclaw.qq.com/
+  - rule: DOMAIN-SUFFIX,hunyuan.cloud.tencent.com
+    evidence: https://cloud.tencent.com/document/product/1729/111007
+  - rule: DOMAIN-SUFFIX,hunyuan.tencentcloudapi.com
+    evidence: https://cloud.tencent.com/document/api/1729/101832
+  - rule: DOMAIN-SUFFIX,tokenhub.tencentmaas.com
+    evidence: https://cloud.tencent.com/document/product/1823/130078
+  - rule: DOMAIN-SUFFIX,tokenhub.tencentmaas.cn
+    evidence: https://cloud.tencent.com/document/product/1823/130078
+  - rule: DOMAIN-SUFFIX,tokenhub.tencentcloudmaas.com
+    evidence: https://intl.cloud.tencent.com/document/product/1300/78941?lang=en
+  - rule: DOMAIN-SUFFIX,tokenhub.tencentcloudmaas.tech
+    evidence: https://intl.cloud.tencent.com/document/product/1300/78941?lang=en
+  - rule: DOMAIN-SUFFIX,tokenhub.tencentcloudapi.com
+    evidence: https://cloud.tencent.com/document/product/1823/132282
+  - rule: DOMAIN-SUFFIX,ai.wps.cn
+    evidence: https://ai.wps.cn/
+  - rule: DOMAIN-SUFFIX,aistudio.baidu.com
+    evidence: https://aistudio.baidu.com/
+  - rule: DOMAIN-SUFFIX,qianfan.baidubce.com
+    evidence: https://cloud.baidu.com/doc/qianfan/s/8mh4sv3sb
+  - rule: DOMAIN-SUFFIX,wenxin.baidu.com
+    evidence: https://wenxin.baidu.com/
+  - rule: DOMAIN-SUFFIX,ernie.baidu.com
+    evidence: https://ernie.baidu.com/
+  - rule: DOMAIN-SUFFIX,bailian.console.aliyun.com
+    evidence: https://help.aliyun.com/zh/model-studio/regions
+  - rule: DOMAIN-SUFFIX,dashscope.aliyuncs.com
+    evidence: https://help.aliyun.com/zh/model-studio/base-url
+  - rule: DOMAIN-SUFFIX,cn-beijing.maas.aliyuncs.com
+    evidence: https://help.aliyun.com/zh/model-studio/base-url
+  - rule: DOMAIN-SUFFIX,modelscope.cn
+    evidence: https://modelscope.cn/
+  - rule: DOMAIN-SUFFIX,siliconflow.cn
+    evidence: https://docs.siliconflow.cn/cn/api-reference/chat-completions/chat-completions
+  - rule: DOMAIN-SUFFIX,stepfun.com
+    evidence: https://platform.stepfun.com/
+  - rule: DOMAIN-SUFFIX,ark.cn-beijing.volces.com
+    evidence: https://docs.volcengine.com/docs/ark/quick-start?lang=en
+  - rule: DOMAIN-SUFFIX,jimeng.jianying.com
+    evidence: https://jimeng.jianying.com/
+  - rule: DOMAIN-SUFFIX,visual.volcengineapi.com
+    evidence: https://docs.volcengine.com/docs/jimeng-ai/jimeng-ai-image-generation-46-interface-documentation?lang=zh
+  - rule: DOMAIN-SUFFIX,spark-api-open.xf-yun.com
+    evidence: https://www.xfyun.cn/doc/spark/HTTP%E8%B0%83%E7%94%A8%E6%96%87%E6%A1%A3.html
+  - rule: DOMAIN-SUFFIX,spark-api.xf-yun.com
+    evidence: https://www.xfyun.cn/doc/spark/X1.html
+  - rule: DOMAIN-SUFFIX,bochaai.com
+    evidence: https://bochaai.com/
+  - rule: DOMAIN-SUFFIX,bocha.cn
+    evidence: https://bochaai.com/
+  dns_servers:
+  - https://223.5.5.5/dns-query#DIRECT
+  - https://223.6.6.6/dns-query#DIRECT
+  path: ./ruleset/directai.yaml
+  interval: 86400

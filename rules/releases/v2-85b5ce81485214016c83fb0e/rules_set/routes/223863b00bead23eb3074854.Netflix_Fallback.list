@@ -1,0 +1,2 @@
+AND,((RULE-SET,mrs_nr_netflix_002,no-resolve))
+PROCESS-NAME,com.netflix.mediaclient

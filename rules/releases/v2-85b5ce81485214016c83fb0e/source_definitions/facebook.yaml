@@ -1,0 +1,24 @@
+facebook:
+  type: http
+  behavior: classical
+  urls:
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/facebook
+    format: dlc
+    name: facebook
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/whatsapp
+    format: dlc
+    name: whatsapp
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/instagram
+    format: dlc
+    name: instagram
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Whatsapp.list
+    format: classical-text
+  path: ./ruleset/facebook.yaml
+  interval: 86400
