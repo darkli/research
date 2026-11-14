@@ -1,0 +1,124 @@
+china_gov:
+  type: http
+  behavior: classical
+  urls:
+  # 政务机关、铁路 12306、CNNIC 与央媒（blackmatrix7 No_Resolve）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GovCN/GovCN_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/12306/12306_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CNNIC/CNNIC_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaNews/ChinaNews_No_Resolve.yaml
+  # 教育考试、科研院所、公立医院、党媒央媒、邮政石化与工商公示查询（v2fly）
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-education-cn
+    format: dlc
+    name: category-education-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-scholar-cn
+    format: dlc
+    name: category-scholar-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-hospital-cn
+    format: dlc
+    name: category-hospital-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-media-cn
+    format: dlc
+    name: category-media-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-enterprise-query-platform-cn
+    format: dlc
+    name: category-enterprise-query-platform-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cctv
+    format: dlc
+    name: cctv
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/chinanews
+    format: dlc
+    name: chinanews
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bjyouth
+    format: dlc
+    name: bjyouth
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/chinapost
+    format: dlc
+    name: chinapost
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/petrochina
+    format: dlc
+    name: petrochina
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/sinopec
+    format: dlc
+    name: sinopec
+    filters:
+    - -!cn
+  # 央视总台（ACL4SSR）
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/CCTV.list
+    format: classical-text
+  # 补充 v2fly/domain-list-community (geolocation-cn / tld-cn) 内联的党政军与国家民生公共服务域名
+  additions:
+  - rule: DOMAIN-SUFFIX,mil.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/tld-cn
+  - rule: DOMAIN-SUFFIX,ac.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/tld-cn
+  - rule: DOMAIN-SUFFIX,org.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/tld-cn
+  - rule: DOMAIN-SUFFIX,12315.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,12321.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,12371.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,12377.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,m12333.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,si12333.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,pbccrc.org.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,cpta.com.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,chinacdc.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,cma.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,nmc.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,cnca.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,conac.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,piyao.org.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,redcross.org.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,sgcc.com.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,95598.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,csg.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,travelsky.com.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/geolocation-cn
+  - rule: DOMAIN-SUFFIX,news.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/category-media-cn
+  - rule: DOMAIN-SUFFIX,people.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/category-media-cn
+  - rule: DOMAIN-SUFFIX,gmw.cn
+    evidence: https://github.com/v2fly/domain-list-community/blob/master/data/category-media-cn
+  exclusions:
+  - DOMAIN-SUFFIX,sinopec-usa.com
+  path: ./ruleset/china_gov.yaml
+  interval: 86400

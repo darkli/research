@@ -1,0 +1,3476 @@
+{
+  "files": {
+    "PROVENANCE.md": {
+      "bytes": 830,
+      "sha256": "d5fdf4e882ad7f3862546ac422c86048c72036624e4faa305fc9650d785089b7"
+    },
+    "conversion.json": {
+      "bytes": 463333,
+      "sha256": "8a27bc32ab61ed709e17918522b6b738197f4b2aaab3593f78a7155d73cf7e88"
+    },
+    "licenses/ACL4SSR-LICENCE": {
+      "bytes": 20131,
+      "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297"
+    },
+    "routing-policies.json": {
+      "bytes": 4239,
+      "sha256": "b8bee9b127a967141f4c1e384558f02a8dcd89b806dd2d63ea2110e3f2b16c62"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_amazon_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 73516,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "07487a64f6312e6026bd6e8c21b01caafde00227a9fcdeb07afe13fa49d429ea"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_amazon_host.yaml": {
+      "behavior": "classical",
+      "bytes": 7629,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "7ba4102021b238b6affbd5e6217dee295029ba42ad51a6dc3b50e8474e4ab458"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_apple_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 825,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "1a8f7f6cb193ccba783e60cd96d6e65aa4b613c64c0239aaf1b3101b562cdac7"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_apple_host.yaml": {
+      "behavior": "classical",
+      "bytes": 53166,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "c8dc67f341aea717de76bad894e1fb7006796381867f1e12a4311fbcf623d913"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_apple_media_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 30,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "f29df3565841aa125756d123faf1744dadf230909bdc36274db0507a7c7d71f4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_apple_media_host.yaml": {
+      "behavior": "classical",
+      "bytes": 4505,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "8d1ea1b73cc818a7b85d4511f7a0ef131128fcabde3ed180a4653eac6d1496ce"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_apple_proxy_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 42,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "db1f0eb943754d134699e793dd2492de33b454ee1f7f97f69ecbe47f3893265b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_apple_proxy_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1262,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "b304cf896e13f50f98c822b9bbc39af9f6bfb39deeaf40619538bf92e614a7cd"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_appletv_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 27,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "a242874c96b9e0bb7e1fd5b54272d9fb2d387f5c800d5fb1009b1e4915b5ef5b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_appletv_host.yaml": {
+      "behavior": "classical",
+      "bytes": 272,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "171b112b112328f02f6b73446a3b2365ad692ad63bc693804a9653c706d63ba9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_bing_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1174,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "3a90f5714a7e8c770ad225eddfb82eaa8f82b1a2f224f01204bee3a9f008e04b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_china_direct_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 7407,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "4a4d7618bbc1fa84a6b5c7092299ababd03f3aa6bea07c69215c246776c1b6aa"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_china_direct_host.yaml": {
+      "behavior": "classical",
+      "bytes": 140993,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "891cd31fab98bcb5ba325fb804ae356fbcb26ce5d15bf05647cfcf456d389a80"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_china_gov_host.yaml": {
+      "behavior": "classical",
+      "bytes": 23989,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "325e418ec09e1fbbe7e0b950b37d235b7576a27b2995a2d2d51e135bd8ab5c98"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_claude_host.yaml": {
+      "behavior": "classical",
+      "bytes": 705,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "59d7efb27f58579bff05848bdc205d0dcc0d48f312e200000d8d1b9c79c53b17"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_cloudflare_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 814,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "f3e546d016fbf4728ed038b60b870d58acbf654562183b37b3c47562f649323d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_cloudflare_host.yaml": {
+      "behavior": "classical",
+      "bytes": 2562,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "1df2ebcc653f45ae9b2bafaaeffe504d1782be8a9785f9de485a7a25c6c96602"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_copilot_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 137,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "65122913da3e5553c5fb28187ec42b9ce3dc90135eb2abef4415ba706c7fd212"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_copilot_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1942,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "cf40b9ef390d9996de8e4e1c49b0c2c1bfb54a683062491881dbee30e2ae97a6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_discord_host.yaml": {
+      "behavior": "classical",
+      "bytes": 985,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "7124cf7b6c0fa1cb85f435b37d1b133acb4a5673d37ce76e4fa5a82b7bad15aa"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_disney_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 104,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "b89b3c65797cf58eec2d2eb645450f987f42c984dafd78d2f3aeab434bc4f7db"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_disney_host.yaml": {
+      "behavior": "classical",
+      "bytes": 7641,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "9941082e35804e1252778920fdf5134ab3d12a3f9ec27c166714f8c66abf5518"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_facebook_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 1557,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "44d769570e446f5b9d2bcb6d5d6086fcda9faf4f71941c558285f3e834d9a60a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_facebook_host.yaml": {
+      "behavior": "classical",
+      "bytes": 17666,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "b410a2b66b4b5a1bb2105ed25f0db05972ac21bc1004bdaab8364eb7d40f3091"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_github_host.yaml": {
+      "behavior": "classical",
+      "bytes": 2723,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "dc3ca62d96b648cf8bcbad3cb41eb936a23e850cfe2e4980296813be6ce9a9ae"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_google_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 1040,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "fe0751ecce76029e43118e6be1ee13b384c6683793ec5985a6e4bcaa9b9287d7"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_google_gemini_host.yaml": {
+      "behavior": "classical",
+      "bytes": 2012,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "796e8675936ca19a8c4d5e27f1e352cea5d4e56104f24ef9324b681361d15a59"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_google_host.yaml": {
+      "behavior": "classical",
+      "bytes": 26859,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "c702b100f090387b2ec81adfbaac0c4059373a04dff9f9f9014b57f50febb816"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_google_voice_host.yaml": {
+      "behavior": "classical",
+      "bytes": 36,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "89c94d82734811824ebc04e6a8f2b72f4df74a39edd489c5c0db68c4acdc00ef"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_iCloudPrivateRelay_host.yaml": {
+      "behavior": "classical",
+      "bytes": 205,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "82d8299d1c04947ee04bbf517883d6c3247a9fd6a68a60e8dd30b02a2ed375cf"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_icloud_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1831,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "cdd5a5570bc908caeb0e4a0986e9b6097daed01b43d1973468c9f569385f6afd"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_microsoft_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 64,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "1d9cfb60e9519d9496254c7481611489f586f7a55d01117a6f5eb957070c7a0a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_microsoft_host.yaml": {
+      "behavior": "classical",
+      "bytes": 24586,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "ee071f9c93ac616177d71703c02b2ec47c69729daa2545fcebf6960bf7979c62"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_netflix_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 41231,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "30bfba9ac10c8763469b4d884695e8947052d23ae17430e64d73205c8457df39"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_netflix_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1501,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "2b406343882d375b69d3b00ff5b22f2ae0dfbc344adbdce65b650f79d2b1922c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_onedrive_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 64,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "1d9cfb60e9519d9496254c7481611489f586f7a55d01117a6f5eb957070c7a0a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_onedrive_host.yaml": {
+      "behavior": "classical",
+      "bytes": 730,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "90d52845f5af97eade7b470e9ff9f45a44b9073b1ef4cc374347470e6654c8b7"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_openai_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 111,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "6c2ca4301f867e0a82ba4ccf492905c6b71e6ad3015effa27f43a2462384bb65"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_openai_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1482,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "620be29ba62d889719fd068c816b71484beb472b145bb537a4f45e224bb8efee"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_paypal_host.yaml": {
+      "behavior": "classical",
+      "bytes": 8159,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "7cb8ae2fbc2a5e1146072343c8c13c6bfbeb2d0d1dc3811c88812f0ecdb7992f"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_proxy_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 3811,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "3ca4f96b22630df8cce5bd3adc0dd87ea261d62e2abc5cbd26dbdb508d6bc74c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_proxy_host.yaml": {
+      "behavior": "classical",
+      "bytes": 216589,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "3c92a7a81735ff363d90399d247c9bb6ee63f1af1f06cbf20f4d4384d896d3d4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_social_media_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 49,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "9f8ee19cdb1f35c1ee6e89db7e6e34c64fd48d0553bc9f48a59333138062f8ac"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_social_media_host.yaml": {
+      "behavior": "classical",
+      "bytes": 3532,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "54b3f43bdc39d473bfb89317f4c8d15dd6d96f7698093f3b47c2e819cc386414"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_telegram_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 759,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "af45225a3e31f68d9ea818e72aac32e1baefe7e672b8b580b9730ffe891f2591"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_telegram_host.yaml": {
+      "behavior": "classical",
+      "bytes": 832,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "ee41a9d2062791a3cc5af3ad16ed45ab68eba1308b6bcbe1910cb2f2e1dd25c4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_tencent_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 2243,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "b94d7a1bf2aa89bbab8a8dbbf0ce06967491604b3541a962118475628dd74778"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_tencent_host.yaml": {
+      "behavior": "classical",
+      "bytes": 80135,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "efdf15a1fff595d053f066dcdb0df65d1015f75b57bab6da77fe1b81b6651bb0"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_twitter_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 232,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "997b5eb4cbe836b67950b47bad0325d567b86b894a71b2aeb753038cc335fb88"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_twitter_host.yaml": {
+      "behavior": "classical",
+      "bytes": 827,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "0470ff27ec719bac4276fbfb6e1f803aead6e6632a908fed1020ed13fb7c4d06"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_youtube_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 123,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "3fd1ba3b79d933d905f9a79ce9984fb9039b1b56afe9c546bbee0f0dde2ea714"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/no_resolve/6de67806dbea08c4ebcf8766.classical_no_resolve_youtube_host.yaml": {
+      "behavior": "classical",
+      "bytes": 5303,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "826fa1100f4fb2be54ee5240d54e2d88bbc7036e492adcd460a46c8fda759fde"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_amazon_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 51857,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "3d38ca3418e4317c1cde2d7b56a18616e601151568dd2e12cc73adc5a13d1992"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_amazon_host.yaml": {
+      "behavior": "classical",
+      "bytes": 7629,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "7ba4102021b238b6affbd5e6217dee295029ba42ad51a6dc3b50e8474e4ab458"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_apple_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 1045,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "c4322158031bf4df08d2410399d7f3ff945032d1764b6a31bca6e9466015e65d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_apple_host.yaml": {
+      "behavior": "classical",
+      "bytes": 53166,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "c8dc67f341aea717de76bad894e1fb7006796381867f1e12a4311fbcf623d913"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_apple_media_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 30,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "f29df3565841aa125756d123faf1744dadf230909bdc36274db0507a7c7d71f4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_apple_media_host.yaml": {
+      "behavior": "classical",
+      "bytes": 4505,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "8d1ea1b73cc818a7b85d4511f7a0ef131128fcabde3ed180a4653eac6d1496ce"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_apple_proxy_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 42,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "db1f0eb943754d134699e793dd2492de33b454ee1f7f97f69ecbe47f3893265b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_apple_proxy_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1262,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "b304cf896e13f50f98c822b9bbc39af9f6bfb39deeaf40619538bf92e614a7cd"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_appletv_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 27,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "a242874c96b9e0bb7e1fd5b54272d9fb2d387f5c800d5fb1009b1e4915b5ef5b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_appletv_host.yaml": {
+      "behavior": "classical",
+      "bytes": 272,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "171b112b112328f02f6b73446a3b2365ad692ad63bc693804a9653c706d63ba9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_bing_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1174,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "3a90f5714a7e8c770ad225eddfb82eaa8f82b1a2f224f01204bee3a9f008e04b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_china_direct_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 6505,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "f2aa08a33b05a20a6ef75433623748df5cfce0f70403811c45b0a9c0f678df68"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_china_direct_host.yaml": {
+      "behavior": "classical",
+      "bytes": 140993,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "891cd31fab98bcb5ba325fb804ae356fbcb26ce5d15bf05647cfcf456d389a80"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_china_gov_host.yaml": {
+      "behavior": "classical",
+      "bytes": 23989,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "325e418ec09e1fbbe7e0b950b37d235b7576a27b2995a2d2d51e135bd8ab5c98"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_claude_host.yaml": {
+      "behavior": "classical",
+      "bytes": 705,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "59d7efb27f58579bff05848bdc205d0dcc0d48f312e200000d8d1b9c79c53b17"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_cloudflare_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 572,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "5998d0d62733490240b08849847039ef23a75e72f279831dacb474355b26e1ff"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_cloudflare_host.yaml": {
+      "behavior": "classical",
+      "bytes": 2562,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "1df2ebcc653f45ae9b2bafaaeffe504d1782be8a9785f9de485a7a25c6c96602"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_copilot_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 93,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "23396e2754635228dc2876f1371cad66ce01b171473721e1f785bdc14f45cf71"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_copilot_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1942,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "cf40b9ef390d9996de8e4e1c49b0c2c1bfb54a683062491881dbee30e2ae97a6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_discord_host.yaml": {
+      "behavior": "classical",
+      "bytes": 985,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "7124cf7b6c0fa1cb85f435b37d1b133acb4a5673d37ce76e4fa5a82b7bad15aa"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_disney_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 104,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "b89b3c65797cf58eec2d2eb645450f987f42c984dafd78d2f3aeab434bc4f7db"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_disney_host.yaml": {
+      "behavior": "classical",
+      "bytes": 7641,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "9941082e35804e1252778920fdf5134ab3d12a3f9ec27c166714f8c66abf5518"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_facebook_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 1965,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "93b60441518192547e556c48f1e3f70c580966acdf53e1df264ff84d96123582"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_facebook_host.yaml": {
+      "behavior": "classical",
+      "bytes": 17666,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "b410a2b66b4b5a1bb2105ed25f0db05972ac21bc1004bdaab8364eb7d40f3091"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_github_host.yaml": {
+      "behavior": "classical",
+      "bytes": 2723,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "dc3ca62d96b648cf8bcbad3cb41eb936a23e850cfe2e4980296813be6ce9a9ae"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_google_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 1508,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "bad55e8cfa1557dd57b289a362b7e4aa996ff3c6ccd158659e5a43ce1cb2391e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_google_gemini_host.yaml": {
+      "behavior": "classical",
+      "bytes": 2012,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "796e8675936ca19a8c4d5e27f1e352cea5d4e56104f24ef9324b681361d15a59"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_google_host.yaml": {
+      "behavior": "classical",
+      "bytes": 26859,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "c702b100f090387b2ec81adfbaac0c4059373a04dff9f9f9014b57f50febb816"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_google_voice_host.yaml": {
+      "behavior": "classical",
+      "bytes": 36,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "89c94d82734811824ebc04e6a8f2b72f4df74a39edd489c5c0db68c4acdc00ef"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_iCloudPrivateRelay_host.yaml": {
+      "behavior": "classical",
+      "bytes": 205,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "82d8299d1c04947ee04bbf517883d6c3247a9fd6a68a60e8dd30b02a2ed375cf"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_icloud_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1831,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "cdd5a5570bc908caeb0e4a0986e9b6097daed01b43d1973468c9f569385f6afd"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_microsoft_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 64,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "1d9cfb60e9519d9496254c7481611489f586f7a55d01117a6f5eb957070c7a0a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_microsoft_host.yaml": {
+      "behavior": "classical",
+      "bytes": 24586,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "ee071f9c93ac616177d71703c02b2ec47c69729daa2545fcebf6960bf7979c62"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_netflix_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 29569,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "e85f1435df9d29d2bd17a0a15c40adf6fe9791a24f70bef1d727f0a02595a310"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_netflix_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1501,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "2b406343882d375b69d3b00ff5b22f2ae0dfbc344adbdce65b650f79d2b1922c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_onedrive_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 64,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "1d9cfb60e9519d9496254c7481611489f586f7a55d01117a6f5eb957070c7a0a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_onedrive_host.yaml": {
+      "behavior": "classical",
+      "bytes": 730,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "90d52845f5af97eade7b470e9ff9f45a44b9073b1ef4cc374347470e6654c8b7"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_openai_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 78,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "224c4a0ce39ee315f044c2f523a353472ad8afea2ab7bcf5782319e192f221f4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_openai_host.yaml": {
+      "behavior": "classical",
+      "bytes": 1482,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "620be29ba62d889719fd068c816b71484beb472b145bb537a4f45e224bb8efee"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_paypal_host.yaml": {
+      "behavior": "classical",
+      "bytes": 8159,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "7cb8ae2fbc2a5e1146072343c8c13c6bfbeb2d0d1dc3811c88812f0ecdb7992f"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_private_direct_host.yaml": {
+      "behavior": "classical",
+      "bytes": 166,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "9ace988d559d4a9b9164606c53f8c350a62063faaf87d30726321540c8f3d01e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_proxy_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 5632,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "d21d936d82900f1728ddf9cf0c1f32c4cd008b059dcc4077721095904ae182e2"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_proxy_host.yaml": {
+      "behavior": "classical",
+      "bytes": 216589,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "3c92a7a81735ff363d90399d247c9bb6ee63f1af1f06cbf20f4d4384d896d3d4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_proxy_selected_host.yaml": {
+      "behavior": "classical",
+      "bytes": 465,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "314ba479a81c2a33e946cda7c1ee07d8fda26e367695c8fc3b8bf839060835e6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_shared_verification_host.yaml": {
+      "behavior": "classical",
+      "bytes": 392,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "4bb2ba3d0f84e448d1fda2eb5f68338d5396d77a5b12ebe118d6d224b2ef9c6c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_social_media_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 49,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "9f8ee19cdb1f35c1ee6e89db7e6e34c64fd48d0553bc9f48a59333138062f8ac"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_social_media_host.yaml": {
+      "behavior": "classical",
+      "bytes": 3532,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "54b3f43bdc39d473bfb89317f4c8d15dd6d96f7698093f3b47c2e819cc386414"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_telegram_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 827,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "a3ad03c9956006e4cb697a931d9a7a15abb44ee031a972f156fed8bddca070cc"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_telegram_host.yaml": {
+      "behavior": "classical",
+      "bytes": 832,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "ee41a9d2062791a3cc5af3ad16ed45ab68eba1308b6bcbe1910cb2f2e1dd25c4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_tencent_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 1891,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "7f1450fa1d02e2de5cf9787bfef395771b919af2ef137ec649743a4f9b1d4e7c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_tencent_host.yaml": {
+      "behavior": "classical",
+      "bytes": 80135,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "efdf15a1fff595d053f066dcdb0df65d1015f75b57bab6da77fe1b81b6651bb0"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_twitter_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 166,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "3b3155d040b9fe1021e4a0ca26a98c616548ee48a1f6504911dc12d1ae27445a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_twitter_host.yaml": {
+      "behavior": "classical",
+      "bytes": 827,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "0470ff27ec719bac4276fbfb6e1f803aead6e6632a908fed1020ed13fb7c4d06"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_verification_services_host.yaml": {
+      "behavior": "classical",
+      "bytes": 170,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "1aaeb5eeb69b9ff2ce12d255b35e8726db028153c9b4c613eaa94862abe20e0a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_youtube_fallback.yaml": {
+      "behavior": "classical",
+      "bytes": 90,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "b696d1d1a00c9d8d38cf170fb0c94e8d3291a77e7dfa4abec7590045eef3de93"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/classical/normal/6de67806dbea08c4ebcf8766.classical_normal_youtube_host.yaml": {
+      "behavior": "classical",
+      "bytes": 5303,
+      "format": "yaml",
+      "origin": "mrs",
+      "sha256": "826fa1100f4fb2be54ee5240d54e2d88bbc7036e492adcd460a46c8fda759fde"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/amazon/6de67806dbea08c4ebcf8766.mrs_nr_amazon_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 7144,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "46ee76ac03e8c9f3d372f1c97342c22644cdafc2b3469dd572123f9197c62a67"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/amazon/6de67806dbea08c4ebcf8766.mrs_nr_amazon_002.ipcidr.mrs": {
+      "behavior": "ipcidr",
+      "bytes": 6579,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "b18d90bdb958ead7f2c467ec781a5bb553094875370770977a30a40cb84828f6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/amazon/6de67806dbea08c4ebcf8766.mrs_nr_amazon_003.classical.list": {
+      "behavior": "classical",
+      "bytes": 46,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "8fc25ac8116335765b5d61641926fbe3aa1dab7f206b4c5e7f3b0e4eed0688e9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1037,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f4121d6d88653ea8048be2937f99377331e7258216bf152f797f91269177a573"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 828,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "d0008c973c867c3ffd837eb1aa0b7242e119e018f3b7dbc715ea721496601817"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 809,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "20e2e22eacb2f36d758d50334855f68400bc1f4b1df81c147bcb666e51b6c276"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 846,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "ba50f472c90a51dcfddbebf3ca57905d5e986a105172990b2abddb462bf6b0f8"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 894,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "20f02c813179bebf40ee8bbad97f0e906138cf0ed8f2fa6e10aea5ecd54ebcca"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_006.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 726,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "27038154155164d9cee676be1d1766e25331f9cd2b588c04338587e460f16c7f"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_007.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 812,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "946386afbfdb862882190e0ef957892780cbf134f05d154144b5007466c76947"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_008.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 727,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "54a7a09fcc16b4f969cbc56cb598b49ddedf9e44aa5f9ccbd61231242649406d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_009.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 317,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "8d5f902fe3c5eca30d286a8d6c73de962ac68d6c4b858f7738054c2987545657"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_010.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 500,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "71ff4bedbdcfa30e5270e3d1d816b5300a160573d6270f10f262e2d52bc8a3c5"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_011.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 904,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "1ed92422eb1b4aeb889184ce60ebb45a18011e9b13fecb112943878a116a1423"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_012.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 598,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "07249867b149453ddcaa872b19d2da0ab9da4846350ae0ebe25cdc14857f5b42"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_013.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 668,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "cd4194579d2212b0f6d66c6b9bf7e9512d64d7cbf11d7bf284ffd8d75ccbc9de"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_014.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 413,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "92b4a1b6a5e1d67356526da5ec77426a366637fdb4e19742d23401d73aea27e3"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_015.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 718,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "50336ec6964190f7a8688983923b1bff56b1b6257e2b8091e5378effb5b24f41"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_016.classical.list": {
+      "behavior": "classical",
+      "bytes": 12972,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "f0a4c74ee200d805768403327ad8f2362a633f21dfd666bd8f68c28300d91576"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple/6de67806dbea08c4ebcf8766.mrs_nr_apple_017.classical.list": {
+      "behavior": "classical",
+      "bytes": 764,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "f002f37a98c1c47a0b3adda37276d623a0c4863424f320015bb1cade4fedfa7b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple_media/6de67806dbea08c4ebcf8766.mrs_nr_apple_media_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 4222,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "e88b888167c0573081780451d275cd3324683bf02273991ea47cd7c0e4f7d7f9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple_media/6de67806dbea08c4ebcf8766.mrs_nr_apple_media_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 19,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "022c11c07a78213ddca293a19541928d2c8106398cdae4d523833e009db35ba5"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple_proxy/6de67806dbea08c4ebcf8766.mrs_nr_apple_proxy_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1175,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "dfc3b7ad725f61a92e7e65fe2be3fb0a2ea1b372d9824166d1a52701f6029938"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/apple_proxy/6de67806dbea08c4ebcf8766.mrs_nr_apple_proxy_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 31,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "bd1478e52001f39691e093219b54ce6367f9de1512b012d8d307332931f3fbec"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/appletv/6de67806dbea08c4ebcf8766.mrs_nr_appletv_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 247,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "20cf6b2872ad18acd5e2d3eb435f325276a83cb7ec58920294e9fa759037b091"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/appletv/6de67806dbea08c4ebcf8766.mrs_nr_appletv_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 16,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "40dee0f31c604732d92edb7cdb213d7290c2666d4c1358bc6ca6a50a52ff1f15"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/bing/6de67806dbea08c4ebcf8766.mrs_nr_bing_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1097,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "cf084cd6b94b19188a07389f8df56caa7b5daff1e099385a60a6d9fb5a848523"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1239,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f678bebe3f9917699c1851f5f6f2b8c6a062e79f5b909219b79405d29a1a8878"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2198,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "8b4869fe654ebe9362b6717ee7a3407bfeb07746e52bdf077b3baceecb9c5d74"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1513,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "5694dacf05dc47fde38243a686ca48b78363a9286325f386bb3fe78741a3c304"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1067,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "2b46b391843b690ad8cf75ef3a155408f4f790e250dd6ac5a6a5d30acf78d96b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3514,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "d18c0471ada72582e66ddf8794a4bc5e497c696c55518144ad3b69024bc98426"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_006.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2010,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f0df0cfeaa7fa975ef75ca9cd57032f003ec459ea9a00040f91fd70944539416"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_007.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2109,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "de7e004c1196f0b6c54f2eb91ae67bd63dd2ffd3f71c1d044c78fbefce2e2498"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_008.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 500,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "ce3b7384352905e4642ea19f8332ed64555001b1503e4b6e0d12c14dd713ddb0"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_009.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1940,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "b1f7367f412774679dcfcdf815f5d29da971ffa4308025d59ed3ea3fa760f54c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_010.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1629,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "4bb4f3523cdacd6881e2ba5e4df63ef3054147fb9c8f12b9932c2b2f6ce63ee2"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_011.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3525,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "5879f74b884d1019d99a8a9d4d25b930d9e40e93a26061757891527afb83882e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_012.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 958,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "2d9a0ee248a7e9aec29498e302ed48defc489813ec3dd9b1b9748a3ba690158c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_013.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2899,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "acbdb869de758dfa23d2e2305941e7899c423e33ed4ac006844cff195eb59f6b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_014.classical.list": {
+      "behavior": "classical",
+      "bytes": 7282,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "7602bd3a4ebd5e1d357632a2d0cd72475de4402873067a1c11ff552b4fb49653"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_015.ipcidr.mrs": {
+      "behavior": "ipcidr",
+      "bytes": 785,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "8cd8f32f3673154daac9a519e117ebc349f8dc9fd83642d98ff891c0569738ae"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_direct/6de67806dbea08c4ebcf8766.mrs_nr_china_direct_016.classical.list": {
+      "behavior": "classical",
+      "bytes": 1782,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "59fe40358b318435fc4ad63e6d00e36a5211ef9bfcdcbf57493d7021e8e1eae6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_gov/6de67806dbea08c4ebcf8766.mrs_nr_china_gov_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 698,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "33c1fe7a9b7c50f30cab6a8934f98b509b5dbe96993ac06ed505e954ad63f945"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_gov/6de67806dbea08c4ebcf8766.mrs_nr_china_gov_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 693,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "d7e73294410f94e68de4e4e5f3c5940fd8651a78c404e3228ca205beff9abb9d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_gov/6de67806dbea08c4ebcf8766.mrs_nr_china_gov_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 554,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "aa6dd40d39f0ecf19ab7a5eb35b6221a3a662c8f46dff0b201cd9761810f0270"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_gov/6de67806dbea08c4ebcf8766.mrs_nr_china_gov_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 423,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "d7c120ccc2e2e960a95cc3be390540ecfff3d993c4e7319974113a7725338a6f"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_gov/6de67806dbea08c4ebcf8766.mrs_nr_china_gov_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 637,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "9b54471ed433db267d8de7a10c8570c4a40450e77695ae782d2a402db307f98e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_gov/6de67806dbea08c4ebcf8766.mrs_nr_china_gov_006.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 557,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "6ed78703464a68734b1c02be28ea3226e55d863d16311dbc9685e788dde954fd"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/china_gov/6de67806dbea08c4ebcf8766.mrs_nr_china_gov_007.classical.list": {
+      "behavior": "classical",
+      "bytes": 6139,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "6a3ec251cfdb51ac1005a040d6fd7949f3122a52acc5d90725bd5fc686f3d177"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/claude/6de67806dbea08c4ebcf8766.mrs_nr_claude_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 652,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "70eec1ffd03a3c67b7a3ce31ffb70aa9d25fc8a5af8c1e1f315bda0ecff34498"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/cloudflare/6de67806dbea08c4ebcf8766.mrs_nr_cloudflare_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 2401,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "009506fb3975c7ea473d0e727b08bb2c8335b4ae7e6409e0fa87cff1a40a5dce"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/cloudflare/6de67806dbea08c4ebcf8766.mrs_nr_cloudflare_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 761,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "6dd81631ce74bc1e28636fcaf50815d9cde902093caf9b240c3f496b8450410f"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/copilot/6de67806dbea08c4ebcf8766.mrs_nr_copilot_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1825,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "440fce3a5dd92ba8b0f09c81f7f8557705e7837ebe37562298a1114b546860af"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/copilot/6de67806dbea08c4ebcf8766.mrs_nr_copilot_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 120,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "66735a7842144a8a9e5c0b72e687aca3583e66c048c85b0a2bd5d08ffdcf80c6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/discord/6de67806dbea08c4ebcf8766.mrs_nr_discord_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 918,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "71b87b5eb938a4a2c6765f06a4a4947334f32e06b8ecee7391321779d4cabdcd"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/disney/6de67806dbea08c4ebcf8766.mrs_nr_disney_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 7162,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "7092e6b4896a0e011956635941a4405b3a5b62f7c1f901fc0637ac13eb9f33f9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/disney/6de67806dbea08c4ebcf8766.mrs_nr_disney_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 91,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "268810725db97d50f579995c79962d0c7fab58f0854ee11e52087f72fb67d15d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/facebook/6de67806dbea08c4ebcf8766.mrs_nr_facebook_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 475,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "4707d8e9c7daa72949b3414608f89df4d0c7f0b7621d46c06925beb868afb8d5"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/facebook/6de67806dbea08c4ebcf8766.mrs_nr_facebook_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 390,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "84097877a52cb5f53ead540f8d35076ab00f2db7cdcc226233c4db25d07e5481"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/facebook/6de67806dbea08c4ebcf8766.mrs_nr_facebook_003.classical.list": {
+      "behavior": "classical",
+      "bytes": 11939,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "982c67ade2d027a6ede3c7ebdbf6e134c83fa17f91d529048ab7c082fa60759d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/facebook/6de67806dbea08c4ebcf8766.mrs_nr_facebook_004.classical.list": {
+      "behavior": "classical",
+      "bytes": 1464,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "ec0aea80d721f915ca5f8f3ed32a310011bcba2550d7a1aaf0fa7dcaff1f63da"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/github/6de67806dbea08c4ebcf8766.mrs_nr_github_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 2584,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "d3f4ea185d2339cbcef5cef9080e11e542652520d0915acc867b75315877c7d9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/google/6de67806dbea08c4ebcf8766.mrs_nr_google_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 521,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "060c1ccfe7a855ed686cedb9e258facda6ee4d4429796c73153b5c5e5e1dda22"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/google/6de67806dbea08c4ebcf8766.mrs_nr_google_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 597,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "aec5701850ca131f112938479b7f1b2bf5e651dca96e0d0acd2f4a4382281d5d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/google/6de67806dbea08c4ebcf8766.mrs_nr_google_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 578,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "70a327820089976adcd51b186a4fd265e120d9b094997119efe02620cf6c24c4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/google/6de67806dbea08c4ebcf8766.mrs_nr_google_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 705,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "ea4b5b046931ac61896774109e81a892921b1c6b17f548732ce80c678634cf68"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/google/6de67806dbea08c4ebcf8766.mrs_nr_google_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 747,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "713ac8b4920fcb36ddd06743df24a39feb18e10082548c491aefead5e7a5da0d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/google/6de67806dbea08c4ebcf8766.mrs_nr_google_006.classical.list": {
+      "behavior": "classical",
+      "bytes": 10305,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "47265d99030091da91a20edde4822284b44370a0005b020586e4ab5f4adf46c6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/google/6de67806dbea08c4ebcf8766.mrs_nr_google_007.classical.list": {
+      "behavior": "classical",
+      "bytes": 977,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "69aa9872d5c7267038d41096e3168431034df1ccfcda6bcf7979af5be09c90cb"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/google_gemini/6de67806dbea08c4ebcf8766.mrs_nr_google_gemini_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1897,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "1e412c7d23d84684bc9ea6585f18c684ba3d908a6c2397f563fdd6f4328f5e7d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/google_voice/6de67806dbea08c4ebcf8766.mrs_nr_google_voice_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 25,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "71aee9dfa0771f5d327d29bf9e0f1132c0819c5faa05ff3fe561f6987ee5a3c8"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/iCloudPrivateRelay/6de67806dbea08c4ebcf8766.mrs_nr_iCloudPrivateRelay_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 184,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "85148bce79962214f8b246dd7b72a1b2a42e7470430c311825e5822ef1d4e133"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/icloud/6de67806dbea08c4ebcf8766.mrs_nr_icloud_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1700,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "67dbd907097041ed4d1becf8d5462e9430f596a83a3542dde174dc1673285b8c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/microsoft/6de67806dbea08c4ebcf8766.mrs_nr_microsoft_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 614,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "7539a74e1a031c1e883026fd43bad88e5491491951f7902e0ad13de7624cedac"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/microsoft/6de67806dbea08c4ebcf8766.mrs_nr_microsoft_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 20309,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "2b539f33f9f120734240648aa8ae1794009127f379baa143b6c2147efc0f47f4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/microsoft/6de67806dbea08c4ebcf8766.mrs_nr_microsoft_003.classical.list": {
+      "behavior": "classical",
+      "bytes": 51,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "6def5b7494ab6b2662ba6f698465e000c0e0c1313c42cb9981e546b82cd33396"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/netflix/6de67806dbea08c4ebcf8766.mrs_nr_netflix_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1412,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "99a6d188208d273062ac12a21d0814239f8e75b0d3d3b42306a70094938e1505"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/netflix/6de67806dbea08c4ebcf8766.mrs_nr_netflix_002.ipcidr.mrs": {
+      "behavior": "ipcidr",
+      "bytes": 6163,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "660838a6976162e22c1a2fba9f2b8ab047ee7fcde8d8d0354320b4e69557d60a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/netflix/6de67806dbea08c4ebcf8766.mrs_nr_netflix_003.classical.list": {
+      "behavior": "classical",
+      "bytes": 37,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "811cf29009fc7c7bcb5c5751002907c373a4fce9d054b0f314ea59526d862339"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/onedrive/6de67806dbea08c4ebcf8766.mrs_nr_onedrive_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 677,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "b16d3faf001680bc3cab4d8ce23aca636b731930b0aeb8c63b8483cef7f669e0"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/onedrive/6de67806dbea08c4ebcf8766.mrs_nr_onedrive_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 51,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "6def5b7494ab6b2662ba6f698465e000c0e0c1313c42cb9981e546b82cd33396"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/openai/6de67806dbea08c4ebcf8766.mrs_nr_openai_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1389,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "6b2e3f404d38af97dfa766491fdd50b060044604fe9a96d9769669c68dcec7d4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/openai/6de67806dbea08c4ebcf8766.mrs_nr_openai_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 96,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "91c007fb6761976fc54119c0628e4d056055b3e87391a374a0f842f91620690c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/paypal/6de67806dbea08c4ebcf8766.mrs_nr_paypal_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 7656,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "225346e97628331ef8b75c582e927942f2499ff8b6b3275519fbe2a6ae022466"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3780,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "db2152f3b9276caf74254794f7beb1e8105e17ae7c55d2b8fd8df71550ea2f1e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3497,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "06b2ae6b0abf16c40fa738777a7e435f50f22cb1c1f6d82ee0e6f740f8bf128d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 495,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "157f3590dc59f48d0c8b098912d186cdcdf1805eb3fa5cc1e4aab61d8287f1f9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 4407,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "a90edc39f6a85e258997f84bb6d4144a8321172d91cbc52788047d8f6de90fd4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3126,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "fdb874fd0cf71c875ebac74e32929146548579ab6fe570f9b99cde8beae42372"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_006.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3907,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "a714f0373dc42abac111ad6a2ef7533b4bae6cc8d779130c5d674c3e1aea539d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_007.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1662,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "2eee8b481cd964ed3ce1ca1f5d8b43c35729865635bd2603050c694d2b8f0d34"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_008.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1117,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "2e211d463c341fab24227fb35083ca9de2b96a8c7846eb5031fd119e24220ebc"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_009.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3094,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "5c7ac2200815387c70d70cd646c93545dd29f4b74866ceb0f4b1a0e0dc8a6b17"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_010.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 4294,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "5ced2551708947d057683c3b7028ac415166567334896503a04750dfe3b8ba37"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_011.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2779,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "3af823dc41f7f910a6934d67452b6f29261a8ab30489f7ede15b37f5aff91add"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_012.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1673,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "e624fba409af14cf7833558409165131125d86bf2e6c849e940a67530a0bccaa"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_013.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2030,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "1eb8f8254ef71bc5caed8309f51246c121623d46f8ce7dca367f5ae6beb80be3"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_014.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1335,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "4a0dba4d2011bfd1fe9f901a2fdbd19b4261697273f9b019a9cb2fd3423013ac"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_015.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 848,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "7e4d29c5a02918f9aa2c31092b2ba56f3897866afbad678c72ac965b6d17a9f5"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_016.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 840,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f855051f875fef84b2f29fcef60e04a2dbad40481d2abd553fbfb0ea98edc228"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_017.classical.list": {
+      "behavior": "classical",
+      "bytes": 7983,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "cecb4270c3465799e8ab95cdd8bcf25ee722ecff0fc54a37c61b3dc67a2e1839"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_018.ipcidr.mrs": {
+      "behavior": "ipcidr",
+      "bytes": 652,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "1a7f9b5385397988345f574a23dd323d469ac93197410ce7ba478b57436739b6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/proxy/6de67806dbea08c4ebcf8766.mrs_nr_proxy_019.classical.list": {
+      "behavior": "classical",
+      "bytes": 292,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "95937a87f272bbf65f1071e60974d8822ba01053dbb46b79ac06e7ee35dd8c58"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/social_media/6de67806dbea08c4ebcf8766.mrs_nr_social_media_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 3311,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "25bf3b034aea899b2826e11c809a09a97c7b1ef8418d21c294f239f47388611a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/social_media/6de67806dbea08c4ebcf8766.mrs_nr_social_media_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 38,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "00ed8f198e8aa37e7e54348d343ca8c63cbdeca296d228bdf2b041b07e65fb9c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/telegram/6de67806dbea08c4ebcf8766.mrs_nr_telegram_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 765,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "77efddfb5f09ec9cac5301f16a0b0831396d65ebbe6a05a535f26c07847a8abf"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/telegram/6de67806dbea08c4ebcf8766.mrs_nr_telegram_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 706,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "d22379f3c54571c781154348deeb8b65322b78a488448a08b624d5bec8ca9e31"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 505,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "1079ff188baaf8c64e7328ebf12050301baad5b223c84f27057426ce1f6dd2e3"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 769,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "fd8867f32de9b887440594243d5f0100308256902fba2cc4e6134f09c012704f"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1514,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "c551d18e38b0019d540a19d6f6152aade2ab3ae331eb483a8ca3aeb802b1ed9c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1146,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "a0bb788de79b729fed9cf255dbeaeca5ab927605c6d6b782ee1f24f3a203fd36"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1395,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f5cd1a61ee4bf0da784fc65da5390cab999b203422cbc0acf2e5aa944879d1aa"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_006.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1179,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "471c4737d3fdf2ba9832a5e29c62e808f091d3595ac126fc7b22904ec55437fc"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_007.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1203,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "08ebd6f8e882f5c048702e8382ac67c1d95063c4942cd4726a5d315a95455dfa"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_008.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1072,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "ec8f4ad3e3c9cfa54491d11a733968433cc7bb9bf594b3de0bccfa0cae401639"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_009.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 732,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "9931429dfda6592f94b3965ad2cb9ef74f3b4743fd8107bf74434b77b3b452d5"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_010.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 821,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "2296c2684e23308e2583c41e46630c809361bd5a8dadc6022fc198bf47a67bb2"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_011.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 800,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "ea5d8ebe7b6d9df327a4054ea92596eed075e8448857d243005699941e0ae6c7"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_012.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1096,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "c33c918ba65d2f7b93a778f8689980c9cdde33bd298c0ee0ebb545acfe7aa496"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_013.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1532,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "963c62f3d254a2ee3ff32ea377e72f64926e0356e0fe79c47bf93164b99b384e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_014.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 596,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "699e5a44c9065f718a65b461511b8fa79390410ceaf54c40a4529b30b94b8576"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_015.classical.list": {
+      "behavior": "classical",
+      "bytes": 6292,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "c696007d29d3e83359581f45331f81118bea1ad69b7303c28558362587e37e4a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/tencent/6de67806dbea08c4ebcf8766.mrs_nr_tencent_016.classical.list": {
+      "behavior": "classical",
+      "bytes": 2130,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "3917acf7179570bf1e21a45541eaee7ba7961a41755ea9eae01a29d09a94a91c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/twitter/6de67806dbea08c4ebcf8766.mrs_nr_twitter_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 762,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "fb1231469d45c673aed9cc0580959467ebab1c744ccb6604eb65c1e04fbf1cf3"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/twitter/6de67806dbea08c4ebcf8766.mrs_nr_twitter_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 211,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "5180df31efc9654e3bf191bf5bdd9ef946f9616d58d858b632cd193007a3bc4e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/youtube/6de67806dbea08c4ebcf8766.mrs_nr_youtube_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 228,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "98ef7584928f36e884529dd2df6f58841f51932ee0288736b01f649bebd626ce"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/youtube/6de67806dbea08c4ebcf8766.mrs_nr_youtube_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 2959,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "14aa2d0792487b999857c715a0845f254c9dddfb3d41e8438ec118754b9bc027"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/no_resolve/youtube/6de67806dbea08c4ebcf8766.mrs_nr_youtube_003.classical.list": {
+      "behavior": "classical",
+      "bytes": 108,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "a47e7248c7ec418797f3ed4eb71be59012a915d722da2e17cc1f6375b34b80d4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/amazon/6de67806dbea08c4ebcf8766.mrs_n_amazon_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 7144,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "46ee76ac03e8c9f3d372f1c97342c22644cdafc2b3469dd572123f9197c62a67"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/amazon/6de67806dbea08c4ebcf8766.mrs_n_amazon_002.ipcidr.mrs": {
+      "behavior": "ipcidr",
+      "bytes": 6579,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "b18d90bdb958ead7f2c467ec781a5bb553094875370770977a30a40cb84828f6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/amazon/6de67806dbea08c4ebcf8766.mrs_n_amazon_003.classical.list": {
+      "behavior": "classical",
+      "bytes": 46,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "8fc25ac8116335765b5d61641926fbe3aa1dab7f206b4c5e7f3b0e4eed0688e9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1037,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f4121d6d88653ea8048be2937f99377331e7258216bf152f797f91269177a573"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 828,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "d0008c973c867c3ffd837eb1aa0b7242e119e018f3b7dbc715ea721496601817"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 809,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "20e2e22eacb2f36d758d50334855f68400bc1f4b1df81c147bcb666e51b6c276"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 846,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "ba50f472c90a51dcfddbebf3ca57905d5e986a105172990b2abddb462bf6b0f8"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 894,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "20f02c813179bebf40ee8bbad97f0e906138cf0ed8f2fa6e10aea5ecd54ebcca"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_006.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 726,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "27038154155164d9cee676be1d1766e25331f9cd2b588c04338587e460f16c7f"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_007.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 812,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "946386afbfdb862882190e0ef957892780cbf134f05d154144b5007466c76947"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_008.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 727,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "54a7a09fcc16b4f969cbc56cb598b49ddedf9e44aa5f9ccbd61231242649406d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_009.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 317,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "8d5f902fe3c5eca30d286a8d6c73de962ac68d6c4b858f7738054c2987545657"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_010.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 500,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "71ff4bedbdcfa30e5270e3d1d816b5300a160573d6270f10f262e2d52bc8a3c5"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_011.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 904,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "1ed92422eb1b4aeb889184ce60ebb45a18011e9b13fecb112943878a116a1423"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_012.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 598,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "07249867b149453ddcaa872b19d2da0ab9da4846350ae0ebe25cdc14857f5b42"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_013.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 668,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "cd4194579d2212b0f6d66c6b9bf7e9512d64d7cbf11d7bf284ffd8d75ccbc9de"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_014.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 413,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "92b4a1b6a5e1d67356526da5ec77426a366637fdb4e19742d23401d73aea27e3"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_015.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 718,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "50336ec6964190f7a8688983923b1bff56b1b6257e2b8091e5378effb5b24f41"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_016.classical.list": {
+      "behavior": "classical",
+      "bytes": 12972,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "f0a4c74ee200d805768403327ad8f2362a633f21dfd666bd8f68c28300d91576"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple/6de67806dbea08c4ebcf8766.mrs_n_apple_017.classical.list": {
+      "behavior": "classical",
+      "bytes": 964,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "2314f97ace3c102fc9bb99896274c55419c540eae67425bd41b95fa764a7465d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple_media/6de67806dbea08c4ebcf8766.mrs_n_apple_media_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 4222,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "e88b888167c0573081780451d275cd3324683bf02273991ea47cd7c0e4f7d7f9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple_media/6de67806dbea08c4ebcf8766.mrs_n_apple_media_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 19,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "022c11c07a78213ddca293a19541928d2c8106398cdae4d523833e009db35ba5"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple_proxy/6de67806dbea08c4ebcf8766.mrs_n_apple_proxy_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1175,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "dfc3b7ad725f61a92e7e65fe2be3fb0a2ea1b372d9824166d1a52701f6029938"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/apple_proxy/6de67806dbea08c4ebcf8766.mrs_n_apple_proxy_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 31,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "bd1478e52001f39691e093219b54ce6367f9de1512b012d8d307332931f3fbec"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/appletv/6de67806dbea08c4ebcf8766.mrs_n_appletv_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 247,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "20cf6b2872ad18acd5e2d3eb435f325276a83cb7ec58920294e9fa759037b091"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/appletv/6de67806dbea08c4ebcf8766.mrs_n_appletv_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 16,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "40dee0f31c604732d92edb7cdb213d7290c2666d4c1358bc6ca6a50a52ff1f15"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/bing/6de67806dbea08c4ebcf8766.mrs_n_bing_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1097,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "cf084cd6b94b19188a07389f8df56caa7b5daff1e099385a60a6d9fb5a848523"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1239,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f678bebe3f9917699c1851f5f6f2b8c6a062e79f5b909219b79405d29a1a8878"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2198,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "8b4869fe654ebe9362b6717ee7a3407bfeb07746e52bdf077b3baceecb9c5d74"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1513,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "5694dacf05dc47fde38243a686ca48b78363a9286325f386bb3fe78741a3c304"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1067,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "2b46b391843b690ad8cf75ef3a155408f4f790e250dd6ac5a6a5d30acf78d96b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3514,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "d18c0471ada72582e66ddf8794a4bc5e497c696c55518144ad3b69024bc98426"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_006.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2010,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f0df0cfeaa7fa975ef75ca9cd57032f003ec459ea9a00040f91fd70944539416"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_007.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2109,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "de7e004c1196f0b6c54f2eb91ae67bd63dd2ffd3f71c1d044c78fbefce2e2498"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_008.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 500,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "ce3b7384352905e4642ea19f8332ed64555001b1503e4b6e0d12c14dd713ddb0"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_009.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1940,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "b1f7367f412774679dcfcdf815f5d29da971ffa4308025d59ed3ea3fa760f54c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_010.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1629,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "4bb4f3523cdacd6881e2ba5e4df63ef3054147fb9c8f12b9932c2b2f6ce63ee2"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_011.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3525,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "5879f74b884d1019d99a8a9d4d25b930d9e40e93a26061757891527afb83882e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_012.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 958,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "2d9a0ee248a7e9aec29498e302ed48defc489813ec3dd9b1b9748a3ba690158c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_013.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2899,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "acbdb869de758dfa23d2e2305941e7899c423e33ed4ac006844cff195eb59f6b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_014.classical.list": {
+      "behavior": "classical",
+      "bytes": 7282,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "7602bd3a4ebd5e1d357632a2d0cd72475de4402873067a1c11ff552b4fb49653"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_015.ipcidr.mrs": {
+      "behavior": "ipcidr",
+      "bytes": 462,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "1803bb6fcea526aa59b3430cb00e0915a2c2a13d72f3d8b543e7d4b3b39435f7"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_016.classical.list": {
+      "behavior": "classical",
+      "bytes": 33,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "bc930d1f1e21c9aaeeab6d4721d83e595215f2f2d69569c2c3ca9e516b0cd210"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_017.ipcidr.mrs": {
+      "behavior": "ipcidr",
+      "bytes": 344,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "520e9f01d6874e617be27f06bdae9535ed8235c06f8805387ad59752880e3547"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_direct/6de67806dbea08c4ebcf8766.mrs_n_china_direct_018.classical.list": {
+      "behavior": "classical",
+      "bytes": 2500,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "b8cda88fea1aea4744bd45d32476456ce3c952a463024c2b92edc1cb7baca4c6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_gov/6de67806dbea08c4ebcf8766.mrs_n_china_gov_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 698,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "33c1fe7a9b7c50f30cab6a8934f98b509b5dbe96993ac06ed505e954ad63f945"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_gov/6de67806dbea08c4ebcf8766.mrs_n_china_gov_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 693,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "d7e73294410f94e68de4e4e5f3c5940fd8651a78c404e3228ca205beff9abb9d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_gov/6de67806dbea08c4ebcf8766.mrs_n_china_gov_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 554,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "aa6dd40d39f0ecf19ab7a5eb35b6221a3a662c8f46dff0b201cd9761810f0270"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_gov/6de67806dbea08c4ebcf8766.mrs_n_china_gov_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 423,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "d7c120ccc2e2e960a95cc3be390540ecfff3d993c4e7319974113a7725338a6f"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_gov/6de67806dbea08c4ebcf8766.mrs_n_china_gov_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 637,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "9b54471ed433db267d8de7a10c8570c4a40450e77695ae782d2a402db307f98e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_gov/6de67806dbea08c4ebcf8766.mrs_n_china_gov_006.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 557,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "6ed78703464a68734b1c02be28ea3226e55d863d16311dbc9685e788dde954fd"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/china_gov/6de67806dbea08c4ebcf8766.mrs_n_china_gov_007.classical.list": {
+      "behavior": "classical",
+      "bytes": 6139,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "6a3ec251cfdb51ac1005a040d6fd7949f3122a52acc5d90725bd5fc686f3d177"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/claude/6de67806dbea08c4ebcf8766.mrs_n_claude_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 652,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "70eec1ffd03a3c67b7a3ce31ffb70aa9d25fc8a5af8c1e1f315bda0ecff34498"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/cloudflare/6de67806dbea08c4ebcf8766.mrs_n_cloudflare_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 2401,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "009506fb3975c7ea473d0e727b08bb2c8335b4ae7e6409e0fa87cff1a40a5dce"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/cloudflare/6de67806dbea08c4ebcf8766.mrs_n_cloudflare_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 519,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "790e2b08e143d56dcbba7c57f5e27efd2d3d11062cd10e5025341776f5ef6208"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/copilot/6de67806dbea08c4ebcf8766.mrs_n_copilot_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1825,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "440fce3a5dd92ba8b0f09c81f7f8557705e7837ebe37562298a1114b546860af"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/copilot/6de67806dbea08c4ebcf8766.mrs_n_copilot_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 76,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "c2cac897ef08bf66f0eaf84d3a6e5ca748e86f4aee59000e2aa85fef869d6442"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/discord/6de67806dbea08c4ebcf8766.mrs_n_discord_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 918,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "71b87b5eb938a4a2c6765f06a4a4947334f32e06b8ecee7391321779d4cabdcd"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/disney/6de67806dbea08c4ebcf8766.mrs_n_disney_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 7162,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "7092e6b4896a0e011956635941a4405b3a5b62f7c1f901fc0637ac13eb9f33f9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/disney/6de67806dbea08c4ebcf8766.mrs_n_disney_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 91,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "268810725db97d50f579995c79962d0c7fab58f0854ee11e52087f72fb67d15d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/facebook/6de67806dbea08c4ebcf8766.mrs_n_facebook_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 475,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "4707d8e9c7daa72949b3414608f89df4d0c7f0b7621d46c06925beb868afb8d5"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/facebook/6de67806dbea08c4ebcf8766.mrs_n_facebook_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 390,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "84097877a52cb5f53ead540f8d35076ab00f2db7cdcc226233c4db25d07e5481"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/facebook/6de67806dbea08c4ebcf8766.mrs_n_facebook_003.classical.list": {
+      "behavior": "classical",
+      "bytes": 11939,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "982c67ade2d027a6ede3c7ebdbf6e134c83fa17f91d529048ab7c082fa60759d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/facebook/6de67806dbea08c4ebcf8766.mrs_n_facebook_004.classical.list": {
+      "behavior": "classical",
+      "bytes": 1830,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "b8a10900e8047792317bd9d6b1d1ab06d36302af0147ba283b55764960be7cf1"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/github/6de67806dbea08c4ebcf8766.mrs_n_github_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 2584,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "d3f4ea185d2339cbcef5cef9080e11e542652520d0915acc867b75315877c7d9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/google/6de67806dbea08c4ebcf8766.mrs_n_google_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 521,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "060c1ccfe7a855ed686cedb9e258facda6ee4d4429796c73153b5c5e5e1dda22"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/google/6de67806dbea08c4ebcf8766.mrs_n_google_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 597,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "aec5701850ca131f112938479b7f1b2bf5e651dca96e0d0acd2f4a4382281d5d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/google/6de67806dbea08c4ebcf8766.mrs_n_google_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 578,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "70a327820089976adcd51b186a4fd265e120d9b094997119efe02620cf6c24c4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/google/6de67806dbea08c4ebcf8766.mrs_n_google_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 705,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "ea4b5b046931ac61896774109e81a892921b1c6b17f548732ce80c678634cf68"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/google/6de67806dbea08c4ebcf8766.mrs_n_google_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 747,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "713ac8b4920fcb36ddd06743df24a39feb18e10082548c491aefead5e7a5da0d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/google/6de67806dbea08c4ebcf8766.mrs_n_google_006.classical.list": {
+      "behavior": "classical",
+      "bytes": 10305,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "47265d99030091da91a20edde4822284b44370a0005b020586e4ab5f4adf46c6"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/google/6de67806dbea08c4ebcf8766.mrs_n_google_007.classical.list": {
+      "behavior": "classical",
+      "bytes": 1409,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "528bb39002eb4bcd2a06e45abc17f075f2aaba27b720b9d3c35943343493814e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/google_gemini/6de67806dbea08c4ebcf8766.mrs_n_google_gemini_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1897,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "1e412c7d23d84684bc9ea6585f18c684ba3d908a6c2397f563fdd6f4328f5e7d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/google_voice/6de67806dbea08c4ebcf8766.mrs_n_google_voice_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 25,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "71aee9dfa0771f5d327d29bf9e0f1132c0819c5faa05ff3fe561f6987ee5a3c8"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/iCloudPrivateRelay/6de67806dbea08c4ebcf8766.mrs_n_iCloudPrivateRelay_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 184,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "85148bce79962214f8b246dd7b72a1b2a42e7470430c311825e5822ef1d4e133"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/icloud/6de67806dbea08c4ebcf8766.mrs_n_icloud_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1700,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "67dbd907097041ed4d1becf8d5462e9430f596a83a3542dde174dc1673285b8c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/microsoft/6de67806dbea08c4ebcf8766.mrs_n_microsoft_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 614,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "7539a74e1a031c1e883026fd43bad88e5491491951f7902e0ad13de7624cedac"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/microsoft/6de67806dbea08c4ebcf8766.mrs_n_microsoft_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 20309,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "2b539f33f9f120734240648aa8ae1794009127f379baa143b6c2147efc0f47f4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/microsoft/6de67806dbea08c4ebcf8766.mrs_n_microsoft_003.classical.list": {
+      "behavior": "classical",
+      "bytes": 51,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "6def5b7494ab6b2662ba6f698465e000c0e0c1313c42cb9981e546b82cd33396"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/netflix/6de67806dbea08c4ebcf8766.mrs_n_netflix_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1412,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "99a6d188208d273062ac12a21d0814239f8e75b0d3d3b42306a70094938e1505"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/netflix/6de67806dbea08c4ebcf8766.mrs_n_netflix_002.ipcidr.mrs": {
+      "behavior": "ipcidr",
+      "bytes": 6100,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f6896e6266b7573b7a1989be12f8c36b16f3b15a250033251d91090810565cdf"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/netflix/6de67806dbea08c4ebcf8766.mrs_n_netflix_003.classical.list": {
+      "behavior": "classical",
+      "bytes": 748,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "cfd1d57e8a219172f77a35f4b405bc32ad19ec30de9120bf792eb4660b5e54f4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/onedrive/6de67806dbea08c4ebcf8766.mrs_n_onedrive_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 677,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "b16d3faf001680bc3cab4d8ce23aca636b731930b0aeb8c63b8483cef7f669e0"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/onedrive/6de67806dbea08c4ebcf8766.mrs_n_onedrive_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 51,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "6def5b7494ab6b2662ba6f698465e000c0e0c1313c42cb9981e546b82cd33396"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/openai/6de67806dbea08c4ebcf8766.mrs_n_openai_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 1389,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "6b2e3f404d38af97dfa766491fdd50b060044604fe9a96d9769669c68dcec7d4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/openai/6de67806dbea08c4ebcf8766.mrs_n_openai_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 63,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "b6339cc8cea9cb0b00bc8360e86ff004c3c6d47da36193c103bd12a528f13d52"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/paypal/6de67806dbea08c4ebcf8766.mrs_n_paypal_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 7656,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "225346e97628331ef8b75c582e927942f2499ff8b6b3275519fbe2a6ae022466"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/private_direct/6de67806dbea08c4ebcf8766.mrs_n_private_direct_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 145,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "70bbc18c01165084eb58179edaca6635aa53c123040ee12f2e7e76a2994b31a4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3780,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "db2152f3b9276caf74254794f7beb1e8105e17ae7c55d2b8fd8df71550ea2f1e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3497,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "06b2ae6b0abf16c40fa738777a7e435f50f22cb1c1f6d82ee0e6f740f8bf128d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 495,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "157f3590dc59f48d0c8b098912d186cdcdf1805eb3fa5cc1e4aab61d8287f1f9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 4407,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "a90edc39f6a85e258997f84bb6d4144a8321172d91cbc52788047d8f6de90fd4"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3126,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "fdb874fd0cf71c875ebac74e32929146548579ab6fe570f9b99cde8beae42372"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_006.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3907,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "a714f0373dc42abac111ad6a2ef7533b4bae6cc8d779130c5d674c3e1aea539d"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_007.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1662,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "2eee8b481cd964ed3ce1ca1f5d8b43c35729865635bd2603050c694d2b8f0d34"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_008.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1117,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "2e211d463c341fab24227fb35083ca9de2b96a8c7846eb5031fd119e24220ebc"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_009.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 3094,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "5c7ac2200815387c70d70cd646c93545dd29f4b74866ceb0f4b1a0e0dc8a6b17"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_010.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 4294,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "5ced2551708947d057683c3b7028ac415166567334896503a04750dfe3b8ba37"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_011.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2779,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "3af823dc41f7f910a6934d67452b6f29261a8ab30489f7ede15b37f5aff91add"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_012.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1673,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "e624fba409af14cf7833558409165131125d86bf2e6c849e940a67530a0bccaa"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_013.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 2030,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "1eb8f8254ef71bc5caed8309f51246c121623d46f8ce7dca367f5ae6beb80be3"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_014.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1335,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "4a0dba4d2011bfd1fe9f901a2fdbd19b4261697273f9b019a9cb2fd3423013ac"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_015.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 848,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "7e4d29c5a02918f9aa2c31092b2ba56f3897866afbad678c72ac965b6d17a9f5"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_016.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 840,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f855051f875fef84b2f29fcef60e04a2dbad40481d2abd553fbfb0ea98edc228"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_017.classical.list": {
+      "behavior": "classical",
+      "bytes": 7983,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "cecb4270c3465799e8ab95cdd8bcf25ee722ecff0fc54a37c61b3dc67a2e1839"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_018.ipcidr.mrs": {
+      "behavior": "ipcidr",
+      "bytes": 658,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "6bf2052161efa3dfc28185dc568fc9b8a40e851f0e8d153b6926d400bd18a809"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_019.ipcidr.mrs": {
+      "behavior": "ipcidr",
+      "bytes": 435,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "fe2d4fd468f548e1b159d6f6e673282242e106d29c87dd0acb26a25413c97ad9"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy/6de67806dbea08c4ebcf8766.mrs_n_proxy_020.classical.list": {
+      "behavior": "classical",
+      "bytes": 583,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "d88526d0af2507ee1abf924626cb15fb4ce19e89a251ebc175d93c764bb7e173"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/proxy_selected/6de67806dbea08c4ebcf8766.mrs_n_proxy_selected_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 426,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "1236150a330caef1bf37bb1c5b1eacbc0f7b007e5484b2b69033de45a67c823c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/shared_verification/6de67806dbea08c4ebcf8766.mrs_n_shared_verification_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 359,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "a61f4e6fed8f5434ddf6c23e99f3926f3bb7849a87e4a818e9943b0ed46b14b7"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/social_media/6de67806dbea08c4ebcf8766.mrs_n_social_media_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 3311,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "25bf3b034aea899b2826e11c809a09a97c7b1ef8418d21c294f239f47388611a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/social_media/6de67806dbea08c4ebcf8766.mrs_n_social_media_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 38,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "00ed8f198e8aa37e7e54348d343ca8c63cbdeca296d228bdf2b041b07e65fb9c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/telegram/6de67806dbea08c4ebcf8766.mrs_n_telegram_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 765,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "77efddfb5f09ec9cac5301f16a0b0831396d65ebbe6a05a535f26c07847a8abf"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/telegram/6de67806dbea08c4ebcf8766.mrs_n_telegram_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 762,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "3a179d622de9d745440b14a22845d7aa38c378cc3b284ed0b822966a6328b81b"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 505,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "1079ff188baaf8c64e7328ebf12050301baad5b223c84f27057426ce1f6dd2e3"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_002.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 769,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "fd8867f32de9b887440594243d5f0100308256902fba2cc4e6134f09c012704f"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_003.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1514,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "c551d18e38b0019d540a19d6f6152aade2ab3ae331eb483a8ca3aeb802b1ed9c"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_004.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1146,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "a0bb788de79b729fed9cf255dbeaeca5ab927605c6d6b782ee1f24f3a203fd36"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_005.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1395,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "f5cd1a61ee4bf0da784fc65da5390cab999b203422cbc0acf2e5aa944879d1aa"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_006.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1179,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "471c4737d3fdf2ba9832a5e29c62e808f091d3595ac126fc7b22904ec55437fc"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_007.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1203,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "08ebd6f8e882f5c048702e8382ac67c1d95063c4942cd4726a5d315a95455dfa"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_008.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1072,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "ec8f4ad3e3c9cfa54491d11a733968433cc7bb9bf594b3de0bccfa0cae401639"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_009.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 732,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "9931429dfda6592f94b3965ad2cb9ef74f3b4743fd8107bf74434b77b3b452d5"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_010.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 821,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "2296c2684e23308e2583c41e46630c809361bd5a8dadc6022fc198bf47a67bb2"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_011.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 800,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "ea5d8ebe7b6d9df327a4054ea92596eed075e8448857d243005699941e0ae6c7"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_012.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1096,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "c33c918ba65d2f7b93a778f8689980c9cdde33bd298c0ee0ebb545acfe7aa496"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_013.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 1532,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "963c62f3d254a2ee3ff32ea377e72f64926e0356e0fe79c47bf93164b99b384e"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_014.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 596,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "699e5a44c9065f718a65b461511b8fa79390410ceaf54c40a4529b30b94b8576"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_015.classical.list": {
+      "behavior": "classical",
+      "bytes": 6292,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "c696007d29d3e83359581f45331f81118bea1ad69b7303c28558362587e37e4a"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/tencent/6de67806dbea08c4ebcf8766.mrs_n_tencent_016.classical.list": {
+      "behavior": "classical",
+      "bytes": 1778,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "95cbc80283a7088d37bf29d2ca1a6c56f7240f19639007d7f895845bb6e39184"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/twitter/6de67806dbea08c4ebcf8766.mrs_n_twitter_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 762,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "fb1231469d45c673aed9cc0580959467ebab1c744ccb6604eb65c1e04fbf1cf3"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/twitter/6de67806dbea08c4ebcf8766.mrs_n_twitter_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 145,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "b69acd68933a89ee7323f9011b8693bd23e6b0f78884e5ae11f148d708f70ef8"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/verification_services/6de67806dbea08c4ebcf8766.mrs_n_verification_services_001.classical.list": {
+      "behavior": "classical",
+      "bytes": 151,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "ea0d6d5cd308343873f7762333055d5bf6ce20d75063300f8a862b65e19fb0cd"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/youtube/6de67806dbea08c4ebcf8766.mrs_n_youtube_001.domain.mrs": {
+      "behavior": "domain",
+      "bytes": 228,
+      "format": "mrs",
+      "origin": "mrs",
+      "sha256": "98ef7584928f36e884529dd2df6f58841f51932ee0288736b01f649bebd626ce"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/youtube/6de67806dbea08c4ebcf8766.mrs_n_youtube_002.classical.list": {
+      "behavior": "classical",
+      "bytes": 2959,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "14aa2d0792487b999857c715a0845f254c9dddfb3d41e8438ec118754b9bc027"
+    },
+    "rules_set/mrs/6de67806dbea08c4ebcf8766/normal/youtube/6de67806dbea08c4ebcf8766.mrs_n_youtube_003.classical.list": {
+      "behavior": "classical",
+      "bytes": 75,
+      "format": "text",
+      "origin": "mrs",
+      "sha256": "22d61818064fbac530f4e142614d75867057c84706f6ebf01ac82919f9b7531f"
+    },
+    "rules_set/routes/00b773cee425b740bcd7fb9f.ChinaGov.list": {
+      "behavior": "classical",
+      "bytes": 6587,
+      "format": "text",
+      "origin": "named",
+      "sha256": "00b773cee425b740bcd7fb9fbc1b64fde8cec928f9146481b8d8e16de3dc45bb"
+    },
+    "rules_set/routes/03c02e2d00e03591c534289a.Apple.list": {
+      "behavior": "classical",
+      "bytes": 21548,
+      "format": "text",
+      "origin": "named",
+      "sha256": "03c02e2d00e03591c534289acbf582d0588d8084c056fa51faeab0fa763920e1"
+    },
+    "rules_set/routes/05466c851630037d03e664d2.Proxy_Fallback_2.list": {
+      "behavior": "classical",
+      "bytes": 375,
+      "format": "text",
+      "origin": "named",
+      "sha256": "05466c851630037d03e664d2b47f1db78912d80e2bf0ac9448be986e08a704cd"
+    },
+    "rules_set/routes/1236150a330caef1bf37bb1c.Proxy.list": {
+      "behavior": "classical",
+      "bytes": 426,
+      "format": "text",
+      "origin": "named",
+      "sha256": "1236150a330caef1bf37bb1c5b1eacbc0f7b007e5484b2b69033de45a67c823c"
+    },
+    "rules_set/routes/12876a1918838c558ac9f7cd.Proxy_3.list": {
+      "behavior": "classical",
+      "bytes": 12426,
+      "format": "text",
+      "origin": "named",
+      "sha256": "12876a1918838c558ac9f7cdc2b3eee60ffe4ff85d7d3c8d7520459fc2de0690"
+    },
+    "rules_set/routes/1e0e4c0710f9a5ad359d5e70.Proxy_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 1716,
+      "format": "text",
+      "origin": "named",
+      "sha256": "1e0e4c0710f9a5ad359d5e70b3397e9f752ad50b27b5ee5a090e9602d5bc89aa"
+    },
+    "rules_set/routes/2ba6f2eaf8618859f4ea40a6.Direct.list": {
+      "behavior": "classical",
+      "bytes": 7298,
+      "format": "text",
+      "origin": "named",
+      "sha256": "2ba6f2eaf8618859f4ea40a60d391e3a16231d58e48687d5965a68ed4009f6f6"
+    },
+    "rules_set/routes/2d99ccaff90738c1fa4a9f55.Google.list": {
+      "behavior": "classical",
+      "bytes": 15618,
+      "format": "text",
+      "origin": "named",
+      "sha256": "2d99ccaff90738c1fa4a9f55728fa25ae8e05e2d2263828eb7ad2e9393e91338"
+    },
+    "rules_set/routes/2e4f89d973eab35b27ad766f.Proxy_Fallback_2.list": {
+      "behavior": "classical",
+      "bytes": 698,
+      "format": "text",
+      "origin": "named",
+      "sha256": "2e4f89d973eab35b27ad766f419cb1b134dbd65fdb43a770630c7097fd0f88f0"
+    },
+    "rules_set/routes/2f7c6513939d12fb00c50be9.Apple_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 830,
+      "format": "text",
+      "origin": "named",
+      "sha256": "2f7c6513939d12fb00c50be9bc0571275dbcaf9299b539b1297339f7572c119e"
+    },
+    "rules_set/routes/33ce6521b095f473c9e9c79d.CF_Verification.list": {
+      "behavior": "classical",
+      "bytes": 2911,
+      "format": "text",
+      "origin": "named",
+      "sha256": "33ce6521b095f473c9e9c79deeb371b016549199c29f7e1e94b9abce19c90ba0"
+    },
+    "rules_set/routes/3917acf7179570bf1e21a455.Direct_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 2130,
+      "format": "text",
+      "origin": "named",
+      "sha256": "3917acf7179570bf1e21a45541eaee7ba7961a41755ea9eae01a29d09a94a91c"
+    },
+    "rules_set/routes/3a497fcc50b4f5c544bb7a41.Meta.list": {
+      "behavior": "classical",
+      "bytes": 12085,
+      "format": "text",
+      "origin": "named",
+      "sha256": "3a497fcc50b4f5c544bb7a41d0b76a263056b411eeb6bcb36fb6e105f1975e02"
+    },
+    "rules_set/routes/3d398cfab67ffa3e0bd58a36.ChinaDirect.list": {
+      "behavior": "classical",
+      "bytes": 31441,
+      "format": "text",
+      "origin": "named",
+      "sha256": "3d398cfab67ffa3e0bd58a36d0596a684d42b02710353ba53215bceea234ef5d"
+    },
+    "rules_set/routes/440fce3a5dd92ba8b0f09c81.Microsoft.list": {
+      "behavior": "classical",
+      "bytes": 1825,
+      "format": "text",
+      "origin": "named",
+      "sha256": "440fce3a5dd92ba8b0f09c81f7f8557705e7837ebe37562298a1114b546860af"
+    },
+    "rules_set/routes/4df26fcfba5110ab9d75c4f7.Direct.list": {
+      "behavior": "classical",
+      "bytes": 7312,
+      "format": "text",
+      "origin": "named",
+      "sha256": "4df26fcfba5110ab9d75c4f7714ec11621d921882311a94a1ab369723d8bb1f8"
+    },
+    "rules_set/routes/5180df31efc9654e3bf191bf.X_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 211,
+      "format": "text",
+      "origin": "named",
+      "sha256": "5180df31efc9654e3bf191bf5bdd9ef946f9616d58d858b632cd193007a3bc4e"
+    },
+    "rules_set/routes/55211b5c4ece2eb500d1968b.ChinaGov.list": {
+      "behavior": "classical",
+      "bytes": 6581,
+      "format": "text",
+      "origin": "named",
+      "sha256": "55211b5c4ece2eb500d1968bd4ea38998979ae3e1298386db8f8ca9771ee3c1c"
+    },
+    "rules_set/routes/654930ed47b00b025c8bc9ca.Google_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 1484,
+      "format": "text",
+      "origin": "named",
+      "sha256": "654930ed47b00b025c8bc9ca37f65b4b8750d3f646fa7966f5a35b4d47727bce"
+    },
+    "rules_set/routes/6575bdce9be132078cf9e994.Apple.list": {
+      "behavior": "classical",
+      "bytes": 21563,
+      "format": "text",
+      "origin": "named",
+      "sha256": "6575bdce9be132078cf9e99439472094bb9cc9f62d5eb785863aca1a33e55ce3"
+    },
+    "rules_set/routes/6b2e3f404d38af97dfa76649.OpenAI.list": {
+      "behavior": "classical",
+      "bytes": 1389,
+      "format": "text",
+      "origin": "named",
+      "sha256": "6b2e3f404d38af97dfa766491fdd50b060044604fe9a96d9769669c68dcec7d4"
+    },
+    "rules_set/routes/6dd81631ce74bc1e28636fca.CF_Verification_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 761,
+      "format": "text",
+      "origin": "named",
+      "sha256": "6dd81631ce74bc1e28636fcaf50815d9cde902093caf9b240c3f496b8450410f"
+    },
+    "rules_set/routes/70eec1ffd03a3c67b7a3ce31.Anthropic.list": {
+      "behavior": "classical",
+      "bytes": 652,
+      "format": "text",
+      "origin": "named",
+      "sha256": "70eec1ffd03a3c67b7a3ce31ffb70aa9d25fc8a5af8c1e1f315bda0ecff34498"
+    },
+    "rules_set/routes/790e2b08e143d56dcbba7c57.CF_Verification_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 519,
+      "format": "text",
+      "origin": "named",
+      "sha256": "790e2b08e143d56dcbba7c57f5e27efd2d3d11062cd10e5025341776f5ef6208"
+    },
+    "rules_set/routes/7d1e86e991ad2ae4750d50ee.Microsoft_2.list": {
+      "behavior": "classical",
+      "bytes": 22157,
+      "format": "text",
+      "origin": "named",
+      "sha256": "7d1e86e991ad2ae4750d50ee4469532bcd428a7c9f462a336df69b946d0023b8"
+    },
+    "rules_set/routes/89d5f9f41d6c7e224fd27fb3.Apple_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 1030,
+      "format": "text",
+      "origin": "named",
+      "sha256": "89d5f9f41d6c7e224fd27fb3eba78d26defe7c79679676e3a8332c9783da1033"
+    },
+    "rules_set/routes/908c36813b277ee06a4e0c78.Proxy_3.list": {
+      "behavior": "classical",
+      "bytes": 12410,
+      "format": "text",
+      "origin": "named",
+      "sha256": "908c36813b277ee06a4e0c780271567d6c557394475fc6de3fb3e2864070690d"
+    },
+    "rules_set/routes/91c007fb6761976fc54119c0.OpenAI_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 96,
+      "format": "text",
+      "origin": "named",
+      "sha256": "91c007fb6761976fc54119c0628e4d056055b3e87391a374a0f842f91620690c"
+    },
+    "rules_set/routes/95cbc80283a7088d37bf29d2.Direct_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 1778,
+      "format": "text",
+      "origin": "named",
+      "sha256": "95cbc80283a7088d37bf29d2ca1a6c56f7240f19639007d7f895845bb6e39184"
+    },
+    "rules_set/routes/9654ddbfaad1021c3ee1993e.ChinaDirect_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 5355,
+      "format": "text",
+      "origin": "named",
+      "sha256": "9654ddbfaad1021c3ee1993e1ea4aa2b0d0a7b1e8f7c7c84be7372091df25f85"
+    },
+    "rules_set/routes/a37e6c4f35093405b2b8d53c.ChinaDirect_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 4728,
+      "format": "text",
+      "origin": "named",
+      "sha256": "a37e6c4f35093405b2b8d53ca6b6ee88040a6c04c2f989551c45795c93a31ebb"
+    },
+    "rules_set/routes/b1362908279be53ba1351cc2.Google.list": {
+      "behavior": "classical",
+      "bytes": 15612,
+      "format": "text",
+      "origin": "named",
+      "sha256": "b1362908279be53ba1351cc2768a8f0cc9fc5f2c0f26c1a30804f4d7bd2a3eb8"
+    },
+    "rules_set/routes/b362b721474d281db434103f.Microsoft_2.list": {
+      "behavior": "classical",
+      "bytes": 22158,
+      "format": "text",
+      "origin": "named",
+      "sha256": "b362b721474d281db434103f7858081600a36565aee8235f1cb93ed343caf0dc"
+    },
+    "rules_set/routes/b60d76541a5cef2d011d5c21.Google_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 1085,
+      "format": "text",
+      "origin": "named",
+      "sha256": "b60d76541a5cef2d011d5c21a3ad8ddec8ba186ffb973456f34fbd9adf20c3f9"
+    },
+    "rules_set/routes/b6339cc8cea9cb0b00bc8360.OpenAI_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 63,
+      "format": "text",
+      "origin": "named",
+      "sha256": "b6339cc8cea9cb0b00bc8360e86ff004c3c6d47da36193c103bd12a528f13d52"
+    },
+    "rules_set/routes/b69acd68933a89ee7323f901.X_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 145,
+      "format": "text",
+      "origin": "named",
+      "sha256": "b69acd68933a89ee7323f9011b8693bd23e6b0f78884e5ae11f148d708f70ef8"
+    },
+    "rules_set/routes/b8a10900e8047792317bd9d6.Meta_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 1830,
+      "format": "text",
+      "origin": "named",
+      "sha256": "b8a10900e8047792317bd9d6b1d1ab06d36302af0147ba283b55764960be7cf1"
+    },
+    "rules_set/routes/c02bbdd517108aa1d86d9c7f.Proxy_2.list": {
+      "behavior": "classical",
+      "bytes": 25057,
+      "format": "text",
+      "origin": "named",
+      "sha256": "c02bbdd517108aa1d86d9c7fe36a4b5a8de105c8fc6f6dc62e4024a1a0e91502"
+    },
+    "rules_set/routes/cce87cf74ff039e7611f95f2.ChinaDirect.list": {
+      "behavior": "classical",
+      "bytes": 31483,
+      "format": "text",
+      "origin": "named",
+      "sha256": "cce87cf74ff039e7611f95f29f71c6ef5c98be41fb219bb51aab60689d2d50cf"
+    },
+    "rules_set/routes/cceda9df089576e606168b8c.Microsoft_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 222,
+      "format": "text",
+      "origin": "named",
+      "sha256": "cceda9df089576e606168b8cb73df250930dad38d7285a9a8c7d09097d64533c"
+    },
+    "rules_set/routes/d002ece679c6fe9c77cacdb3.Microsoft_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 178,
+      "format": "text",
+      "origin": "named",
+      "sha256": "d002ece679c6fe9c77cacdb327fab09c30278ef02789d03c0347ee9667c9990b"
+    },
+    "rules_set/routes/d3f4ea185d2339cbcef5cef9.GitHub.list": {
+      "behavior": "classical",
+      "bytes": 2584,
+      "format": "text",
+      "origin": "named",
+      "sha256": "d3f4ea185d2339cbcef5cef9080e11e542652520d0915acc867b75315877c7d9"
+    },
+    "rules_set/routes/ec0aea80d721f915ca5f8f3e.Meta_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 1464,
+      "format": "text",
+      "origin": "named",
+      "sha256": "ec0aea80d721f915ca5f8f3ed32a310011bcba2550d7a1aaf0fa7dcaff1f63da"
+    },
+    "rules_set/routes/f95b9c4519959b70301db9d3.Meta.list": {
+      "behavior": "classical",
+      "bytes": 12087,
+      "format": "text",
+      "origin": "named",
+      "sha256": "f95b9c4519959b70301db9d3843b9a035b4064fd0eb469cb6fb659960160bf29"
+    },
+    "rules_set/routes/fb1231469d45c673aed9cc05.X.list": {
+      "behavior": "classical",
+      "bytes": 762,
+      "format": "text",
+      "origin": "named",
+      "sha256": "fb1231469d45c673aed9cc0580959467ebab1c744ccb6604eb65c1e04fbf1cf3"
+    },
+    "rules_set/routes/fbc4c2b185d7e4bf18fb4bc8.Proxy_Fallback.list": {
+      "behavior": "classical",
+      "bytes": 973,
+      "format": "text",
+      "origin": "named",
+      "sha256": "fbc4c2b185d7e4bf18fb4bc8eb152ee646b10ebee80bd803c21f02591d5dcf3b"
+    },
+    "source_definitions/amazon.yaml": {
+      "bytes": 1193,
+      "sha256": "d0797e9b983f4ee2ba1a2b72720bac5176fe34418de40bd6aa6c0c5e548a3c5b"
+    },
+    "source_definitions/apple.yaml": {
+      "bytes": 1008,
+      "sha256": "ff63ca4eae2e87b8b4dfbc4a34c6e004cbd9b6a7ce702f5ecb686bcc347d86fa"
+    },
+    "source_definitions/apple_media.yaml": {
+      "bytes": 1052,
+      "sha256": "8ab4ea552c630a9391fdc6a95399e86b67363e0051002996edee2f9e349adced"
+    },
+    "source_definitions/apple_proxy.yaml": {
+      "bytes": 238,
+      "sha256": "f4827bcb832c83314b98a3c217b99f2bfdb6614f0428a518b13b4d9a759b27a6"
+    },
+    "source_definitions/appletv.yaml": {
+      "bytes": 462,
+      "sha256": "155784e91fc8ad8253ea2669ea775e9154b36e6b9018a34c635376ae90552c87"
+    },
+    "source_definitions/bing.yaml": {
+      "bytes": 431,
+      "sha256": "155cf20290b19ac8c8f40e7e00b7ee437184e0e9ce274bf9cbae184ef605fd2e"
+    },
+    "source_definitions/china_direct.yaml": {
+      "bytes": 16543,
+      "sha256": "7072703b62950103a21ce2c9b118d0b09cfeee0ace4e755b910ba68f74a2f060"
+    },
+    "source_definitions/china_gov.yaml": {
+      "bytes": 5983,
+      "sha256": "b596f5afb98fc8748b94f6c26422ab5986ad5d111cee19d75c322804c0c72d33"
+    },
+    "source_definitions/claude.yaml": {
+      "bytes": 442,
+      "sha256": "3646579b2818a91a8caf3f173602480da92ed6a521ed1ff039e9eb7d8bbd769f"
+    },
+    "source_definitions/cloudflare.yaml": {
+      "bytes": 350,
+      "sha256": "554cf6ec2c7cfc13139bbd62f7ced32459f926eb59e872ef77c15f431e31f545"
+    },
+    "source_definitions/copilot.yaml": {
+      "bytes": 346,
+      "sha256": "6716b13930f4b519ad2464cbb5344618d5aca2208ed8938a7edf2a64d9af18da"
+    },
+    "source_definitions/discord.yaml": {
+      "bytes": 452,
+      "sha256": "1482ce0d42454b95bce63fbadc9b0911ca2a9a4b81b679b5907d728df1cb8e70"
+    },
+    "source_definitions/disney.yaml": {
+      "bytes": 449,
+      "sha256": "09c8db4851477e3e6cddd14bd7f23f308a3a62ce8533d7ad53415aaf0c99d5c1"
+    },
+    "source_definitions/facebook.yaml": {
+      "bytes": 1176,
+      "sha256": "844cb5df893b9493a5314967c73de09bf57e5598c0b00a65a40099675882766c"
+    },
+    "source_definitions/github.yaml": {
+      "bytes": 445,
+      "sha256": "9000b2ed01116ed33a93d43f626980d37079ee1f17c087b25d5073b2e1644443"
+    },
+    "source_definitions/google.yaml": {
+      "bytes": 1021,
+      "sha256": "6fc307eafbf7cf4ce949295084c0ce468b1d51741b77e914040728d8a8f6075b"
+    },
+    "source_definitions/google_gemini.yaml": {
+      "bytes": 354,
+      "sha256": "2c9f83fa5b63e2caae2fc942f610655fcbc773bd8f6ac9d81a52b911198518f8"
+    },
+    "source_definitions/google_voice.yaml": {
+      "bytes": 242,
+      "sha256": "12c6c1645bc4f6b8126af6a17057de045141cc386c291ef67e2fbce6d66d012a"
+    },
+    "source_definitions/iCloudPrivateRelay.yaml": {
+      "bytes": 398,
+      "sha256": "de1047c5289500ae3ebcde4ad786fb6b507bbe1016102b8c48b9db9f655485b7"
+    },
+    "source_definitions/icloud.yaml": {
+      "bytes": 326,
+      "sha256": "a21546a54041e3d3bcf7b244efada605017e11637921f939d23b336e00bbbd86"
+    },
+    "source_definitions/microsoft.yaml": {
+      "bytes": 584,
+      "sha256": "c6413d48f80154266f0aa27760bbaee25d37ebc4b0df18e45cd9cfa074f2c4cb"
+    },
+    "source_definitions/netflix.yaml": {
+      "bytes": 462,
+      "sha256": "cafefd40a6f16993b3aab819742b9604ce5f8d11cc84ebee424625cb8fb0c84b"
+    },
+    "source_definitions/no_resolve/amazon_no_resolve.yaml": {
+      "bytes": 1259,
+      "sha256": "71dc734a0850a263694d14287cbf23cd0f26a9d198138d524c1d2dc68e2e81b7"
+    },
+    "source_definitions/no_resolve/apple_media_no_resolve.yaml": {
+      "bytes": 1118,
+      "sha256": "f8ce00008951baa1bf67f4e55a8398ae58e84afdc9c7cba89a1c3b722fcc0646"
+    },
+    "source_definitions/no_resolve/apple_no_resolve.yaml": {
+      "bytes": 1074,
+      "sha256": "78b83f4387e63bff6a7ad2eaad5fe75131051848e5998f6236af5b7ce1eb5709"
+    },
+    "source_definitions/no_resolve/apple_proxy_no_resolve.yaml": {
+      "bytes": 260,
+      "sha256": "b3eeb15a4460e9a632ad3352bfa625fc5d210d1142cd244f560aeb86cb016271"
+    },
+    "source_definitions/no_resolve/appletv_no_resolve.yaml": {
+      "bytes": 484,
+      "sha256": "7c961cbec56ec0c3c97dccb2dd4d2c40b791c80398921883d6d671414bd880f6"
+    },
+    "source_definitions/no_resolve/bing_no_resolve.yaml": {
+      "bytes": 453,
+      "sha256": "c216afa4d8a65752799031c0554bd118547ef1e05b22b2c8e61f866d1a0c1600"
+    },
+    "source_definitions/no_resolve/china_direct_no_resolve.yaml": {
+      "bytes": 16928,
+      "sha256": "1753e0b81847d1ea164aaca5ef2fbb947dea7d1d9941064adf9ea78220211976"
+    },
+    "source_definitions/no_resolve/china_gov_no_resolve.yaml": {
+      "bytes": 6038,
+      "sha256": "b738596e3d483c05b82ccad898f32709b24398cd42613977384d51737c551e2d"
+    },
+    "source_definitions/no_resolve/claude_no_resolve.yaml": {
+      "bytes": 475,
+      "sha256": "728347e280f730a09a7a2106ccdf0c0d730b9f47eb5b4028e2ee38aec468eb79"
+    },
+    "source_definitions/no_resolve/cloudflare_no_resolve.yaml": {
+      "bytes": 372,
+      "sha256": "13298fc23a23cc6fca02ccb836f673c37dd47eeaf0af1fd25cdf30bd60c49e9f"
+    },
+    "source_definitions/no_resolve/copilot_no_resolve.yaml": {
+      "bytes": 368,
+      "sha256": "a4350b8ca1ca8f4e0762e76792b40e09c4a6a1b7c14bfcd9864fc5893d803739"
+    },
+    "source_definitions/no_resolve/discord_no_resolve.yaml": {
+      "bytes": 474,
+      "sha256": "6cee7281392971f30747a7d0fbf590ef53ef46a1180ed2c13af3a0ccf81d8bcb"
+    },
+    "source_definitions/no_resolve/disney_no_resolve.yaml": {
+      "bytes": 471,
+      "sha256": "ea4d53634c2b7f84e1910774a22d383006aa37459a6808247a1fe36a27c10b67"
+    },
+    "source_definitions/no_resolve/facebook_no_resolve.yaml": {
+      "bytes": 1220,
+      "sha256": "aae0fa25e73535c5d9079f5fdbb74b173d34592af7d8d7d628044394c0835387"
+    },
+    "source_definitions/no_resolve/github_no_resolve.yaml": {
+      "bytes": 467,
+      "sha256": "23f3a5b27457eecde9113b71b22bd295378f1cc6d6cc21b62c4446703dc8ac64"
+    },
+    "source_definitions/no_resolve/google_gemini_no_resolve.yaml": {
+      "bytes": 376,
+      "sha256": "fac580bad2350934a93829af62ecce8eadb206cae86f8ae1e3b94b8d27effee7"
+    },
+    "source_definitions/no_resolve/google_no_resolve.yaml": {
+      "bytes": 1087,
+      "sha256": "518aacfb17f71faacbbb112804c39cd0b4bb4e64c64be2702b72ef4b04310c40"
+    },
+    "source_definitions/no_resolve/google_voice_no_resolve.yaml": {
+      "bytes": 264,
+      "sha256": "32fb62e04f6913dba038bbb5eb5f5a35d35c7f248d89c33b1fa3df8e04c59590"
+    },
+    "source_definitions/no_resolve/iCloudPrivateRelay_no_resolve.yaml": {
+      "bytes": 420,
+      "sha256": "b2c4c8c00fff9fc57cee7863e968a0498484a96fc871603224a5dae5ef2ec07b"
+    },
+    "source_definitions/no_resolve/icloud_no_resolve.yaml": {
+      "bytes": 348,
+      "sha256": "7d213bce16e22df1947638f398b4ddb9d938615be184d9370ba1ea51b00253e9"
+    },
+    "source_definitions/no_resolve/microsoft_no_resolve.yaml": {
+      "bytes": 617,
+      "sha256": "d4a518c90ded027de92709f74a2e3f5b9df33f67d931507a14659f8ef3735845"
+    },
+    "source_definitions/no_resolve/netflix_no_resolve.yaml": {
+      "bytes": 484,
+      "sha256": "2cc6ed0d081e49e66677e380bb1f41f01b0815b191d585c7e2fd701fcc2ae88b"
+    },
+    "source_definitions/no_resolve/onedrive_no_resolve.yaml": {
+      "bytes": 481,
+      "sha256": "88c9a63e8897f807a6efb1623949d2f8f8918f9df6db53b35a1d0abb01cfe31e"
+    },
+    "source_definitions/no_resolve/openai_no_resolve.yaml": {
+      "bytes": 467,
+      "sha256": "c20a3279918fe3cbdde9c3e407d51a66e72ee9918cf33f46ab9d82de6d2903c7"
+    },
+    "source_definitions/no_resolve/paypal_no_resolve.yaml": {
+      "bytes": 348,
+      "sha256": "2e435c208120d15f148574ad3d5fe3ad8e8cbd977c5051c64b6bd4ec11dd3146"
+    },
+    "source_definitions/no_resolve/proxy_no_resolve.yaml": {
+      "bytes": 348,
+      "sha256": "121dcdc42ce42c8158c8682360cb951abbe789bd28384a76697ec6542cbce71a"
+    },
+    "source_definitions/no_resolve/social_media_no_resolve.yaml": {
+      "bytes": 820,
+      "sha256": "19ba664797e05636ef631e39c0fd533f4be7f3c0c08172abea9b55127d73fbbb"
+    },
+    "source_definitions/no_resolve/telegram_no_resolve.yaml": {
+      "bytes": 850,
+      "sha256": "0c766eca1baeccf1516cb824eb1f653e36e832eedf8334f5a5e566def5940cb8"
+    },
+    "source_definitions/no_resolve/tencent_no_resolve.yaml": {
+      "bytes": 1140,
+      "sha256": "e672a2b667a0b08cdc5292cd46071e89b2ef98319554452235c8a7cccb2c07d0"
+    },
+    "source_definitions/no_resolve/twitter_no_resolve.yaml": {
+      "bytes": 474,
+      "sha256": "1342e458777c76bfdad620b0bb22bcf222ac4d4df143b2b38d3a9cb1391f10a6"
+    },
+    "source_definitions/no_resolve/youtube_no_resolve.yaml": {
+      "bytes": 601,
+      "sha256": "f066818adf6d844e839dcb9c669606e3fa9af98ad4089efdd23276ad2e523512"
+    },
+    "source_definitions/onedrive.yaml": {
+      "bytes": 459,
+      "sha256": "9b3ff0e6240d5029ff165de2b34bb6c3fad67d148139eb8cea255fa898f92ffe"
+    },
+    "source_definitions/openai.yaml": {
+      "bytes": 445,
+      "sha256": "a8651f3bd068365ca8c7630b2c461f8786d0c64278abf76f5c5500635a8d7201"
+    },
+    "source_definitions/paypal.yaml": {
+      "bytes": 326,
+      "sha256": "58fc077fe8a3cbd4158b6a662c57efc5bcca9c5e2d317131bd29664098f27774"
+    },
+    "source_definitions/proxy.yaml": {
+      "bytes": 326,
+      "sha256": "3aface0ba4b3aa25027beaa789c4ba8bc195f31f1ad1fef1fa4d30323233b3a4"
+    },
+    "source_definitions/social_media.yaml": {
+      "bytes": 776,
+      "sha256": "1898b1d8d06adc191db30f15de0e0ad6e6cd075cadd1c252015f881861104c05"
+    },
+    "source_definitions/telegram.yaml": {
+      "bytes": 795,
+      "sha256": "5c98f466420921a7d328dd1af976a0786fe2a2fd3b25f6a827656fd225ad06fb"
+    },
+    "source_definitions/tencent.yaml": {
+      "bytes": 1106,
+      "sha256": "8d09fde9f0b96b9fd208b334c9a30db818e7f433e6221fc799047d475d769fcf"
+    },
+    "source_definitions/twitter.yaml": {
+      "bytes": 452,
+      "sha256": "15a4611094f1e8f76089bdc7123a6ed497e090dfa7360f332f096801a096ada6"
+    },
+    "source_definitions/verification_services.yaml": {
+      "bytes": 381,
+      "sha256": "59b67d3e29719b7578c5e4c09ad4ee1ccd8ebe9d5641c9915bb1d28ec5b41dc8"
+    },
+    "source_definitions/youtube.yaml": {
+      "bytes": 568,
+      "sha256": "7231282aaddc1db64cd64618333a8adc9b85e2a6b9feb508b6ad2686faa3d7cf"
+    },
+    "source_rules/amazon.yaml": {
+      "bytes": 59477,
+      "sha256": "77c26639b7224f7651520017595f7ac2255039872a8dd20e7a80b11d35f041c3"
+    },
+    "source_rules/apple.yaml": {
+      "bytes": 54202,
+      "sha256": "99af14d7a1477a69b03873b5d3b802125fec84dc1c2eface7bb8f66d6c441664"
+    },
+    "source_rules/apple_media.yaml": {
+      "bytes": 4526,
+      "sha256": "a36e91adac14661f95fc44ee4dd9a6bb40d726bea54128559763935360f4d2e0"
+    },
+    "source_rules/apple_proxy.yaml": {
+      "bytes": 1295,
+      "sha256": "5989daa5a70dd99b3506327e1a0ce678aba26bd65311312bf240971c5fcd8c5b"
+    },
+    "source_rules/appletv.yaml": {
+      "bytes": 290,
+      "sha256": "49c0ee45a45d4cf9e28460d71dff9612fa9864a154d88c8b826714b9ac3e018a"
+    },
+    "source_rules/bing.yaml": {
+      "bytes": 1174,
+      "sha256": "3a90f5714a7e8c770ad225eddfb82eaa8f82b1a2f224f01204bee3a9f008e04b"
+    },
+    "source_rules/china_direct.yaml": {
+      "bytes": 147489,
+      "sha256": "d68cd68bdc1ba7629ff2c806083873ca674b264658059dfa3484eca196bfc10d"
+    },
+    "source_rules/china_gov.yaml": {
+      "bytes": 23989,
+      "sha256": "325e418ec09e1fbbe7e0b950b37d235b7576a27b2995a2d2d51e135bd8ab5c98"
+    },
+    "source_rules/claude.yaml": {
+      "bytes": 705,
+      "sha256": "59d7efb27f58579bff05848bdc205d0dcc0d48f312e200000d8d1b9c79c53b17"
+    },
+    "source_rules/cloudflare.yaml": {
+      "bytes": 3125,
+      "sha256": "a05335c4ea72fe795689017f2fa4225698aa33a928b72f946e801ef6fd7b9626"
+    },
+    "source_rules/copilot.yaml": {
+      "bytes": 2026,
+      "sha256": "3a40b08a7560cb942e60a4f8383f3ee7203d42d41ef6bb5e66ae7f2b479337cb"
+    },
+    "source_rules/discord.yaml": {
+      "bytes": 985,
+      "sha256": "7124cf7b6c0fa1cb85f435b37d1b133acb4a5673d37ce76e4fa5a82b7bad15aa"
+    },
+    "source_rules/disney.yaml": {
+      "bytes": 7736,
+      "sha256": "02da5a4c77a681fb00e45cc07e6a5717b9f1180da2976eed0ba43bc8136bc8b7"
+    },
+    "source_rules/facebook.yaml": {
+      "bytes": 19622,
+      "sha256": "b38f96852b0fbfdf799551ad6c5e385d09e9701c801c0fbd90d40ba040dc26fd"
+    },
+    "source_rules/github.yaml": {
+      "bytes": 2723,
+      "sha256": "dc3ca62d96b648cf8bcbad3cb41eb936a23e850cfe2e4980296813be6ce9a9ae"
+    },
+    "source_rules/google.yaml": {
+      "bytes": 28358,
+      "sha256": "6cc910a8c6d5d35c9ba24e500202f808496b4ec19b57b4133a764f8bcceef58a"
+    },
+    "source_rules/google_gemini.yaml": {
+      "bytes": 2012,
+      "sha256": "796e8675936ca19a8c4d5e27f1e352cea5d4e56104f24ef9324b681361d15a59"
+    },
+    "source_rules/google_voice.yaml": {
+      "bytes": 36,
+      "sha256": "89c94d82734811824ebc04e6a8f2b72f4df74a39edd489c5c0db68c4acdc00ef"
+    },
+    "source_rules/iCloudPrivateRelay.yaml": {
+      "bytes": 205,
+      "sha256": "82d8299d1c04947ee04bbf517883d6c3247a9fd6a68a60e8dd30b02a2ed375cf"
+    },
+    "source_rules/icloud.yaml": {
+      "bytes": 1831,
+      "sha256": "cdd5a5570bc908caeb0e4a0986e9b6097daed01b43d1973468c9f569385f6afd"
+    },
+    "source_rules/microsoft.yaml": {
+      "bytes": 24641,
+      "sha256": "138a686f205724d3be0a3cafc23a33230afb51c6619dd61377129da437130bf3"
+    },
+    "source_rules/netflix.yaml": {
+      "bytes": 31061,
+      "sha256": "bb253e13002eb31177ff6698a165f4f9e760f4003f151cf06e5c8c9e58845779"
+    },
+    "source_rules/no_resolve/amazon.yaml": {
+      "bytes": 81136,
+      "sha256": "906e97d569fc20fab53ea85e3f929353ea14f947e2d2bb6c594b940b37d47ffc"
+    },
+    "source_rules/no_resolve/apple.yaml": {
+      "bytes": 53982,
+      "sha256": "e6b4282f3dec9ce08955c21ea902e85fee230e1121c733e9aa849e5591b08a57"
+    },
+    "source_rules/no_resolve/apple_media.yaml": {
+      "bytes": 4526,
+      "sha256": "a36e91adac14661f95fc44ee4dd9a6bb40d726bea54128559763935360f4d2e0"
+    },
+    "source_rules/no_resolve/apple_proxy.yaml": {
+      "bytes": 1295,
+      "sha256": "5989daa5a70dd99b3506327e1a0ce678aba26bd65311312bf240971c5fcd8c5b"
+    },
+    "source_rules/no_resolve/appletv.yaml": {
+      "bytes": 290,
+      "sha256": "49c0ee45a45d4cf9e28460d71dff9612fa9864a154d88c8b826714b9ac3e018a"
+    },
+    "source_rules/no_resolve/bing.yaml": {
+      "bytes": 1174,
+      "sha256": "3a90f5714a7e8c770ad225eddfb82eaa8f82b1a2f224f01204bee3a9f008e04b"
+    },
+    "source_rules/no_resolve/china_direct.yaml": {
+      "bytes": 148391,
+      "sha256": "6898abb14dd31bad66cb8cd2c7ccb2099233176202539edbde13cf614e1ed99b"
+    },
+    "source_rules/no_resolve/china_gov.yaml": {
+      "bytes": 23989,
+      "sha256": "325e418ec09e1fbbe7e0b950b37d235b7576a27b2995a2d2d51e135bd8ab5c98"
+    },
+    "source_rules/no_resolve/claude.yaml": {
+      "bytes": 705,
+      "sha256": "59d7efb27f58579bff05848bdc205d0dcc0d48f312e200000d8d1b9c79c53b17"
+    },
+    "source_rules/no_resolve/cloudflare.yaml": {
+      "bytes": 3367,
+      "sha256": "b1d019049872611ab557ba16777608c625dabca4f72ef91e0bf09ec86e625f61"
+    },
+    "source_rules/no_resolve/copilot.yaml": {
+      "bytes": 2070,
+      "sha256": "4cc8386f9af9a345c6e52b74dd4a4506513b350ab4bc845389d7cf1d16499625"
+    },
+    "source_rules/no_resolve/discord.yaml": {
+      "bytes": 985,
+      "sha256": "7124cf7b6c0fa1cb85f435b37d1b133acb4a5673d37ce76e4fa5a82b7bad15aa"
+    },
+    "source_rules/no_resolve/disney.yaml": {
+      "bytes": 7736,
+      "sha256": "02da5a4c77a681fb00e45cc07e6a5717b9f1180da2976eed0ba43bc8136bc8b7"
+    },
+    "source_rules/no_resolve/facebook.yaml": {
+      "bytes": 19214,
+      "sha256": "a90a7061d5c43a8544c05d10372c4ec847bbf3da9cb34b3d426ad1be1cd533be"
+    },
+    "source_rules/no_resolve/github.yaml": {
+      "bytes": 2723,
+      "sha256": "dc3ca62d96b648cf8bcbad3cb41eb936a23e850cfe2e4980296813be6ce9a9ae"
+    },
+    "source_rules/no_resolve/google.yaml": {
+      "bytes": 27890,
+      "sha256": "535f150f7607d00e910fc99eb8cb5f327a02ca271dab395f3541650fa41afe50"
+    },
+    "source_rules/no_resolve/google_gemini.yaml": {
+      "bytes": 2012,
+      "sha256": "796e8675936ca19a8c4d5e27f1e352cea5d4e56104f24ef9324b681361d15a59"
+    },
+    "source_rules/no_resolve/google_voice.yaml": {
+      "bytes": 36,
+      "sha256": "89c94d82734811824ebc04e6a8f2b72f4df74a39edd489c5c0db68c4acdc00ef"
+    },
+    "source_rules/no_resolve/iCloudPrivateRelay.yaml": {
+      "bytes": 205,
+      "sha256": "82d8299d1c04947ee04bbf517883d6c3247a9fd6a68a60e8dd30b02a2ed375cf"
+    },
+    "source_rules/no_resolve/icloud.yaml": {
+      "bytes": 1831,
+      "sha256": "cdd5a5570bc908caeb0e4a0986e9b6097daed01b43d1973468c9f569385f6afd"
+    },
+    "source_rules/no_resolve/microsoft.yaml": {
+      "bytes": 24641,
+      "sha256": "138a686f205724d3be0a3cafc23a33230afb51c6619dd61377129da437130bf3"
+    },
+    "source_rules/no_resolve/netflix.yaml": {
+      "bytes": 42723,
+      "sha256": "06003c0187ee9cbc8f0710a0c584ce127051305bf2c9eca99f6542d5d3840434"
+    },
+    "source_rules/no_resolve/onedrive.yaml": {
+      "bytes": 785,
+      "sha256": "30912a9429380ff9444bfe60d756ca89722b816d92db54bf2da31ac0d9a37a0a"
+    },
+    "source_rules/no_resolve/openai.yaml": {
+      "bytes": 1584,
+      "sha256": "7dbe7fb317bbcdb50732129c99ef253d58bec4848e8b2154d93a2c2b940e74df"
+    },
+    "source_rules/no_resolve/paypal.yaml": {
+      "bytes": 8159,
+      "sha256": "7cb8ae2fbc2a5e1146072343c8c13c6bfbeb2d0d1dc3811c88812f0ecdb7992f"
+    },
+    "source_rules/no_resolve/proxy.yaml": {
+      "bytes": 220391,
+      "sha256": "3bd1455e63eb9e15b3c7022cedc026444f5400fb20c7ede899fa9aa987016d05"
+    },
+    "source_rules/no_resolve/social_media.yaml": {
+      "bytes": 3572,
+      "sha256": "61b6073e7e893ffa9f8f963c10de50528b93ae5c0c9e6792b0f2b8a8208d3747"
+    },
+    "source_rules/no_resolve/telegram.yaml": {
+      "bytes": 1582,
+      "sha256": "b56c84def46a165ac68eb22ee9755a99757fefe6844bb456428ac37df102dd59"
+    },
+    "source_rules/no_resolve/tencent.yaml": {
+      "bytes": 82369,
+      "sha256": "2b7057ba2be770f66d6a58fbf51218bb09f80c3c3eeb41b7b596821e4e146b12"
+    },
+    "source_rules/no_resolve/twitter.yaml": {
+      "bytes": 1050,
+      "sha256": "1531db1235a39f00e9a7bf28ab66412ff3dd8dafb4c08e0cd5f8f5e9a02b0297"
+    },
+    "source_rules/no_resolve/youtube.yaml": {
+      "bytes": 5417,
+      "sha256": "01f6a237e2b3663b643f471db9ba1bc09e82810daefc32c68dbcc18a9d2f75ac"
+    },
+    "source_rules/onedrive.yaml": {
+      "bytes": 785,
+      "sha256": "30912a9429380ff9444bfe60d756ca89722b816d92db54bf2da31ac0d9a37a0a"
+    },
+    "source_rules/openai.yaml": {
+      "bytes": 1551,
+      "sha256": "e89858f96d29428affce4d9be02e53a18554321924cb806b227216bffefc435c"
+    },
+    "source_rules/paypal.yaml": {
+      "bytes": 8159,
+      "sha256": "7cb8ae2fbc2a5e1146072343c8c13c6bfbeb2d0d1dc3811c88812f0ecdb7992f"
+    },
+    "source_rules/private_direct.yaml": {
+      "bytes": 178,
+      "sha256": "319352a83330b7586019b9cef1e1a2a7f321eb3cef0d20f1049a3183ddc0070f"
+    },
+    "source_rules/proxy.yaml": {
+      "bytes": 222212,
+      "sha256": "9bc4a724e801d81c36587718656de874d345c2f83901cff6c69b1d2a02bc1af6"
+    },
+    "source_rules/proxy_selected.yaml": {
+      "bytes": 593,
+      "sha256": "da382f882e5c63c82375e529847c973b621e6b715de72d6dea5cea668bef6103"
+    },
+    "source_rules/shared_verification.yaml": {
+      "bytes": 1178,
+      "sha256": "e46a4c8dde952068f9b93427b23be290e855a1e42676fc93bed20efa82550e56"
+    },
+    "source_rules/social_media.yaml": {
+      "bytes": 3572,
+      "sha256": "61b6073e7e893ffa9f8f963c10de50528b93ae5c0c9e6792b0f2b8a8208d3747"
+    },
+    "source_rules/telegram.yaml": {
+      "bytes": 1650,
+      "sha256": "2c7ceac8ceb068b5c2f13ec1fe76e1e9830640764cb9d6006c7d246c87bb0164"
+    },
+    "source_rules/tencent.yaml": {
+      "bytes": 82017,
+      "sha256": "24d05ed2dfabca9ab18e35352191e60ca4a0b2df1ea32d1834030058974250bd"
+    },
+    "source_rules/twitter.yaml": {
+      "bytes": 984,
+      "sha256": "6d7e6abfa05b2a53aebdc021497240e11d604904ce3b782117a1ba1f869866d7"
+    },
+    "source_rules/verification_services.yaml": {
+      "bytes": 170,
+      "sha256": "1aaeb5eeb69b9ff2ce12d255b35e8726db028153c9b4c613eaa94862abe20e0a"
+    },
+    "source_rules/youtube.yaml": {
+      "bytes": 5384,
+      "sha256": "60748d201b1f0d70db3a600bcf0ea36bc664e19450ba84a93b7035674218b5a6"
+    },
+    "sources.json": {
+      "bytes": 271009,
+      "sha256": "19fc3c904da8654323bb42235d4f00f5117ef899f329038383cc50a144209494"
+    }
+  },
+  "kind": "verified-rule-release",
+  "schema": 2,
+  "snapshot": "6de67806dbea08c4ebcf8766"
+}
