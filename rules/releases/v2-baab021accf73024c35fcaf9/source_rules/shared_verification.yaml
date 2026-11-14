@@ -1,0 +1,25 @@
+# Complete known vendor domain families, reviewed 2026-11-04.
+# Supplement the full upstream Cloudflare, hCaptcha and GeeTest categories.
+# Company-specific integrations remain in CLASH_DOMAIN_OVERRIDES.
+# Google reCAPTCHA follows Google. Shared CDN hosts such as cdn.jsdelivr.net
+# cannot be classified by the CAPTCHA library URL path.
+payload:
+  # Cloudflare Turnstile https://developers.cloudflare.com/turnstile/
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  # https://docs.hcaptcha.com/#content-security-policy-settings
+  - DOMAIN-SUFFIX,hcaptcha.com
+  # https://developer.arkoselabs.com/docs/standard-setup
+  - DOMAIN-SUFFIX,arkoselabs.com
+  - DOMAIN-SUFFIX,funcaptcha.com
+  # https://docs.geetest.com/sensebot/deploy/client/web/
+  - DOMAIN-SUFFIX,geetest.com
+  - DOMAIN-SUFFIX,geevisit.com
+  - DOMAIN-SUFFIX,gsensebot.com
+  # https://docs.datadome.co/docs/javascript-tag
+  - DOMAIN-SUFFIX,captcha-delivery.com
+  - DOMAIN-SUFFIX,datadome.co
+  # https://developer.friendlycaptcha.com/docs/v2/versions
+  # https://developer.friendlycaptcha.com/docs/v1/guides/eu-endpoint
+  - DOMAIN-SUFFIX,friendlycaptcha.com
+  - DOMAIN-SUFFIX,friendlycaptcha.eu
+  - DOMAIN-SUFFIX,frcapi.com
