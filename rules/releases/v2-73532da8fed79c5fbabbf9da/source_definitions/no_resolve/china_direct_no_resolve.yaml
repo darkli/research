@@ -1,0 +1,109 @@
+china_direct:
+  type: http
+  behavior: classical
+  urls:
+  # 京东系
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JingDong/JingDong_No_Resolve.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/jd
+    format: dlc
+    name: jd
+  # 腾讯消费系（与 tencent 规则集双保险）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tencent/Tencent_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo/TencentVideo_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat_No_Resolve.yaml
+  # 阿里国内消费与办公系（公有云多租户后缀由 profile 顶层拦截）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Alibaba/Alibaba_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GaoDe/GaoDe_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DingTalk/DingTalk_No_Resolve.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/amap
+    format: dlc
+    name: amap
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cainiao
+    format: dlc
+    name: cainiao
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/dingtalk
+    format: dlc
+    name: dingtalk
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/eleme
+    format: dlc
+    name: eleme
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/youku
+    format: dlc
+    name: youku
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/aliyun-drive
+    format: dlc
+    name: aliyun-drive
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list
+    format: classical-text
+  # 字节国内消费与飞书办公系（排除含 TikTok/Trae/海外AI 的 v2fly/bytedance 整包）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ByteDance/ByteDance_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin_No_Resolve.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/douyin
+    format: dlc
+    name: douyin
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/feishu
+    format: dlc
+    name: feishu
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/doubao
+    format: dlc
+    name: doubao
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/juejin
+    format: dlc
+    name: juejin
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list
+    format: classical-text
+  # 高频内容与生活服务系（B站、网易、美团、小红书）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEase/NetEase_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MeiTuan/MeiTuan_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoHongShu/XiaoHongShu_No_Resolve.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bilibili
+    format: dlc
+    name: bilibili
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/netease
+    format: dlc
+    name: netease
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/meituan
+    format: dlc
+    name: meituan
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xiaohongshu
+    format: dlc
+    name: xiaohongshu
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
+    format: classical-text
+  # 拼多多与百度消费产品（百度智能云 bcebos.com/baidubce.com 由 profile 顶层拦截）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Pinduoduo/Pinduoduo_No_Resolve.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Baidu/Baidu_No_Resolve.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/pinduoduo
+    format: dlc
+    name: pinduoduo
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/baidu
+    format: dlc
+    name: baidu
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list
+    format: classical-text
+  additions:
+  - rule: DOMAIN-SUFFIX,alidns.com
+    evidence: https://www.alidns.com/
+  exclusions:
+  # AS132203 为腾讯云香港/新加坡/硅谷等海外自治系统，禁止进入国内直连兜底
+  - IP-ASN,132203
+  - IP-ASN,132203,no-resolve
+  # 剔除国内厂商上游列表顺带混入的海外国际站，使其自然落入默认 Proxy
+  - DOMAIN-SUFFIX,alibaba.com
+  - DOMAIN-SUFFIX,aliexpress.com
+  - DOMAIN-SUFFIX,larksuite.com
+  - DOMAIN-SUFFIX,larksuitecdn.com
+  - DOMAIN-SUFFIX,coze.site
+  - DOMAIN-SUFFIX,cozeapp.net
+  - DOMAIN-SUFFIX,cozebuild.com
+  - DOMAIN-SUFFIX,cozedeploy.com
+  - DOMAIN-SUFFIX,joox.com
+  - DOMAIN-SUFFIX,proximabeta.com
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,wetvinfo.com
+  - DOMAIN-SUFFIX,levelinfinite.com
+  path: ./ruleset/china_direct.yaml
+  interval: 86400

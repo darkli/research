@@ -1,0 +1,110 @@
+{
+  "policies": [
+    {
+      "bindings": [
+        "private_direct|🇨🇳 国内直连",
+        "icloud|🇨🇳 国内直连",
+        "apple|🇨🇳 国内直连",
+        "tencent|🇨🇳 国内直连",
+        "china_direct|🇨🇳 国内直连"
+      ],
+      "final": [
+        "GEOIP,LAN,DIRECT",
+        "MATCH,📺 Proxy"
+      ],
+      "overrides": [
+        "mcc234.pub.3gppnetwork.org|📶 VoWiFi-UK",
+        "mcc235.pub.3gppnetwork.org|📶 VoWiFi-UK",
+        "mcc310.pub.3gppnetwork.org|📶 VoWiFi-US",
+        "mcc311.pub.3gppnetwork.org|📶 VoWiFi-US",
+        "mcc312.pub.3gppnetwork.org|📶 VoWiFi-US",
+        "mcc313.pub.3gppnetwork.org|📶 VoWiFi-US",
+        "mcc314.pub.3gppnetwork.org|📶 VoWiFi-US",
+        "mcc315.pub.3gppnetwork.org|📶 VoWiFi-US",
+        "mcc316.pub.3gppnetwork.org|📶 VoWiFi-US",
+        "epdg.epc.att.net|📶 VoWiFi-US",
+        "sentitlement2.mobile.att.net|📶 VoWiFi-US",
+        "epdg.epc.geo.t-mobile.com|📶 VoWiFi-US",
+        "vowifi.t-mobile.com|📶 VoWiFi-US",
+        "cdn-lfs.huggingface.co|📦 大流量通道",
+        "cdn-lfs-us-1.huggingface.co|📦 大流量通道",
+        "cdn-lfs-eu-1.huggingface.co|📦 大流量通道",
+        "cas-bridge.xethub.hf.co|📦 大流量通道",
+        "registry.ollama.ai|📦 大流量通道",
+        "objects.githubusercontent.com|📦 大流量通道",
+        "release-assets.githubusercontent.com|📦 大流量通道",
+        "pkg-containers.githubusercontent.com|📦 大流量通道",
+        "ghcr.io|📦 大流量通道",
+        "registry-1.docker.io|📦 大流量通道",
+        "production.cloudflare.docker.com|📦 大流量通道",
+        "files.pythonhosted.org|📦 大流量通道",
+        "googlevideo.com|📦 大流量通道",
+        "ytimg.com|📦 大流量通道",
+        "nflxvideo.net|📦 大流量通道",
+        "scdn.co|📦 大流量通道"
+      ]
+    },
+    {
+      "bindings": [
+        "shared_verification|☁️ CF / 验证服务",
+        "verification_services|☁️ CF / 验证服务",
+        "cloudflare|☁️ CF / 验证服务",
+        "proxy_selected|📺 Proxy",
+        "google_gemini|🔎 Google",
+        "google_voice|🔎 Google",
+        "youtube|🔎 Google",
+        "google|🔎 Google",
+        "openai|🤖 OpenAI",
+        "claude|🧠 Anthropic",
+        "copilot|🪟 Microsoft",
+        "github|🐙 GitHub",
+        "onedrive|🪟 Microsoft",
+        "bing|🪟 Microsoft",
+        "microsoft|🪟 Microsoft",
+        "facebook|♾️ Meta",
+        "twitter|𝕏 X",
+        "icloud|🍎 Apple",
+        "iCloudPrivateRelay|🍎 Apple",
+        "apple_proxy|🍎 Apple",
+        "appletv|🍎 Apple",
+        "apple|🍎 Apple",
+        "apple_media|🍎 Apple",
+        "paypal|📺 Proxy",
+        "netflix|📺 Proxy",
+        "disney|📺 Proxy",
+        "telegram|📺 Proxy",
+        "discord|📺 Proxy",
+        "amazon|📺 Proxy",
+        "tencent|🎯 全球直连",
+        "social_media|📺 Proxy",
+        "proxy|📺 Proxy"
+      ],
+      "final": [
+        "GEOIP,CN,🎯 全球直连",
+        "GEOIP,LAN,🎯 全球直连",
+        "MATCH,🐟 漏网之鱼"
+      ],
+      "overrides": [
+        "openai.azure.com|🪟 Microsoft",
+        "ads.google.com|🔎 Google|exact",
+        "adsense.google.com|🔎 Google|exact",
+        "admob.google.com|🔎 Google|exact",
+        "googleads.googleapis.com|🔎 Google|exact",
+        "adsense.googleapis.com|🔎 Google|exact",
+        "admob.googleapis.com|🔎 Google|exact",
+        "tagmanager.google.com|🔎 Google|exact",
+        "admanager.google.com|🔎 Google|exact",
+        "analyticsdata.googleapis.com|🔎 Google|exact",
+        "analyticsadmin.googleapis.com|🔎 Google|exact",
+        "analyticsreporting.googleapis.com|🔎 Google|exact",
+        "tagmanager.googleapis.com|🔎 Google|exact",
+        "admanager.googleapis.com|🔎 Google|exact",
+        "openai.com.cdn.cloudflare.net|🤖 OpenAI",
+        "openai-api.arkoselabs.com|🤖 OpenAI|exact",
+        "github-api.arkoselabs.com|🐙 GitHub|exact",
+        "challenges.cloudflare.com|☁️ CF / 验证服务"
+      ]
+    }
+  ],
+  "schema": 1
+}

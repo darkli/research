@@ -1,0 +1,17 @@
+payload:
+  - DOMAIN-SUFFIX,wise.com
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,500px.com
+  - DOMAIN-SUFFIX,500px.org
+  # 共享依赖统一走 Proxy；已明确公司或产品归属的主机由前置规则接管。
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,sentry.io
