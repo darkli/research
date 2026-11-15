@@ -1,0 +1,718 @@
+china_direct:
+  type: http
+  behavior: classical
+  urls:
+  # 1. 腾讯消费系（与 tencent 规则集双保险）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tencent/Tencent.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo/TencentVideo.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml
+
+  # 2. 阿里、蚂蚁支付宝、淘宝、高德、钉钉、饿了么、菜鸟、优酷、阿里云盘
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Alibaba/Alibaba.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AliPay/AliPay.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GaoDe/GaoDe.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DingTalk/DingTalk.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Youku/Youku.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/amap
+    format: dlc
+    name: amap
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cainiao
+    format: dlc
+    name: cainiao
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/dingtalk
+    format: dlc
+    name: dingtalk
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/eleme
+    format: dlc
+    name: eleme
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/youku
+    format: dlc
+    name: youku
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/aliyun-drive
+    format: dlc
+    name: aliyun-drive
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Youku.list
+    format: classical-text
+
+  # 3. 字节国内消费与飞书办公系（排除含 TikTok/Trae/海外AI 的 v2fly/bytedance 整包）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ByteDance/ByteDance.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/douyin
+    format: dlc
+    name: douyin
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/feishu
+    format: dlc
+    name: feishu
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/doubao
+    format: dlc
+    name: doubao
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/juejin
+    format: dlc
+    name: juejin
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list
+    format: classical-text
+
+  # 4. 小米、米家 IoT 及手机硬件大厂生态（小米、华为/鸿蒙/荣耀、OPPO、vivo）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoMi/XiaoMi.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Huawei/Huawei.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OPPO/OPPO.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Vivo/Vivo.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xiaomi
+    format: dlc
+    name: xiaomi
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xiaomi-iot
+    format: dlc
+    name: xiaomi-iot
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huawei
+    format: dlc
+    name: huawei
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/honor
+    format: dlc
+    name: honor
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/oppo
+    format: dlc
+    name: oppo
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/vivo
+    format: dlc
+    name: vivo
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MI.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HuaWei.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Heytap.list
+    format: classical-text
+
+  # 5. 电商与本地生活（京东、拼多多、美团、得物、唯品会、餐饮生鲜）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JingDong/JingDong.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Pinduoduo/Pinduoduo.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MeiTuan/MeiTuan.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/VipShop/VipShop.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/jd
+    format: dlc
+    name: jd
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/pinduoduo
+    format: dlc
+    name: pinduoduo
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/meituan
+    format: dlc
+    name: meituan
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/dewu
+    format: dlc
+    name: dewu
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-food-cn
+    format: dlc
+    name: category-food-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/JD.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PDD.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Vip.list
+    format: classical-text
+
+  # 6. 社交社区、搜索与影音娱乐（B站、网易、小红书、百度、新浪/微博、知乎、快手、爱奇艺）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEase/NetEase.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoHongShu/XiaoHongShu.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Baidu/Baidu.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sina/Sina.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Weibo/Weibo.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zhihu/Zhihu.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuaiShou/KuaiShou.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYI/iQIYI.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bilibili
+    format: dlc
+    name: bilibili
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/netease
+    format: dlc
+    name: netease
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xiaohongshu
+    format: dlc
+    name: xiaohongshu
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/baidu
+    format: dlc
+    name: baidu
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/sina
+    format: dlc
+    name: sina
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/zhihu
+    format: dlc
+    name: zhihu
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/kuaishou
+    format: dlc
+    name: kuaishou
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/iqiyi
+    format: dlc
+    name: iqiyi
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-social-media-cn
+    format: dlc
+    name: category-social-media-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-entertainment-cn
+    format: dlc
+    name: category-entertainment-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sina.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kuaishou.list
+    format: classical-text
+
+  # 7. 出行酒旅、办公协作、网盘、车联网与快递物流（滴滴、携程、金山/WPS、顺丰等）
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiDi/DiDi.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XieCheng/XieCheng.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Kingsoft/Kingsoft.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SFExpress/SFExpress.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/didi
+    format: dlc
+    name: didi
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/ctrip
+    format: dlc
+    name: ctrip
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/kingsoft
+    format: dlc
+    name: kingsoft
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/wps
+    format: dlc
+    name: wps
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/sf-express
+    format: dlc
+    name: sf-express
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-logistics-cn
+    format: dlc
+    name: category-logistics-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-collaborate-cn
+    format: dlc
+    name: category-collaborate-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-netdisk-cn
+    format: dlc
+    name: category-netdisk-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-automobile-cn
+    format: dlc
+    name: category-automobile-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiDi.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kingsoft.list
+    format: classical-text
+
+  # 8. 国内银行证券、银联、三大运营商、手机号一键登录与国内 HTTPDNS/NTP 基础设施
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UnionPay/UnionPay.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMobile/ChinaMobile.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTelecom/ChinaTelecom.yaml
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaUnicom/ChinaUnicom.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-bank-cn
+    format: dlc
+    name: category-bank-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-securities-cn
+    format: dlc
+    name: category-securities-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/unionpay
+    format: dlc
+    name: unionpay
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/chinamobile
+    format: dlc
+    name: chinamobile
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/chinatelecom
+    format: dlc
+    name: chinatelecom
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/chinaunicom
+    format: dlc
+    name: chinaunicom
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-number-verification-cn
+    format: dlc
+    name: category-number-verification-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-httpdns-cn
+    format: dlc
+    name: category-httpdns-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ntp-cn
+    format: dlc
+    name: category-ntp-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ChinaOneKeyLogin.list
+    format: classical-text
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ChinaDNS.list
+    format: classical-text
+
+  # 9. 中国大陆全品类域名主干对齐（v2fly geolocation-cn 过滤 -!cn，对齐 DNS 层 geosite:cn）及垂类补强
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-cn
+    format: dlc
+    name: geolocation-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-media-cn
+    format: dlc
+    name: category-media-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-enterprise-query-platform-cn
+    format: dlc
+    name: category-enterprise-query-platform-cn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/pingan
+    format: dlc
+    name: pingan
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/eastmoney
+    format: dlc
+    name: eastmoney
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/airchina
+    format: dlc
+    name: airchina
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/hainanairlines
+    format: dlc
+    name: hainanairlines
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/tongcheng
+    format: dlc
+    name: tongcheng
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/mafengwo
+    format: dlc
+    name: mafengwo
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/lianjia
+    format: dlc
+    name: lianjia
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/ziroom
+    format: dlc
+    name: ziroom
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/smzdm
+    format: dlc
+    name: smzdm
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/liepin
+    format: dlc
+    name: liepin
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/lagou
+    format: dlc
+    name: lagou
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/51job
+    format: dlc
+    name: 51job
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/dji
+    format: dlc
+    name: dji
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/csdn
+    format: dlc
+    name: csdn
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cnblogs
+    format: dlc
+    name: cnblogs
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/oschina
+    format: dlc
+    name: oschina
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gitee
+    format: dlc
+    name: gitee
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/segmentfault
+    format: dlc
+    name: segmentfault
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apifox
+    format: dlc
+    name: apifox
+    filters:
+    - -!cn
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/nga
+    format: dlc
+    name: nga
+    filters:
+    - -!cn
+
+  additions:
+  # 钉钉办公文档/微应用与国内协作设计 OA 生态（不含腾讯会议国际版 voovmeeting.com）
+  - rule: DOMAIN-SUFFIX,alidns.com
+    evidence: https://www.alidns.com/
+  - rule: DOMAIN-SUFFIX,alidocs.com
+    evidence: https://alidocs.dingtalk.com/
+  - rule: DOMAIN-SUFFIX,aliwork.com
+    evidence: https://www.aliwork.com/
+  - rule: DOMAIN-SUFFIX,alibaba-inc.com
+    evidence: https://www.dingtalk.com/
+  - rule: DOMAIN-SUFFIX,taeapp.com
+    evidence: https://open.dingtalk.com/
+  - rule: DOMAIN-SUFFIX,h3yun.com
+    evidence: https://www.h3yun.com/
+  - rule: DOMAIN-SUFFIX,alikmd.com
+    evidence: https://www.dingtalk.com/
+  - rule: DOMAIN-SUFFIX,aliway.com
+    evidence: https://www.dingtalk.com/
+  - rule: DOMAIN-SUFFIX,alimail.cn
+    evidence: https://qiye.aliyun.com/
+  - rule: DOMAIN-SUFFIX,feishuopen.com
+    evidence: https://open.feishu.cn/
+  - rule: DOMAIN-SUFFIX,flomoapp.com
+    evidence: https://flomoapp.com/
+  - rule: DOMAIN-SUFFIX,mubu.com
+    evidence: https://mubu.com/
+  - rule: DOMAIN-SUFFIX,processon.com
+    evidence: https://www.processon.com/
+  - rule: DOMAIN-SUFFIX,mastergo.com
+    evidence: https://mastergo.com/
+  - rule: DOMAIN-SUFFIX,js.design
+    evidence: https://js.design/
+  - rule: DOMAIN-SUFFIX,modao.cc
+    evidence: https://modao.cc/
+  - rule: DOMAIN-SUFFIX,ones.cn
+    evidence: https://ones.cn/
+  - rule: DOMAIN-SUFFIX,jiandaoyun.com
+    evidence: https://www.jiandaoyun.com/
+  - rule: DOMAIN-SUFFIX,ekuaibao.com
+    evidence: https://www.ekuaibao.com/
+  - rule: DOMAIN-SUFFIX,moredian.com
+    evidence: https://www.moredian.com/
+  - rule: DOMAIN-SUFFIX,mayihr.com
+    evidence: https://www.mayihr.com/
+  - rule: DOMAIN-SUFFIX,fxiaoke.com
+    evidence: https://www.fxiaoke.com/
+  - rule: DOMAIN-SUFFIX,weaver.com.cn
+    evidence: https://www.weaver.com.cn/
+  # 国内银行、保险与证券补缺
+  - rule: DOMAIN-SUFFIX,abchina.com.cn
+    evidence: https://www.abchina.com.cn/
+  - rule: DOMAIN-SUFFIX,czbank.com
+    evidence: https://www.czbank.com/
+  - rule: DOMAIN-SUFFIX,cbhb.com.cn
+    evidence: https://www.cbhb.com.cn/
+  - rule: DOMAIN-SUFFIX,jsbchina.cn
+    evidence: https://www.jsbchina.cn/
+  - rule: DOMAIN-SUFFIX,nbcb.com.cn
+    evidence: https://www.nbcb.com.cn/
+  - rule: DOMAIN-SUFFIX,hzbank.com.cn
+    evidence: https://www.hzbank.com.cn/
+  - rule: DOMAIN-SUFFIX,cmschina.com
+    evidence: https://www.cmschina.com/
+  - rule: DOMAIN-SUFFIX,chinalife.com.cn
+    evidence: https://www.chinalife.com.cn/
+  - rule: DOMAIN-SUFFIX,epicc.com.cn
+    evidence: https://www.epicc.com.cn/
+  - rule: DOMAIN-SUFFIX,zhongan.com
+    evidence: https://www.zhongan.com/
+  # 国内云对象存储、CDN 与极验滑块验证码次级域补缺
+  - rule: DOMAIN-SUFFIX,aliyuncs.com
+    evidence: https://www.aliyun.com/product/oss
+  - rule: DOMAIN-SUFFIX,wsglb0.com
+    evidence: https://www.wangsu.com/
+  - rule: DOMAIN-SUFFIX,baishan.com
+    evidence: https://www.baishan.com/
+  - rule: DOMAIN-SUFFIX,geevisit.com
+    evidence: https://www.geetest.com/
+  # 家庭 NAS、智能家居、新能源车、充电电网与民生开发镜像补缺
+  - rule: DOMAIN-SUFFIX,zspace.cn
+    evidence: https://www.zspace.cn/
+  - rule: DOMAIN-SUFFIX,quickconnect.cn
+    evidence: https://www.synology.cn/
+  - rule: DOMAIN-SUFFIX,synology.cn
+    evidence: https://www.synology.cn/
+  - rule: DOMAIN-SUFFIX,ug.link
+    evidence: https://www.ugnas.com/
+  - rule: DOMAIN-SUFFIX,myqnapcloud.cn
+    evidence: https://www.myqnapcloud.cn/
+  - rule: DOMAIN-SUFFIX,aqara.cn
+    evidence: https://www.aqara.cn/
+  - rule: DOMAIN-SUFFIX,aqara.com
+    evidence: https://www.aqara.cn/
+  - rule: DOMAIN-SUFFIX,tuyacn.com
+    evidence: https://www.tuya.com/cn/
+  - rule: DOMAIN-SUFFIX,ecovacs.cn
+    evidence: https://www.ecovacs.cn/
+  - rule: DOMAIN-SUFFIX,ecovacs.com
+    evidence: https://www.ecovacs.cn/
+  - rule: DOMAIN-SUFFIX,bydauto.com.cn
+    evidence: https://www.bydauto.com.cn/
+  - rule: DOMAIN-SUFFIX,tesla.cn
+    evidence: https://www.tesla.cn/
+  - rule: DOMAIN-SUFFIX,teld.cn
+    evidence: https://www.teld.cn/
+  - rule: DOMAIN-SUFFIX,wanbangauto.com
+    evidence: https://www.starcharge.com/
+  - rule: DOMAIN-SUFFIX,95598.com
+    evidence: https://www.95598.cn/
+  - rule: DOMAIN-SUFFIX,samsclub.cn
+    evidence: https://www.samsclub.cn/
+  - rule: DOMAIN-SUFFIX,goofish.com
+    evidence: https://www.goofish.com/
+  - rule: DOMAIN-SUFFIX,fliggy.com
+    evidence: https://www.fliggy.com/
+  - rule: DOMAIN-SUFFIX,quark.cn
+    evidence: https://www.quark.cn/
+  - rule: DOMAIN-SUFFIX,myquark.cn
+    evidence: https://pan.quark.cn/
+  - rule: DOMAIN-SUFFIX,freshippo.com
+    evidence: https://www.freshippo.com/
+  - rule: DOMAIN-SUFFIX,npmmirror.com
+    evidence: https://npmmirror.com/
+  - rule: DOMAIN-SUFFIX,goproxy.cn
+    evidence: https://goproxy.cn/
+  - rule: DOMAIN-SUFFIX,rsproxy.cn
+    evidence: https://rsproxy.cn/
+  - rule: DOMAIN-SUFFIX,ceair.com
+    evidence: https://www.ceair.com/
+  - rule: DOMAIN-SUFFIX,csair.com
+    evidence: https://www.csair.com/
+  - rule: DOMAIN-SUFFIX,umetrip.com
+    evidence: https://www.umetrip.com/
+  - rule: DOMAIN-SUFFIX,veryzhun.com
+    evidence: https://www.veryzhun.com/
+  - rule: DOMAIN-SUFFIX,huazhu.com
+    evidence: https://www.huazhu.com/
+  - rule: DOMAIN-SUFFIX,hellobike.com
+    evidence: https://www.hellobike.com/
+  - rule: DOMAIN-SUFFIX,ke.com
+    evidence: https://www.ke.com/
+  - rule: DOMAIN-SUFFIX,zhipin.com
+    evidence: https://www.zhipin.com/
+  - rule: DOMAIN-SUFFIX,fcbox.com
+    evidence: https://www.fcbox.com/
+  exclusions:
+  # AS132203 为腾讯云香港/新加坡/硅谷等海外自治系统，禁止进入国内直连兜底
+  - IP-ASN,132203
+  - IP-ASN,132203,no-resolve
+  # 剔除国内厂商上游列表及 geolocation-cn 顺带混入的海外国际站、海外 AI 与 Cloudflare 重叠域
+  - DOMAIN-SUFFIX,alibaba.com
+  - DOMAIN-SUFFIX,alibabacloud.com
+  - DOMAIN-SUFFIX,log-global.aliyuncs.com
+  - DOMAIN-SUFFIX,aliexpress.com
+  - DOMAIN-SUFFIX,aliexpress-media.com
+  - DOMAIN-SUFFIX,qwen.ai
+  - DOMAIN-SUFFIX,qwenlm.ai
+  - DOMAIN-SUFFIX,z.ai
+  - DOMAIN-SUFFIX,klingai.com
+  - DOMAIN-SUFFIX,kling-ai.com
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,byteintl.net
+  - DOMAIN-SUFFIX,larksuite.com
+  - DOMAIN-SUFFIX,larksuite-pre.com
+  - DOMAIN-SUFFIX,larksuitecdn.com
+  - DOMAIN-SUFFIX,larksuiteimg.com
+  - DOMAIN-SUFFIX,larksuiteimg-pre.com
+  - DOMAIN-SUFFIX,larksuiteimg-boe.com
+  - DOMAIN-SUFFIX,coze.site
+  - DOMAIN-SUFFIX,coze.email
+  - DOMAIN-SUFFIX,coze-dns-01.com
+  - DOMAIN-SUFFIX,cozeapp.net
+  - DOMAIN-SUFFIX,cozebuild.com
+  - DOMAIN-SUFFIX,cozecdn.com
+  - DOMAIN-SUFFIX,cozedeploy.com
+  - DOMAIN-SUFFIX,cozesdk.com
+  - DOMAIN-SUFFIX,trae.guru
+  - DOMAIN-SUFFIX,mchost.guru
+  - DOMAIN-SUFFIX,tcwqqdy.guru
+  - DOMAIN-SUFFIX,mcbaas.work
+  - DOMAIN-SUFFIX,mcdemo.show
+  - DOMAIN-SUFFIX,tencentcloud.com
+  - DOMAIN-SUFFIX,tenpayglobal.com
+  - DOMAIN-SUFFIX,tidbcloud.com
+  - DOMAIN-SUFFIX,tidb.ai
+  - DOMAIN-SUFFIX,pingcap.com
+  - DOMAIN-SUFFIX,tikv.org
+  - DOMAIN-SUFFIX,joox.com
+  - DOMAIN-SUFFIX,proximabeta.com
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,wetvinfo.com
+  - DOMAIN-SUFFIX,levelinfinite.com
+  - DOMAIN-SUFFIX,c.mi.com
+  - DOMAIN-SUFFIX,global.market.xiaomi.com
+  - DOMAIN-SUFFIX,ad.intl.xiaomi.com
+  - DOMAIN-SUFFIX,adv.sec.intl.miui.com
+  - DOMAIN-SUFFIX,data.mistat.intl.xiaomi.com
+  - DOMAIN-SUFFIX,dbankcloud.ru
+  - DOMAIN-SUFFIX,vivoglobal.com
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN-SUFFIX,biliintl.com
+  - DOMAIN-SUFFIX,rednote.com
+  - DOMAIN-SUFFIX,rednote.com.my
+  - DOMAIN-SUFFIX,rednotecdn.com
+  - DOMAIN-SUFFIX,easebar.com
+  - DOMAIN-SUFFIX,youku.tv
+  - DOMAIN-SUFFIX,youkuplay.com
+  - DOMAIN-SUFFIX,didiglobal.com
+  - DOMAIN-SUFFIX,didi-food.com
+  - DOMAIN-SUFFIX,didimobility.co.jp
+  - DOMAIN-SUFFIX,trip.com
+  - DOMAIN-SUFFIX,ctrip.com.hk
+  - DOMAIN-SUFFIX,ctrip.sg
+  - DOMAIN-SUFFIX,ctrip.my
+  - DOMAIN-SUFFIX,ctrip.co.th
+  - DOMAIN-SUFFIX,ctrip.co.kr
+  - DOMAIN-SUFFIX,ctrip.co.id
+  - DOMAIN-SUFFIX,thepoizon.ru
+  - DOMAIN-SUFFIX,jd.hk
+  - DOMAIN-SUFFIX,jd.co.th
+  - DOMAIN-SUFFIX,jd.id
+  - DOMAIN-SUFFIX,jd.ru
+  - DOMAIN-SUFFIX,jddglobal.com
+  - DOMAIN-SUFFIX,unionpayintl.com
+  - DOMAIN-SUFFIX,unionpayintl.cn
+  - DOMAIN-SUFFIX,ebchinaintl.com
+  - DOMAIN-SUFFIX,stointl.com
+  - DOMAIN-SUFFIX,ztoglobal.com
+  - DOMAIN-SUFFIX,chinatelecomglobal.com
+  - DOMAIN-SUFFIX,chinatelecomhk.com
+  - DOMAIN-SUFFIX,ctexcel.com
+  - DOMAIN-SUFFIX,ctexcel.us
+  - DOMAIN-SUFFIX,ctexcel.ca
+  - DOMAIN-SUFFIX,ctexcel.fr
+  - DOMAIN-SUFFIX,ctexcel.com.hk
+  - DOMAIN-SUFFIX,chinaunicomglobal.com
+  - DOMAIN-SUFFIX,chinaunicom.com.hk
+  - DOMAIN-SUFFIX,cuniq.com
+  - DOMAIN-SUFFIX,cuniq.sg
+  - DOMAIN-SUFFIX,cuguplus.com
+  - DOMAIN-SUFFIX,cloudflare.net
+  - DOMAIN-SUFFIX,cloudflare-cn.com
+  - DOMAIN-SUFFIX,cloudflarechina.cn
+  - DOMAIN-SUFFIX,cloudflarecn.net
+  - DOMAIN-SUFFIX,cloudflareanycast.net
+  - DOMAIN-SUFFIX,cloudflareglobal.net
+  - DOMAIN-SUFFIX,cloudflareinsights-cn.com
+  - DOMAIN-SUFFIX,cloudflareperf.com
+  - DOMAIN-SUFFIX,cloudflareprod.com
+  - DOMAIN-SUFFIX,cloudflarestaging.com
+  - DOMAIN-SUFFIX,cloudflarestoragegw.com
+  - DOMAIN-SUFFIX,cf-ns.com
+  - DOMAIN-SUFFIX,cf-ns.net
+  - DOMAIN-SUFFIX,cf-ns.site
+  - DOMAIN-SUFFIX,cf-ns.tech
+  - DOMAIN-SUFFIX,cf-china.info
+  - DOMAIN-SUFFIX,cftest5.cn
+  - DOMAIN-SUFFIX,cftest6.cn
+  - DOMAIN-SUFFIX,cftest7.com
+  - DOMAIN-SUFFIX,cftest8.com
+  path: ./ruleset/china_direct.yaml
+  interval: 86400

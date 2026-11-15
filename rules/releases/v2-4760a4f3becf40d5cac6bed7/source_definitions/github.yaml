@@ -1,0 +1,12 @@
+github:
+  type: http
+  behavior: classical
+  urls:
+  - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github
+    format: dlc
+    name: github
+  - url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
+    format: classical-text
+  path: ./ruleset/github.yaml
+  interval: 86400

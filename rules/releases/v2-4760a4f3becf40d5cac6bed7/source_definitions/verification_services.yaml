@@ -1,0 +1,12 @@
+verification_services:
+  type: http
+  behavior: classical
+  urls:
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/hcaptcha
+    format: dlc
+    name: hcaptcha
+  - url: https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geetest
+    format: dlc
+    name: geetest
+  path: ./ruleset/verification_services.yaml
+  interval: 86400
